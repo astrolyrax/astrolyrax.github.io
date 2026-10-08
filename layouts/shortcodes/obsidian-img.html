@@ -1,0 +1,13 @@
+{{- $src := .Get 0 -}}
+<!-- Wir suchen das Bild direkt in deinem virtuellen Assets-Bilderordner -->
+{{- $img := resources.Get (printf "Bilder/%s" (strings.TrimPrefix "Bilder/" $src)) -}}
+
+{{- if $img -}}
+  <figure class="astro-photo">
+    <img src="{{ $img.RelPermalink }}" alt="Astrofoto" style="max-width: 100%; height: auto; border-radius: 4px;">
+  </figure>
+{{- else -}}
+  <div style="background: #fee; border: 1px solid #f99; padding: 10px; color: #c00; font-family: monospace;">
+    ⚠️ Astrofoto nicht im Bilderordner gefunden: {{ $src }}
+  </div>
+{{- end -}}

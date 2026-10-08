@@ -1,0 +1,112 @@
+{
+    "defaultListOlud": "",
+    "observingLists": {
+        "{9c22dedd-1a80-4e83-9c83-6c272f3ae9af}": {
+            "creation date": "2024-09-24 17:54:05",
+            "description": "Herbst-Winter RA 2-4h",
+            "last edit": "2025-10-13 21:34:05",
+            "name": "Herbst-Winter",
+            "objects": [
+                {
+                    "constellation": "Tau",
+                    "dec": "",
+                    "designation": "NGC 1435",
+                    "fov": 0,
+                    "isVisibleMarker": true,
+                    "jd": 0,
+                    "landscapeID": "",
+                    "location": "",
+                    "magnitude": "4.18",
+                    "name": "Merope Nebula",
+                    "nameI18n": "Merope-Nebel",
+                    "objtype": "Reflektionsnebel",
+                    "ra": "",
+                    "type": "Nebula"
+                },
+                {
+                    "constellation": "For",
+                    "dec": "",
+                    "designation": "NGC 1316",
+                    "fov": 0,
+                    "isVisibleMarker": true,
+                    "jd": 0,
+                    "landscapeID": "",
+                    "location": "",
+                    "magnitude": "8.53",
+                    "name": "Fornax A",
+                    "nameI18n": "Fornax A",
+                    "objtype": "interagierende Galaxie",
+                    "ra": "",
+                    "type": "Nebula"
+                },
+                {
+                    "constellation": "Per",
+                    "dec": "",
+                    "designation": "Cr 39",
+                    "fov": 0,
+                    "isVisibleMarker": true,
+                    "jd": 0,
+                    "landscapeID": "",
+                    "location": "",
+                    "magnitude": "1.20",
+                    "name": "α Per Cluster",
+                    "nameI18n": "α Per-Haufen",
+                    "objtype": "Offener Sternhaufen",
+                    "ra": "",
+                    "type": "Nebula"
+                },
+                {
+                    "constellation": "Tau",
+                    "dec": "",
+                    "designation": "M 45",
+                    "fov": 0,
+                    "isVisibleMarker": true,
+                    "jd": 0,
+                    "landscapeID": "",
+                    "location": "",
+                    "magnitude": "1.20",
+                    "name": "Pleiades",
+                    "nameI18n": "Plejaden",
+                    "objtype": "Haufen assoziiert mit Nebel",
+                    "ra": "",
+                    "type": "Nebula"
+                },
+                {
+                    "constellation": "Per",
+                    "dec": "",
+                    "designation": "NGC 1245",
+                    "fov": 0,
+                    "isVisibleMarker": true,
+                    "jd": 0,
+                    "landscapeID": "",
+                    "location": "",
+                    "magnitude": "8.40",
+                    "name": "Patrick Starfish Cluster",
+                    "nameI18n": "Patrick Star-Haufen",
+                    "objtype": "Offener Sternhaufen",
+                    "ra": "",
+                    "type": "Nebula"
+                },
+                {
+                    "constellation": "Tau",
+                    "dec": "",
+                    "designation": "NGC 1432",
+                    "fov": 0,
+                    "isVisibleMarker": true,
+                    "jd": 0,
+                    "landscapeID": "",
+                    "location": "",
+                    "magnitude": "3.88",
+                    "name": "Maia Nebula",
+                    "nameI18n": "Maia-Nebel",
+                    "objtype": "HII-Region",
+                    "ra": "",
+                    "type": "Nebula"
+                }
+            ],
+            "sorting": "right ascension"
+        }
+    },
+    "shortName": "Observing list for Stellarium",
+    "version": "2.1"
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>X - Obsidians on AstroLyrax</title>
+		<link>http://localhost:1313/x---obsidian/</link>
+		<description>Recent content in X - Obsidians on AstroLyrax</description>
+		<generator>Hugo</generator>
+		<language>de-de</language>
+		
+		
+		
+		
+			<atom:link href="http://localhost:1313/x---obsidian/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title></title>
+				<link>http://localhost:1313/x---obsidian/leerzeile-einf%C3%BCgen/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/x---obsidian/leerzeile-einf%C3%BCgen/</guid>
+				<description>&lt;h1 id=&#34;leerzeile-einfügen&#34;&gt;Leerzeile einfügen&lt;a class=&#34;anchor&#34; href=&#34;#leerzeile-einf%c3%bcgen&#34; aria-label=&#34;Link&#34;&gt;&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
+			</item>
+			<item>
+				<title></title>
+				<link>http://localhost:1313/x---obsidian/mermaid-grafiken-beispiele/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/x---obsidian/mermaid-grafiken-beispiele/</guid>
+				<description>&lt;h1 id=&#34;mermaid-grafiken-beispiele&#34;&gt;Mermaid Grafiken Beispiele&lt;a class=&#34;anchor&#34; href=&#34;#mermaid-grafiken-beispiele&#34; aria-label=&#34;Link&#34;&gt;&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;Gerne. Unten findest du &lt;strong&gt;10 unterschiedliche Mermaid-Beispiele&lt;/strong&gt;, die folgende Anforderungen erfüllen:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;✅ Waagerechte (&lt;strong&gt;LR&lt;/strong&gt;) und senkrechte (&lt;strong&gt;TD/TB&lt;/strong&gt;) Ausrichtungen&lt;/li&gt;&#xA;&lt;li&gt;✅ Farbige Knoten mit &lt;code&gt;classDef&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;✅ Beschriftete Verbindungen&lt;/li&gt;&#xA;&lt;li&gt;✅ Verzweigungen&lt;/li&gt;&#xA;&lt;li&gt;✅ Unterschiedliche Diagrammtypen und Strukturen&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;&lt;strong&gt;Grafikelemente&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;table&gt;&#xA;&#x9;&lt;thead&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;Form&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;Bedeutung&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&lt;/thead&gt;&#xA;&#x9;&lt;tbody&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;code&gt;[ ]&lt;/code&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;Prozess oder Eingabe&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;code&gt;( )&lt;/code&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;Anwendung, Modell, Service&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;code&gt;{ }&lt;/code&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;Entscheidung&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;code&gt;[( )]&lt;/code&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;Datenbank&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;code&gt;([ ])&lt;/code&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;Start/Ende&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;&lt;strong&gt;classDef&lt;/strong&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title></title>
+				<link>http://localhost:1313/x---obsidian/pdf-seitenumbruch/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/x---obsidian/pdf-seitenumbruch/</guid>
+				<description>&lt;h1 id=&#34;pdf-seitenumbruch-erzwingen&#34;&gt;PDF Seitenumbruch erzwingen&lt;a class=&#34;anchor&#34; href=&#34;#pdf-seitenumbruch-erzwingen&#34; aria-label=&#34;Link&#34;&gt;&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;Einen Seitenumbruch gezielt bei der PDF-Erzeugung zu erzwingen kann durch folgenden Code erzeugt werden:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;div style=&amp;#34;page-break-before: always;&amp;#34;&amp;gt;&amp;lt;/div&amp;gt;&lt;/code&gt;&lt;/pre&gt;</description>
+			</item>
+			<item>
+				<title></title>
+				<link>http://localhost:1313/x---obsidian/tipps-f%C3%BCr-markdown/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/x---obsidian/tipps-f%C3%BCr-markdown/</guid>
+				<description>&lt;h1 id=&#34;grundlegende-syntax&#34;&gt;Grundlegende Syntax&lt;a class=&#34;anchor&#34; href=&#34;#grundlegende-syntax&#34; aria-label=&#34;Link&#34;&gt;&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;1-überschriften&#34;&gt;1. Überschriften&lt;a class=&#34;anchor&#34; href=&#34;#1-%c3%bcberschriften&#34; aria-label=&#34;Link&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;   # Überschrift 1&lt;br&gt;&#xA;   ## Überschrift 2&lt;br&gt;&#xA;   ### Überschrift 3&lt;/p&gt;&#xA;&lt;h2 id=&#34;2-fett-und-kursiv&#34;&gt;2. Fett und Kursiv&lt;a class=&#34;anchor&#34; href=&#34;#2-fett-und-kursiv&#34; aria-label=&#34;Link&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;   &lt;strong&gt;Fett&lt;/strong&gt;&lt;br&gt;&#xA;   &lt;em&gt;Kursiv&lt;/em&gt;&lt;br&gt;&#xA;   &lt;em&gt;&lt;strong&gt;Fett und Kursiv&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;3-listen&#34;&gt;3. Listen&lt;a class=&#34;anchor&#34; href=&#34;#3-listen&#34; aria-label=&#34;Link&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Unsortierte Liste&lt;br&gt;&#xA; - Eintrag 1&lt;br&gt;&#xA; - Eintrag 2&lt;br&gt;&#xA; - Eintrag 3&lt;/li&gt;&#xA;&lt;li&gt;Sortierte Liste&lt;br&gt;&#xA; 1. Erster Punkt&lt;br&gt;&#xA; 2. Zweiter Punkt&lt;br&gt;&#xA; 3. Dritter Punkt&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;4-links-und-bilder&#34;&gt;4. Links und Bilder&lt;a class=&#34;anchor&#34; href=&#34;#4-links-und-bilder&#34; aria-label=&#34;Link&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;   Link-Text&lt;br&gt;&#xA;   !Alt-Text&lt;/p&gt;&#xA;&lt;h2 id=&#34;5-zitate&#34;&gt;5. Zitate&lt;a class=&#34;anchor&#34; href=&#34;#5-zitate&#34; aria-label=&#34;Link&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;   &amp;gt; Dies ist ein Zitat.&lt;/p&gt;&#xA;&lt;h2 id=&#34;6-code&#34;&gt;6. Code&lt;a class=&#34;anchor&#34; href=&#34;#6-code&#34; aria-label=&#34;Link&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Inline-Code&lt;br&gt;&#xA; &lt;code&gt;Code&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Code-Block&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;     {  &#xA;       &amp;#34;firstName&amp;#34;: &amp;#34;John&amp;#34;,  &#xA;       &amp;#34;lastName&amp;#34;: &amp;#34;Smith&amp;#34;,  &#xA;       &amp;#34;age&amp;#34;: 25  &#xA;     }  &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;7-horizontale-linie&#34;&gt;7. Horizontale Linie&lt;a class=&#34;anchor&#34; href=&#34;#7-horizontale-linie&#34; aria-label=&#34;Link&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;   &amp;mdash;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title></title>
+				<link>http://localhost:1313/x---obsidian/vorlage_ordner-erstellen/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/x---obsidian/vorlage_ordner-erstellen/</guid>
+				<description>&lt;!-- raw HTML omitted --&gt;&#xA;&lt;h1 id=&#34;vorlage-ordner-in-obsidian-erstellen&#34;&gt;Vorlage-Ordner in Obsidian erstellen&lt;a class=&#34;anchor&#34; href=&#34;#vorlage-ordner-in-obsidian-erstellen&#34; aria-label=&#34;Link&#34;&gt;&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;Du erstellst in Obsidian eine neue &lt;strong&gt;Vorlage (Template)&lt;/strong&gt;, indem du drei Schritte durchläufst: Plugin aktivieren, Vorlagenordner festlegen und eine neue Notiz als Vorlage anlegen. &lt;strong&gt;Kurzfassung:&lt;/strong&gt; Eine Vorlage ist einfach eine normale Obsidian‑Notiz, die im Template‑Ordner liegt und später per Klick eingefügt werden kann. ObsidianObsidian. Vorlagen - Obsidian-Hilfe&lt;/p&gt;&#xA;&lt;h3 id=&#34;takeaway&#34;&gt;&lt;strong&gt;Takeaway&lt;/strong&gt;&lt;a class=&#34;anchor&#34; href=&#34;#takeaway&#34; aria-label=&#34;Link&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Eine neue Vorlage entsteht, indem du &lt;strong&gt;eine Notiz im Template‑Ordner erstellst&lt;/strong&gt; und dort deinen gewünschten Text + Variablen wie &lt;code&gt;{{date}}&lt;/code&gt; oder &lt;code&gt;{{title}}&lt;/code&gt; einfügst. Danach kannst du sie über &lt;em&gt;Vorlage einfügen&lt;/em&gt; in jede Notiz übernehmen.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

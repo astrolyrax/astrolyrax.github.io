@@ -1,0 +1,57 @@
+# hugo.toml
+
+baseURL = 'http://localhost/'
+title = 'AstroLyrax'
+theme = 'hugo-book'
+
+# Verhindert automatische englische Plurale wie "Objektes"
+pluralizeListTitles = false
+
+# Modernes Sprach-Setup ab Hugo v0.158.0
+defaultContentLanguage = 'de'
+[languages.de]
+  locale = 'de-de'
+  label = 'Deutsch'
+  weight = 1
+
+# ---------------------------------------------------------------------
+# MARKUP-KONFIGURATION (Zusammenführung von Tabellen & Wikilinks)
+# ---------------------------------------------------------------------
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # Erlaubt deine Obsidian-HTML-Tabellen
+    [markup.goldmark.extensions]
+      wikiLinks = true  # Aktiviert die Erkennung der Obsidian-[[Wikilinks]]
+
+# ---------------------------------------------------------------------
+# THEME-PARAMETER (Konfiguration für das Hugo Book Design)
+# ---------------------------------------------------------------------
+[params]
+  BookSection = '*' 
+  bookFlatSection = false
+
+# ---------------------------------------------------------------------
+# HIERARCHIE-STEUERUNG
+# ---------------------------------------------------------------------
+[frontmatter]
+  layout = ["_index", "page"]
+
+# ---------------------------------------------------------------------
+# ORDNER-MOUNTS (Direkter Zugriff auf dein Obsidian-Vault)
+# ---------------------------------------------------------------------
+[[module.mounts]]
+  source = 'static'
+  target = 'static'
+
+[[module.mounts]]
+  source = 'layouts'
+  target = 'layouts'
+
+[[module.mounts]]
+  source = '../Astronomie/Astro_Obstidian/Astro_Base/AstroLyrax'
+  target = 'content'
+
+[[module.mounts]]
+  source = '../Astronomie/Astro_Obstidian/Astro_Base/Bilder'  
+  target = 'assets/Bilder'

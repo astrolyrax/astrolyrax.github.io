@@ -1,0 +1,20 @@
+{{- $src := .Destination -}}
+
+<!-- Wir entfernen eventuelle Altlasten aus dem Pfad -->
+{{- $src = strings.TrimPrefix "content/" $src -}}
+{{- $src = strings.TrimPrefix "/" $src -}}
+
+<!-- Hugo sucht das Bild jetzt direkt im frisch definierten Assets-Bilderordner -->
+{{- $img := resources.Get (printf "Bilder/%s" (strings.TrimPrefix "Bilder/" $src)) -}}
+
+{{- if $img -}}
+  <figure class="astro-photo">
+    <img src="{{ $img.RelPermalink }}" alt="{{ .Text | default "Astrofoto" }}" style="max-width: 100%; height: auto; border-radius: 4px;">
+    {{ with .Text }}<figcaption style="font-style: italic; color: #666; margin-top: 5px;">{{ . }}</figcaption>{{ end }}
+  </figure>
+{{- else -}}
+  <!-- Falls das Bild auf der Festplatte fehlt, zeigt Hugo diese Warnung an -->
+  <div style="background: #fee; border: 1px solid #f99; padding: 10px; color: #c00; font-family: monospace;">
+    ⚠️ Astrofoto nicht im Bilderordner gefunden: {{ $src }}
+  </div>
+{{- end -}}

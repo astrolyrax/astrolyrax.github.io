@@ -1,0 +1,6 @@
+{{ define "main" }}
+  <article class="markdown book-article">
+    {{ .Content | replaceRE `!\[\[Bilder/([^\]]+)\]\]` `<figure class="astro-photo"><img src="/Bilder/$1" alt="Astrofoto" style="max-width: 100%; height: auto; border-radius: 4px;"></figure>` | safeHTML }}
+  </article>
+{{ end }}
+
