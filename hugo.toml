@@ -30,7 +30,7 @@ defaultContentLanguage = 'de'
 [params]
   BookSection = '*' 
   bookFlatSection = false
-  bookMenuBundle = true
+  bookMenuBundle = false
   bookRelativeURL = true
 
 # ---------------------------------------------------------------------
