@@ -187,6 +187,8 @@
   },
   "active": "cb183c339f1c3421",
   "lastOpenFiles": [
+    "assets/Bilder",
+    "content",
     "content/Objekte/Deepsky/NGC/NGC891 - Spiralgalaxie Kante/Aufnahmen/C11/20240109 1.md",
     "content/Objekte/Deepsky/Messier/M3 - Kugelsternhaufen/Aufnahmen/C11/20260424.md",
     "content/Objekte/Deepsky/Messier/M2 - Kugelsternhaufen/Aufnahmen/C11/20240109.md",
@@ -209,7 +211,6 @@
     "content/Objekte/Deepsky/NGC/NGC891 - Spiralgalaxie Kante/_index.md",
     "content/Objekte/Deepsky/NGC/NGC891 - Spiralgalaxie Kante/Aufnahmen",
     "content/Objekte/Deepsky/NGC/NGC1004 - Galaxie elliptisch/_index.md",
-    "content/Objekte/Deepsky/NGC/NGC1004 - Galaxie elliptisch/Aufnahmen",
     "content/Objekte/Deepsky/Messier/M3 - Kugelsternhaufen/_index.md",
     "content/Objekte/Deepsky/Messier/M2 - Kugelsternhaufen/_index.md",
     "content/Objekte/Deepsky/Messier/M15 - Kugelsternhaufen/_index.md",
@@ -221,7 +222,6 @@
     "content/Objekte/Deepsky/Arp/_index.md",
     "content/Objekte/Sonne/_index.md",
     "content/Objekte/Planeten/_index.md",
-    "content/Objekte/Mond/_index.md",
-    "content/Objekte/Deepsky/_index.md"
+    "content/Objekte/Mond/_index.md"
   ]
 }
