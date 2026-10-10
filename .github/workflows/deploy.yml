@@ -42,7 +42,7 @@ jobs:
         uses: actions/configure-pages@v4
 
       - name: Build with Hugo
-        run: hugo --gc --minify
+        run: hugo --gc --minify -D
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
