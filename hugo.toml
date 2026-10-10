@@ -1,6 +1,6 @@
 # hugo.toml
 
-baseURL = 'http://localhost/'
+baseURL = 'https://astrolyrax.github.io/'
 title = 'AstroLyrax'
 theme = 'hugo-book'
 
@@ -30,6 +30,7 @@ defaultContentLanguage = 'de'
 [params]
   BookSection = '*' 
   bookFlatSection = false
+  bookRelativeURL = true
 
 # ---------------------------------------------------------------------
 # HIERARCHIE-STEUERUNG
