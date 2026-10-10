@@ -1,5 +1,6 @@
 ---
 title: M15 - Kugelsternhaufen
+bookCollapseSection: true
 ---
 
 

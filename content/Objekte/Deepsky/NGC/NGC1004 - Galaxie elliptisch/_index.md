@@ -1,5 +1,6 @@
 ---
 title: NGC1004 - Galaxie elliptisch
+bookCollapseSection: true
 ---
 
 

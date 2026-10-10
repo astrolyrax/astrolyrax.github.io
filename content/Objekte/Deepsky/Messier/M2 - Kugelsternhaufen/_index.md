@@ -1,5 +1,6 @@
 ---
 title: M 2 - Kugelsternhaufen
+bookCollapseSection: true
 ---
 
 # M 2 - Kugelsternhaufen

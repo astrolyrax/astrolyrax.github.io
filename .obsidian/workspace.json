@@ -11,10 +11,14 @@
             "id": "af9e753543a45a23",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "content/Workflows/_index.md.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "Neuer Tab"
+              "title": "_index.md"
             }
           }
         ]
@@ -187,9 +191,23 @@
   },
   "active": "af9e753543a45a23",
   "lastOpenFiles": [
+    "content/Projekte/_index.md.md",
+    "content/Objekte/_index.md",
+    "content/Objekte/Planeten/_index.md",
+    "content/Objekte/Mond/_index.md",
+    "content/Objekte/Deepsky/_index.md",
+    "content/Objekte/Deepsky/NGC/_index.md",
+    "content/Objekte/Deepsky/NGC/NGC1004 - Galaxie elliptisch/_index.md",
+    "content/Objekte/Deepsky/NGC/NGC891 - Spiralgalaxie Kante/_index.md",
+    "content/Objekte/Deepsky/Messier/M1 - Krebsnebel/Aufnahmen/Dwarf 2/_index.md",
+    "content/Objekte/Deepsky/Messier/M1 - Krebsnebel/Aufnahmen/C11/_index.md",
+    "content/Objekte/Deepsky/Messier/M15 - Kugelsternhaufen/_index.md",
+    "content/Objekte/Deepsky/Messier/M13 - Herkuleshaufen/_index.md",
+    "content/Objekte/Deepsky/Messier/M3 - Kugelsternhaufen/_index.md",
+    "content/Objekte/Deepsky/Messier/M2 - Kugelsternhaufen/_index.md",
+    "content/Objekte/Deepsky/Messier/M1 - Krebsnebel/_index.md",
     "content/Workflows/_index.md.md",
     "content/Workflows",
-    "content/Projekte/_index.md.md",
     "content/Projekte",
     "content/Objekte/Deepsky/NGC/NGC891 - Spiralgalaxie Kante/Aufnahmen/C11/20240109 1.md",
     "content/Objekte/Deepsky/Messier/M3 - Kugelsternhaufen/Aufnahmen/C11/20260424.md",
@@ -198,9 +216,7 @@
     "content/Objekte/Deepsky/Messier/M15 - Kugelsternhaufen/Aufnahmen/C11/20230823.md",
     "content/Objekte/Deepsky/Messier/M15 - Kugelsternhaufen/Aufnahmen/C11/20211008.md",
     "content/Objekte/Deepsky/Messier/M13 - Herkuleshaufen/Aufnahmen/C11/20230826.md",
-    "content/Objekte/Deepsky/Messier/M1 - Krebsnebel/Aufnahmen/Dwarf 2/_index.md",
     "content/Objekte/Deepsky/Messier/M1 - Krebsnebel/Aufnahmen/Dwarf 2/20240311.md",
-    "content/Objekte/Deepsky/Messier/M1 - Krebsnebel/Aufnahmen/C11/_index.md",
     "content/Objekte/Deepsky/Messier/M1 - Krebsnebel/Aufnahmen/C11/20240109.md",
     "content/Objekte/Deepsky/NGC/NGC891 - Spiralgalaxie Kante/Aufnahmen/C11",
     "content/Objekte/Deepsky/Messier/M3 - Kugelsternhaufen/Aufnahmen/C11",
@@ -210,18 +226,6 @@
     "content/Objekte/Deepsky/Messier/M13 - Herkuleshaufen/Aufnahmen/C11",
     "content/Objekte/Deepsky/Messier/M1 - Krebsnebel/Aufnahmen/Dwarf 2",
     "content/Objekte/Deepsky/Messier/M1 - Krebsnebel/Aufnahmen/C11",
-    "content/Objekte/Deepsky/NGC/NGC891 - Spiralgalaxie Kante/_index.md",
-    "content/Objekte/Deepsky/NGC/NGC1004 - Galaxie elliptisch/_index.md",
-    "content/Objekte/Deepsky/Messier/M3 - Kugelsternhaufen/_index.md",
-    "content/Objekte/Deepsky/Messier/M2 - Kugelsternhaufen/_index.md",
-    "content/Objekte/Deepsky/Messier/M15 - Kugelsternhaufen/_index.md",
-    "content/Objekte/Deepsky/Messier/M13 - Herkuleshaufen/_index.md",
-    "content/Objekte/Deepsky/Messier/M1 - Krebsnebel/_index.md",
-    "content/Objekte/Deepsky/NGC/_index.md",
-    "content/Objekte/Deepsky/IC/_index.md",
-    "content/Objekte/Deepsky/Messier/_index.md",
-    "content/Objekte/Deepsky/Arp/_index.md",
-    "content/Objekte/Sonne/_index.md",
-    "content/Objekte/Planeten/_index.md"
+    "content/Objekte/Deepsky/IC/_index.md"
   ]
 }

@@ -1,5 +1,6 @@
 ---
 title: M 3 - Kugelsternhaufen
+bookCollapseSection: true
 ---
 
 

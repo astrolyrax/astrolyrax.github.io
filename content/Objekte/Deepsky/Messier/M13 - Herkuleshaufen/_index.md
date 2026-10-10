@@ -1,5 +1,6 @@
 ---
 title: M13 - Herkuleshaufen
+bookCollapseSection: true
 ---
 
 
