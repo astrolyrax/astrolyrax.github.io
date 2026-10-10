@@ -51,9 +51,9 @@ defaultContentLanguage = 'de'
   target = 'layouts'
 
 [[module.mounts]]
-  source = 'content'
+  source = '../Astronomie/Astro_Obstidian/Astro_Base/AstroLyrax'
   target = 'content'
 
 [[module.mounts]]
-  source = 'assets/Bilder'  
+  source = '../Astronomie/Astro_Obstidian/Astro_Base/Bilder'  
   target = 'assets/Bilder'
