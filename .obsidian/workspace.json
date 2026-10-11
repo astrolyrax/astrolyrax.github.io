@@ -11,10 +11,14 @@
             "id": "3d4e1b9489f80c4c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "content/Objekte/Deepsky/Messier/M1 - Krebsnebel/Aufnahmen/C11/20240109.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Neuer Tab"
+              "title": "20240109"
             }
           }
         ]
@@ -185,8 +189,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3d4e1b9489f80c4c",
+  "active": "e993ff65ee334a4c",
   "lastOpenFiles": [
+    "public/book.min.69b22a98f7198f28cc77bb1f3c9f18924b879dd8aeaf3c53701bbbc99836ecf1.css",
+    "public/book.min.c72473c393ff2b911a97227e67bbf6ada84d83248aeab98ea9d5196572439f4d.css",
+    "public/book.min.c11e33997422b2cfd14cecb4ec382eae5d696bf511a74ddd800950dc6985ab98.css",
+    "public/book.min.3d4cc0f6e776f77d8a2f12b9c5fb07a6f773d572f639b4aae864ca5840cb4c62.css",
+    "public/book.min.e90b283cfb54f2bddffcc3e2fe9cf324de65b8fd10dc58d103f0c38715b3a4f1.css",
+    "layouts/_partials/docs/brand.html",
+    "layouts/_partials/docs",
+    "layouts/_partials/Neuer Ordner",
+    "layouts/_partials",
+    "layouts/Neuer Ordner",
+    "public/book.min.001abfd1f43d51915f8fae6d8890604ef62ab3880ebcd6be308c1882c5b8a6ed.css",
+    "public/Bilder/05 - Objekte/01   Messier/M1 - Krebsnebel/C11/M1_C11_StackingWizard_AstroWizard_20240109.jpg",
+    "public/workflows/_index.md",
+    "public/projekte/_index.md",
+    "public/iconset.min.90a7fd302dc1b9bc3c291688faee66a3e60a9209f59b89fa00669e35d6907b3f.svg",
+    "public/favicon.svg",
+    "public/favicon.png",
+    "public/apple-touch-icon.png",
     "content/Workflows/_index.md.md",
     "content/Projekte/_index.md.md",
     "content/Objekte/_index.md",
@@ -203,25 +225,12 @@
     "content/Objekte/Deepsky/Messier/M3 - Kugelsternhaufen/_index.md",
     "content/Objekte/Deepsky/Messier/M2 - Kugelsternhaufen/_index.md",
     "content/Objekte/Deepsky/Messier/M1 - Krebsnebel/_index.md",
-    "content/Workflows",
-    "content/Projekte",
     "content/Objekte/Deepsky/NGC/NGC891 - Spiralgalaxie Kante/Aufnahmen/C11/20240109 1.md",
     "content/Objekte/Deepsky/Messier/M3 - Kugelsternhaufen/Aufnahmen/C11/20260424.md",
     "content/Objekte/Deepsky/Messier/M2 - Kugelsternhaufen/Aufnahmen/C11/20240109.md",
     "content/Objekte/Deepsky/Messier/M15 - Kugelsternhaufen/Aufnahmen/Dwarf 2/20250919.md",
     "content/Objekte/Deepsky/Messier/M15 - Kugelsternhaufen/Aufnahmen/C11/20230823.md",
     "content/Objekte/Deepsky/Messier/M15 - Kugelsternhaufen/Aufnahmen/C11/20211008.md",
-    "content/Objekte/Deepsky/Messier/M13 - Herkuleshaufen/Aufnahmen/C11/20230826.md",
-    "content/Objekte/Deepsky/Messier/M1 - Krebsnebel/Aufnahmen/Dwarf 2/20240311.md",
-    "content/Objekte/Deepsky/Messier/M1 - Krebsnebel/Aufnahmen/C11/20240109.md",
-    "content/Objekte/Deepsky/NGC/NGC891 - Spiralgalaxie Kante/Aufnahmen/C11",
-    "content/Objekte/Deepsky/Messier/M3 - Kugelsternhaufen/Aufnahmen/C11",
-    "content/Objekte/Deepsky/Messier/M2 - Kugelsternhaufen/Aufnahmen/C11",
-    "content/Objekte/Deepsky/Messier/M15 - Kugelsternhaufen/Aufnahmen/Dwarf 2",
-    "content/Objekte/Deepsky/Messier/M15 - Kugelsternhaufen/Aufnahmen/C11",
-    "content/Objekte/Deepsky/Messier/M13 - Herkuleshaufen/Aufnahmen/C11",
-    "content/Objekte/Deepsky/Messier/M1 - Krebsnebel/Aufnahmen/Dwarf 2",
-    "content/Objekte/Deepsky/Messier/M1 - Krebsnebel/Aufnahmen/C11",
-    "content/Objekte/Deepsky/IC/_index.md"
+    "content/Objekte/Deepsky/Messier/M13 - Herkuleshaufen/Aufnahmen/C11/20230826.md"
   ]
 }

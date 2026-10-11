@@ -1,0 +1,114 @@
+/* --- ASTROLYRAX CUSTOM DESIGN & SEITEN-BREITEN --- */
+
+:root {
+  /* 1. Deine bewährten Seitenbreiten */
+  --menu-width: 22rem !important; 
+  --page-width: 85rem !important; 
+
+  /* 2. Unsere neuen Astronomie-Farben */
+  --background-main: #0b0f19;       /* Tiefes Weltraum-Dunkelblau */
+  --background-menu: #111827;       /* Etwas helleres Dunkelgrau fürs Menü */
+  --text-main: #e5e7eb;             /* Angenehmes Astro-Weiß für Text */
+  --text-muted: #9ca3af;            /* Gedimmtes Grau für Nebensächliches */
+  --astro-blue: #38bdf8;            /* Leuchtendes Kosmos-Cyan für Links & Akzente */
+  --border-color: #1f2937;          /* Dezente Trennlinien */
+}
+
+/* --- HINTERGRÜNDE & SCHRIFTEN ANPASSEN --- */
+
+/* Der Hauptbereich im Weltraum-Dunkel */
+body, html, main, .book-page, .markdown {
+  background-color: var(--background-main) !important;
+  color: var(--text-main) !important;
+}
+
+/* Das linke Menü farblich absetzen */
+.book-menu, .book-menu-content, aside {
+  background-color: var(--background-menu) !important;
+  color: var(--text-main) !important;
+  border-right: 1px solid var(--border-color) !important;
+}
+
+/* Das rechte Inhaltsverzeichnis abdunkeln */
+.book-toc, .book-toc-content {
+  background-color: var(--background-main) !important;
+  color: var(--text-muted) !important;
+}
+
+/* Suchfeld optisch anpassen */
+.book-search input {
+  background-color: #1f2937 !important;
+  color: var(--text-main) !important;
+  border: 1px solid var(--border-color) !important;
+}
+
+/* --- AKZENTE & LINKS (UNSER ASTRO-BLAU) --- */
+
+a, a:visited, .markdown a {
+  color: var(--astro-blue) !important;
+}
+
+/* Deine Aufnahmetabellen im Dark-Mode-Look */
+table, th, td {
+  border: 1px solid var(--border-color) !important;
+  background-color: #111827 !important;
+  color: var(--text-main) !important;
+}
+th {
+  background-color: #1f2937 !important;
+}
+
+/* --- DEINE UNFEHLBAREN BREITEN-KORREKTUREN --- */
+.book-page, .markdown, main, .container {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+.book-page {
+  padding: 2rem 3rem !important;
+}
+
+/* --- ASTROLYRAX LOGO-TEXT TUNING --- */
+
+/* Spricht exakt unsere neue, unblockierte Text-Klasse an */
+.astro-text {
+  font-size: 1.9rem !important;      /* Schön groß wie gewünscht */
+  font-weight: 800 !important;       /* Extra fett für den Halo */
+  color: #bae6fd !important;         /* Dein harmonisches Eisblau */
+  letter-spacing: 1.5px !important;  
+  display: inline-block !important;
+  margin-left: 4px !important;       /* Kleiner Abstand zum Logo-Symbol */
+  
+  /* Der magische, intensive Astro-Halo */
+  text-shadow: 
+    0 0 6px #38bdf8, 
+    0 0 15px #38bdf8, 
+    0 0 30px #0284c7, 
+    0 0 45px #0369a1 !important;
+  
+  transition: all 0.3s ease !important;
+}
+
+/* Wenn man mit der Maus über das Logo oder den Text fährt */
+.book-brand:hover .astro-text,
+a:hover .astro-text {
+  color: #ffffff !important;         /* Blitzt beim Drüberfahren sternenweiß auf */
+  text-shadow: 
+    0 0 10px #ffffff, 
+    0 0 25px #38bdf8, 
+    0 0 45px #38bdf8 !important;
+}
+
+
+/* --- LOGO OPTIK-FINETUNING --- */
+.astro-logo {
+  margin-right: 12px;                /* Schiebt den Text "AstroLyrax" dezent nach rechts */
+  filter: drop-shadow(0 0 5px #38bdf8); /* Verpasst auch dem Logo das blaue Nebelglühen! */
+  transition: all 0.3s ease;
+}
+
+/* Synchrones Aufleuchten bei Mauskontakt */
+.book-menu .book-brand a:hover .astro-logo {
+  filter: drop-shadow(0 0 8px #ffffff) drop-shadow(0 0 15px #38bdf8);
+  transform: scale(1.05);            /* Lässt das Logo beim Drüberfahren minimal pulsieren */
+}
+

@@ -33,5 +33,5 @@ bookCollapseSection: true
 ## Weitere Links
 
 
-[NGC 891 – Wikipedia](https://de.wikipedia.org/wiki/NGC_891)
+[NGC 1004 – Wikipedia](https://de.wikipedia.org/wiki/NGC_1004)
 

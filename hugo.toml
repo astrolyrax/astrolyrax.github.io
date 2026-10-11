@@ -32,6 +32,7 @@ defaultContentLanguage = 'de'
   bookFlatSection = false
   bookMenuBundle = true
   bookRelativeURL = true
+  bookStyles = ['css/custom.css']
 
 # ---------------------------------------------------------------------
 # HIERARCHIE-STEUERUNG
@@ -55,5 +56,15 @@ defaultContentLanguage = 'de'
   target = 'content'
 
 [[module.mounts]]
-  source = '../Astronomie/Astro_Obstidian/Astro_Base/Bilder'  
+  source = 'D:/Astronomie/Astro_Obstidian/Astro_Base/Bilder'  
   target = 'assets/Bilder'
+
+[[module.mounts]]
+  source = 'assets/Bilder'  
+  target = 'assets/Bilder'
+
+[[module.mounts]]
+  source = 'assets'
+  target = 'assets'
+
+
