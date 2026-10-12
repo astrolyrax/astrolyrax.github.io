@@ -14,9 +14,21 @@
   </url><url>
     <loc>http://localhost:1313/objekte/deepsky/messier/m15---kugelsternhaufen/aufnahmen/dwarf-2/20250919/</loc>
   </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/messier/m16---adlernebel/aufnahmen/c11/20230908/</loc>
+  </url><url>
     <loc>http://localhost:1313/objekte/deepsky/messier/m2---kugelsternhaufen/aufnahmen/c11/20240109/</loc>
   </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/messier/m27---hantelnebel/aufnahmen/c11/20230908/</loc>
+  </url><url>
     <loc>http://localhost:1313/objekte/deepsky/messier/m3---kugelsternhaufen/aufnahmen/c11/20260424/</loc>
+  </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/messier/m31---andromeda-galaxie/aufnahmen-1/dwarf-2/20250819/</loc>
+  </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/messier/m33---dreiecksnebel/aufnahmen/dwarf-2/20250819/</loc>
+  </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/messier/m42---orionnebel/aufnahmen/c11/20240108/</loc>
+  </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/messier/m42---orionnebel/aufnahmen/dwarf-2/20250919/</loc>
   </url><url>
     <loc>http://localhost:1313/objekte/deepsky/ngc/ngc891---spiralgalaxie-kante/aufnahmen/c11/20240109-1/</loc>
   </url><url>
@@ -34,9 +46,17 @@
   </url><url>
     <loc>http://localhost:1313/objekte/deepsky/messier/m15---kugelsternhaufen/aufnahmen/c11/</loc>
   </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/messier/m16---adlernebel/aufnahmen/c11/</loc>
+  </url><url>
     <loc>http://localhost:1313/objekte/deepsky/messier/m2---kugelsternhaufen/aufnahmen/c11/</loc>
   </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/messier/m27---hantelnebel/aufnahmen/c11/</loc>
+  </url><url>
     <loc>http://localhost:1313/objekte/deepsky/messier/m3---kugelsternhaufen/aufnahmen/c11/</loc>
+  </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/messier/m31---andromeda-galaxie/aufnahmen-1/dwarf-2/</loc>
+  </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/messier/m42---orionnebel/aufnahmen/c11/</loc>
   </url><url>
     <loc>http://localhost:1313/objekte/deepsky/ngc/ngc891---spiralgalaxie-kante/aufnahmen/c11/</loc>
   </url><url>
@@ -45,6 +65,10 @@
     <loc>http://localhost:1313/objekte/deepsky/messier/m1---krebsnebel/aufnahmen/dwarf-2/</loc>
   </url><url>
     <loc>http://localhost:1313/objekte/deepsky/messier/m15---kugelsternhaufen/aufnahmen/dwarf-2/</loc>
+  </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/messier/m33---dreiecksnebel/aufnahmen/dwarf-2/</loc>
+  </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/messier/m42---orionnebel/aufnahmen/dwarf-2/</loc>
   </url><url>
     <loc>http://localhost:1313/objekte/deepsky/ic/</loc>
   </url><url>
@@ -57,6 +81,16 @@
     <loc>http://localhost:1313/objekte/deepsky/messier/m13---herkuleshaufen/</loc>
   </url><url>
     <loc>http://localhost:1313/objekte/deepsky/messier/m15---kugelsternhaufen/</loc>
+  </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/messier/m16---adlernebel/</loc>
+  </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/messier/m27---hantelnebel/</loc>
+  </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/messier/m31---andromeda-galaxie/</loc>
+  </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/messier/m33---dreiecksnebel/</loc>
+  </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/messier/m42---orionnebel/</loc>
   </url><url>
     <loc>http://localhost:1313/objekte/deepsky/messier/</loc>
   </url><url>
