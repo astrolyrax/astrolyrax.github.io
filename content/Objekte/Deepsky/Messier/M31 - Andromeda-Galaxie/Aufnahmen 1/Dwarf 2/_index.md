@@ -4,7 +4,7 @@ bookCollapseSection: true
 ---
 
 
-# Celestron C11"
+# Dwarf II"
 
 
 
