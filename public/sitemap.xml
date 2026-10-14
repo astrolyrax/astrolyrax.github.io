@@ -30,6 +30,16 @@
   </url><url>
     <loc>http://localhost:1313/objekte/deepsky/messier/m42---orionnebel/aufnahmen/dwarf-2/20250919/</loc>
   </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/messier/m45---plejaden/aufnahmen/dwarf-2/20241103/</loc>
+  </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/messier/m45---plejaden/aufnahmen/dwarf-2/20250919/</loc>
+  </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/messier/m51---whirlpool-galaxie/aufnahmen/c11/20240108/</loc>
+  </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/messier/m57---ringnebel/aufnahmen/c11/20240108/</loc>
+  </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/messier/m58---galaxie/aufnahmen/c11/20260425/</loc>
+  </url><url>
     <loc>http://localhost:1313/objekte/deepsky/ngc/ngc891---spiralgalaxie-kante/aufnahmen/c11/20240109-1/</loc>
   </url><url>
     <loc>http://localhost:1313/objekte/deepsky/arp/</loc>
@@ -58,6 +68,12 @@
   </url><url>
     <loc>http://localhost:1313/objekte/deepsky/messier/m42---orionnebel/aufnahmen/c11/</loc>
   </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/messier/m51---whirlpool-galaxie/aufnahmen/c11/</loc>
+  </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/messier/m57---ringnebel/aufnahmen/c11/</loc>
+  </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/messier/m58---galaxie/aufnahmen/c11/</loc>
+  </url><url>
     <loc>http://localhost:1313/objekte/deepsky/ngc/ngc891---spiralgalaxie-kante/aufnahmen/c11/</loc>
   </url><url>
     <loc>http://localhost:1313/objekte/deepsky/</loc>
@@ -69,6 +85,8 @@
     <loc>http://localhost:1313/objekte/deepsky/messier/m33---dreiecksnebel/aufnahmen/dwarf-2/</loc>
   </url><url>
     <loc>http://localhost:1313/objekte/deepsky/messier/m42---orionnebel/aufnahmen/dwarf-2/</loc>
+  </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/messier/m45---plejaden/aufnahmen/dwarf-2/</loc>
   </url><url>
     <loc>http://localhost:1313/objekte/deepsky/ic/</loc>
   </url><url>
@@ -91,6 +109,14 @@
     <loc>http://localhost:1313/objekte/deepsky/messier/m33---dreiecksnebel/</loc>
   </url><url>
     <loc>http://localhost:1313/objekte/deepsky/messier/m42---orionnebel/</loc>
+  </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/messier/m45---plejaden/</loc>
+  </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/messier/m51---whirlpool-galaxie/</loc>
+  </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/messier/m57---ringnebel/</loc>
+  </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/messier/m58---galaxie/</loc>
   </url><url>
     <loc>http://localhost:1313/objekte/deepsky/messier/</loc>
   </url><url>
