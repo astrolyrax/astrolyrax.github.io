@@ -3,9 +3,19 @@
 {{- $img := resources.Get (printf "Bilder/%s" (strings.TrimPrefix "Bilder/" $src)) -}}
 
 {{- if $img -}}
+  {{- $lightboxID := anchorize $src -}}
   <figure class="astro-photo">
-    <img src="{{ $img.RelPermalink }}" alt="Astrofoto" style="max-width: 100%; height: auto; border-radius: 4px;">
+    <!-- Das normale Bild wird in einen Klick-Link eingepackt -->
+    <a href="#lightbox-{{ $lightboxID }}">
+      <img src="{{ $img.RelPermalink }}" alt="Astrofoto" style="max-width: 100%; height: auto; border-radius: 4px; cursor: zoom-in;">
+    </a>
   </figure>
+
+  <!-- Das unsichtbare Vollbild-Overlay, das bei Klick anspringt -->
+  <div id="lightbox-{{ $lightboxID }}" class="astro-lightbox">
+    <a href="#" class="lightbox-close"></a>
+    <img src="{{ $img.RelPermalink }}" alt="Astrofoto Vollbild">
+  </div>
 {{- else -}}
   <div style="background: #fee; border: 1px solid #f99; padding: 10px; color: #c00; font-family: monospace;">
     ⚠️ Astrofoto nicht im Bilderordner gefunden: {{ $src }}
