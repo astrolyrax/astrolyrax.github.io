@@ -11,10 +11,14 @@
             "id": "0c66758761ac8fad",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "content/Objekte/Deepsky/Messier/M1 - Krebsnebel/Aufnahmen/C11/20240109.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Neuer Tab"
+              "title": "20240109"
             }
           }
         ]
@@ -187,6 +191,10 @@
   },
   "active": "0c66758761ac8fad",
   "lastOpenFiles": [
+    "content/Objekte/Deepsky/Messier/M1 - Krebsnebel/Aufnahmen/C11/_index.md",
+    "content/Objekte/Deepsky/Messier/M1 - Krebsnebel/Aufnahmen/C11/20240109.md",
+    "public/de.search.min.d7acae84392c392564605d0e5ecf4daf6e4d1194e380ccc8059b68521bce5438.js",
+    "public/de.search-data.min.127d3e94e4ff5abbacd058561ea98deeb6b230bd3c52696ee550cf40abd029b1.json",
     "static/Bilder/Textdokument (neu).txt",
     "static/Bilder",
     "public/Neuer Ordner",
@@ -195,11 +203,7 @@
     "layouts/shortcodes/astro-img.html",
     "resources/_gen/images",
     "resources/_gen/assets",
-    "resources/_gen",
-    "resources",
-    "public/book.min.4f6e2aab7235243a75866cb537ba054c2316fbe412b88bf8ec8236a38a4cfad3.css",
     "public/Bilder/M1_C11_StackingWizard_AstroWizard_20240109.jpg",
-    "content/Objekte/Deepsky/Messier/M1 - Krebsnebel/Aufnahmen/C11/20240109.md",
     "static/Bilder/05 - Objekte/03 - IC/IC5070 - Pelikannebel/Dwarf/IC_5070_Dwarf_StackedWizard_AstroWitard_Darktable_1.jpg",
     "static/Bilder/05 - Objekte/03 - IC/IC443 - Quallennebel/Dwarf/IC443_Dwarf_StackingWizard_AstroWizard_Darktable_1.jpg",
     "static/Bilder/05 - Objekte/03 - IC/IC434 - Pferdekopfnebel/Dwarf/IC434_Dwarf_StackingWizard_AstroWizard_Darktable_1.jpg",
@@ -231,7 +235,6 @@
     "content/Objekte/Deepsky/Messier/M33 - Dreiecksnebel/_index.md",
     "content/Objekte/Deepsky/Messier/M31 - Andromeda-Galaxie/Aufnahmen 1/Dwarf 2/_index.md",
     "content/Objekte/Deepsky/Messier/M31 - Andromeda-Galaxie/Aufnahmen 1/Dwarf 2/20250819.md",
-    "content/Objekte/Deepsky/Messier/M31 - Andromeda-Galaxie/_index.md",
-    "content/Objekte/Deepsky/Messier/M27 - Hantelnebel/_index.md"
+    "content/Objekte/Deepsky/Messier/M31 - Andromeda-Galaxie/_index.md"
   ]
 }
