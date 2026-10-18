@@ -3,17 +3,14 @@
 {{- $img := resources.Get (printf "Bilder/%s" (strings.TrimPrefix "Bilder/" $src)) -}}
 
 {{- if $img -}}
-  {{- $lightboxID := anchorize $src -}}
+  <!-- 1. Das normale Bild im Fließtext (mit deinen runden Ecken und blauem Rand) -->
   <figure class="astro-photo">
-    <!-- Das normale Bild wird in einen Klick-Link eingepackt -->
-    <a href="#lightbox-{{ $lightboxID }}">
-      <img src="{{ $img.RelPermalink }}" alt="Astrofoto" style="max-width: 100%; height: auto; border-radius: 4px; cursor: zoom-in;">
-    </a>
+    <img src="{{ $img.RelPermalink }}" alt="Astrofoto" style="max-width: 100%; height: auto; border-radius: 4px; cursor: zoom-in;" 
+         onclick="let container = document.getElementById('lb-container-{{ $src | urlize }}'); container.style.display = 'flex'; if (container.requestFullscreen) { container.requestFullscreen(); } else if (container.webkitRequestFullscreen) { container.webkitRequestFullscreen(); }">
   </figure>
 
-  <!-- Das unsichtbare Vollbild-Overlay, das bei Klick anspringt -->
-  <div id="lightbox-{{ $lightboxID }}" class="astro-lightbox">
-    <a href="#" class="lightbox-close"></a>
+  <!-- 2. Das unfehlbare Vollbild-Overlay (wird erst bei Klick sichtbar) -->
+  <div id="lb-container-{{ $src | urlize }}" class="astro-custom-lightbox" style="display: none;" onclick="if (document.exitFullscreen) { document.exitFullscreen(); } else if (document.webkitExitFullscreen) { document.webkitExitFullscreen(); } this.style.display = 'none';">
     <img src="{{ $img.RelPermalink }}" alt="Astrofoto Vollbild">
   </div>
 {{- else -}}
@@ -21,3 +18,4 @@
     ⚠️ Astrofoto nicht im Bilderordner gefunden: {{ $src }}
   </div>
 {{- end -}}
+

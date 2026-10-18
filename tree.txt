@@ -1,0 +1,1193 @@
+Auflistung der Ordnerpfade für Volume Pixel Daten SSD
+Volumeseriennummer : 90C5-77E9
+D:.
+¦   .hugo_build.lock
+¦   hugo.toml
+¦   tree.txt
+¦   
++---.github
+¦   +---workflows
+¦           deploy.yml
+¦           
++---.obsidian
+¦   ¦   app.json
+¦   ¦   appearance.json
+¦   ¦   community-plugins.json
+¦   ¦   core-plugins.json
+¦   ¦   graph.json
+¦   ¦   hotkeys.json
+¦   ¦   workspace.json
+¦   ¦   
+¦   +---plugins
+¦       +---obsidian-git
+¦               data.json
+¦               main.js
+¦               manifest.json
+¦               obsidian_askpass.sh
+¦               styles.css
+¦               
++---archetypes
+¦       default.md
+¦       
++---assets
+¦   +---styles
+¦           custom.css
+¦           
++---content
+¦   ¦   .hugo_build.lock
+¦   ¦   
+¦   +---.github
+¦   ¦   +---workflows
+¦   ¦           deploy.yml
+¦   ¦           
+¦   +---Ausrüstung
+¦   ¦       _index.md
+¦   ¦       
+¦   +---Objekte
+¦   ¦   ¦   _index.md
+¦   ¦   ¦   
+¦   ¦   +---Deepsky
+¦   ¦   ¦   ¦   _index.md
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---Arp
+¦   ¦   ¦   ¦       _index.md
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---IC
+¦   ¦   ¦   ¦   ¦   _index.md
+¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   +---IC1396 - Elefantenrüssel
+¦   ¦   ¦   ¦   +---IC1805 - Herznebel
+¦   ¦   ¦   ¦   +---IC2177 - Seemöwennebel
+¦   ¦   ¦   ¦   +---IC342 - Balkenspiralgalaxie
+¦   ¦   ¦   ¦   +---IC434 - Pferdekopfnebel
+¦   ¦   ¦   ¦   +---IC443 - Quallennebel
+¦   ¦   ¦   ¦   +---IC5070 - Pelikannebel
+¦   ¦   ¦   +---Messier
+¦   ¦   ¦   ¦   ¦   _index.md
+¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   +---M1 - Krebsnebel
+¦   ¦   ¦   ¦   ¦   ¦   _index.md
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   +---Aufnahmen
+¦   ¦   ¦   ¦   ¦       +---C11
+¦   ¦   ¦   ¦   ¦       ¦       20240109.md
+¦   ¦   ¦   ¦   ¦       ¦       _index.md
+¦   ¦   ¦   ¦   ¦       ¦       
+¦   ¦   ¦   ¦   ¦       +---Dwarf 2
+¦   ¦   ¦   ¦   ¦               20240311.md
+¦   ¦   ¦   ¦   ¦               _index.md
+¦   ¦   ¦   ¦   ¦               
+¦   ¦   ¦   ¦   +---M101 - Feuerrad-Galaxie
+¦   ¦   ¦   ¦   +---M102 - Galaxie linsenförmig
+¦   ¦   ¦   ¦   +---M106 - Galaxie
+¦   ¦   ¦   ¦   +---M13 - Herkuleshaufen
+¦   ¦   ¦   ¦   ¦   ¦   _index.md
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   +---Aufnahmen
+¦   ¦   ¦   ¦   ¦       +---C11
+¦   ¦   ¦   ¦   ¦               20230826.md
+¦   ¦   ¦   ¦   ¦               _index.md
+¦   ¦   ¦   ¦   ¦               
+¦   ¦   ¦   ¦   +---M15 - Kugelsternhaufen
+¦   ¦   ¦   ¦   ¦   ¦   _index.md
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   +---Aufnahmen
+¦   ¦   ¦   ¦   ¦       +---C11
+¦   ¦   ¦   ¦   ¦       ¦       20211008.md
+¦   ¦   ¦   ¦   ¦       ¦       20230823.md
+¦   ¦   ¦   ¦   ¦       ¦       _index.md
+¦   ¦   ¦   ¦   ¦       ¦       
+¦   ¦   ¦   ¦   ¦       +---Dwarf 2
+¦   ¦   ¦   ¦   ¦               20250919.md
+¦   ¦   ¦   ¦   ¦               _index.md
+¦   ¦   ¦   ¦   ¦               
+¦   ¦   ¦   ¦   +---M16 - Adlernebel
+¦   ¦   ¦   ¦   ¦   ¦   _index.md
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   +---Aufnahmen
+¦   ¦   ¦   ¦   ¦       +---C11
+¦   ¦   ¦   ¦   ¦               20230908.md
+¦   ¦   ¦   ¦   ¦               _index.md
+¦   ¦   ¦   ¦   ¦               
+¦   ¦   ¦   ¦   +---M2 - Kugelsternhaufen
+¦   ¦   ¦   ¦   ¦   ¦   _index.md
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   +---Aufnahmen
+¦   ¦   ¦   ¦   ¦       +---C11
+¦   ¦   ¦   ¦   ¦               20240109.md
+¦   ¦   ¦   ¦   ¦               _index.md
+¦   ¦   ¦   ¦   ¦               
+¦   ¦   ¦   ¦   +---M27 - Hantelnebel
+¦   ¦   ¦   ¦   ¦   ¦   _index.md
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   +---Aufnahmen
+¦   ¦   ¦   ¦   ¦       +---C11
+¦   ¦   ¦   ¦   ¦               20230908.md
+¦   ¦   ¦   ¦   ¦               _index.md
+¦   ¦   ¦   ¦   ¦               
+¦   ¦   ¦   ¦   +---M3 - Kugelsternhaufen
+¦   ¦   ¦   ¦   ¦   ¦   _index.md
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   +---Aufnahmen
+¦   ¦   ¦   ¦   ¦       +---C11
+¦   ¦   ¦   ¦   ¦               20260424.md
+¦   ¦   ¦   ¦   ¦               _index.md
+¦   ¦   ¦   ¦   ¦               
+¦   ¦   ¦   ¦   +---M31 - Andromeda-Galaxie
+¦   ¦   ¦   ¦   ¦   ¦   _index.md
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   +---Aufnahmen 1
+¦   ¦   ¦   ¦   ¦       +---Dwarf 2
+¦   ¦   ¦   ¦   ¦               20250819.md
+¦   ¦   ¦   ¦   ¦               _index.md
+¦   ¦   ¦   ¦   ¦               
+¦   ¦   ¦   ¦   +---M33 - Dreiecksgalaxie
+¦   ¦   ¦   ¦   +---M33 - Dreiecksnebel
+¦   ¦   ¦   ¦   ¦   ¦   _index.md
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   +---Aufnahmen
+¦   ¦   ¦   ¦   ¦       +---Dwarf 2
+¦   ¦   ¦   ¦   ¦               20250819.md
+¦   ¦   ¦   ¦   ¦               _index.md
+¦   ¦   ¦   ¦   ¦               
+¦   ¦   ¦   ¦   +---M42 - Orionnebel
+¦   ¦   ¦   ¦   ¦   ¦   _index.md
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   +---Aufnahmen
+¦   ¦   ¦   ¦   ¦       +---C11
+¦   ¦   ¦   ¦   ¦       ¦       20240108.md
+¦   ¦   ¦   ¦   ¦       ¦       _index.md
+¦   ¦   ¦   ¦   ¦       ¦       
+¦   ¦   ¦   ¦   ¦       +---Dwarf 2
+¦   ¦   ¦   ¦   ¦               20250919.md
+¦   ¦   ¦   ¦   ¦               _index.md
+¦   ¦   ¦   ¦   ¦               
+¦   ¦   ¦   ¦   +---M45 - Plejaden
+¦   ¦   ¦   ¦   ¦   ¦   _index.md
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   +---Aufnahmen
+¦   ¦   ¦   ¦   ¦       +---Dwarf 2
+¦   ¦   ¦   ¦   ¦               20241103.md
+¦   ¦   ¦   ¦   ¦               20250919.md
+¦   ¦   ¦   ¦   ¦               _index.md
+¦   ¦   ¦   ¦   ¦               
+¦   ¦   ¦   ¦   +---M51 - Whirlpool-Galaxie
+¦   ¦   ¦   ¦   ¦   ¦   _index.md
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   +---Aufnahmen
+¦   ¦   ¦   ¦   ¦       +---C11
+¦   ¦   ¦   ¦   ¦               20240108.md
+¦   ¦   ¦   ¦   ¦               _index.md
+¦   ¦   ¦   ¦   ¦               
+¦   ¦   ¦   ¦   +---M57 - Ringnebel
+¦   ¦   ¦   ¦   ¦   ¦   _index.md
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   +---Aufnahmen
+¦   ¦   ¦   ¦   ¦       +---C11
+¦   ¦   ¦   ¦   ¦               20240108.md
+¦   ¦   ¦   ¦   ¦               _index.md
+¦   ¦   ¦   ¦   ¦               
+¦   ¦   ¦   ¦   +---M58 - Galaxie
+¦   ¦   ¦   ¦   ¦   ¦   _index.md
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   +---Aufnahmen
+¦   ¦   ¦   ¦   ¦       +---C11
+¦   ¦   ¦   ¦   ¦               20260425.md
+¦   ¦   ¦   ¦   ¦               _index.md
+¦   ¦   ¦   ¦   ¦               
+¦   ¦   ¦   ¦   +---M64 - Blackeye-Galaxie
+¦   ¦   ¦   ¦   +---M65 - Galaxie
+¦   ¦   ¦   ¦   +---M66 - Galaxie
+¦   ¦   ¦   ¦   +---M78 - Flammennebel
+¦   ¦   ¦   ¦   +---M81 - Galaxie
+¦   ¦   ¦   ¦   +---M99 - Galaxie
+¦   ¦   ¦   +---NGC
+¦   ¦   ¦       ¦   _index.md
+¦   ¦   ¦       ¦   
+¦   ¦   ¦       +---NGC1004 - Galaxie elliptisch
+¦   ¦   ¦       ¦   ¦   _index.md
+¦   ¦   ¦       ¦   ¦   
+¦   ¦   ¦       ¦   +---Aufnahmen
+¦   ¦   ¦       +---NGC2024 - Flammennebel
+¦   ¦   ¦       +---NGC2174 - Affenkopfnebel
+¦   ¦   ¦       +---NGC2244 - Rosettennebel
+¦   ¦   ¦       +---NGC2264 - Konusnebel,Weihnachtsbaumsternhaufen
+¦   ¦   ¦       +---NGC2403 - Balkengalaxie
+¦   ¦   ¦       +---NGC3628 - Spiralgalaxie
+¦   ¦   ¦       +---NGC6633 - offener Sternhaufen
+¦   ¦   ¦       +---NGC6939 - Spiralgalaxie
+¦   ¦   ¦       +---NGC6992 - Cirrusnebel
+¦   ¦   ¦       +---NGC7000 - Nordamerikanebel
+¦   ¦   ¦       +---NGC7009 - Saturnnebel
+¦   ¦   ¦       +---NGC7331 - Spiralgalaxie
+¦   ¦   ¦       +---NGC7635 - Blasennebel
+¦   ¦   ¦       +---NGC891 - Spiralgalaxie Kante
+¦   ¦   ¦           ¦   _index.md
+¦   ¦   ¦           ¦   
+¦   ¦   ¦           +---Aufnahmen
+¦   ¦   ¦               +---C11
+¦   ¦   ¦                       20240109 1.md
+¦   ¦   ¦                       _index.md
+¦   ¦   ¦                       
+¦   ¦   +---Mond
+¦   ¦   ¦       _index.md
+¦   ¦   ¦       
+¦   ¦   +---Planeten
+¦   ¦   ¦       _index.md
+¦   ¦   ¦       
+¦   ¦   +---Sonne
+¦   ¦           _index.md
+¦   ¦           
+¦   +---Projekte
+¦   ¦       _index.md.md
+¦   ¦       
+¦   +---public
+¦   ¦   ¦   index.xml
+¦   ¦   ¦   sitemap.xml
+¦   ¦   ¦   
+¦   ¦   +---categories
+¦   ¦   ¦       index.xml
+¦   ¦   ¦       
+¦   ¦   +---tags
+¦   ¦           index.xml
+¦   ¦           
+¦   +---Workflows
+¦           _index.md.md
+¦           
++---data
++---i18n
++---layouts
+¦   +---shortcodes
+¦   ¦       obsidian-img.html
+¦   ¦       
+¦   +---_default
+¦   ¦   ¦   .gitignore
+¦   ¦   ¦   baseof.html
+¦   ¦   ¦   single.html
+¦   ¦   ¦   
+¦   ¦   +---_markup
+¦   ¦           render-image.html
+¦   ¦           
+¦   +---_partials
+¦       +---docs
+¦               brand.html
+¦               
++---public
+¦   ¦   404.html
+¦   ¦   apple-touch-icon.png
+¦   ¦   book.min.001abfd1f43d51915f8fae6d8890604ef62ab3880ebcd6be308c1882c5b8a6ed.css
+¦   ¦   book.min.074c9307a186fb3ebd0a00e8fdc40e6cad40fbf73b00fdbb2e9f375c53eb9e3c.css
+¦   ¦   book.min.07f86951ef97c1b05650309cf4b2843eae6f9ff5cffb67464c7775af3164a503.css
+¦   ¦   book.min.0a09598cc5122d18d62c485e544cedb67741d1d3d97ddf5fd0a79b6ad328b40c.css
+¦   ¦   book.min.0ca416eb12b3cf1fd6ad4451c1bd2c4d1b08e2f91dfa72be6603ecda1b81208b.css
+¦   ¦   book.min.14b9aabda3b9f3ea421f8346409064d62b17998022259a8a7c35a851f44cbde5.css
+¦   ¦   book.min.19e8d37e86f46bb4ca59678c39fcda9d835f7f9de78705851a52fc419cb63966.css
+¦   ¦   book.min.2552dfbd233fc72c7f0f5381a0bfd721bb5ff12f6bbda42171736cb0b26ecb6a.css
+¦   ¦   book.min.26039cb3b8c94c1aa1c1f33c3a2e2a1393918d3d0641d24f9e2e354f277a4212.css
+¦   ¦   book.min.2ac392cbc8ca89ffcfa29b7a6b2ab12c7286a9816ca1ba1fbf1d62ec3ccc3ec6.css
+¦   ¦   book.min.2b4dbcec7dd2cf9b3c690ad96104c325ce2d6aa163bdfbf3790e9a27e67646e9.css
+¦   ¦   book.min.315f5520dd3f0bcbd17793925c29277e44d8955343b3c5102046bb1103f66855.css
+¦   ¦   book.min.35f78f971ad561ceab254a98af819d7a495c2328b69bfb68bd8351a90feb146d.css
+¦   ¦   book.min.379cac2d04ca08ca8c59635b1659628925480e9fa37176a66b4457a1ff53c827.css
+¦   ¦   book.min.3880f7b356cd9cf563e515ba17bb501e4dfef0880f695313c5a21a5a7fcc227d.css
+¦   ¦   book.min.3d4cc0f6e776f77d8a2f12b9c5fb07a6f773d572f639b4aae864ca5840cb4c62.css
+¦   ¦   book.min.41b50c20694ecf851bf4461366645ce242618611aee7362eec3f57436f4aaf11.css
+¦   ¦   book.min.43c668488c418af63755dc226eeaa435418c613aaf825c04867fa5d69366ce46.css
+¦   ¦   book.min.4fa9d259fabdb714565906ac3a5a70da759e833d3111c5c5b917850780589af3.css
+¦   ¦   book.min.569eb555d64719f62458506b2ff9f7a1146e0d7fccc94e5e465270b337b4d5da.css
+¦   ¦   book.min.5835885adb588ed0b36ff7a4ed82bf9321f66fe75cea2996f4f7f3c52bb1a9e4.css
+¦   ¦   book.min.63bdb045bb1771a55bbecc610a2459036d4f9474ced45333d0e1e754ad06ab7f.css
+¦   ¦   book.min.69b22a98f7198f28cc77bb1f3c9f18924b879dd8aeaf3c53701bbbc99836ecf1.css
+¦   ¦   book.min.6c244bd9af858e7b000df3d73d745df345426990abb4a6f5e6f079063e149f54.css
+¦   ¦   book.min.748a8fb1bb08fa8a2e00ef9213aab22c81fbbc3d844306089ac7f0100cbbb480.css
+¦   ¦   book.min.77361b29826be2f2f06a148fab2f60e1e379c01e403003b400cd6304922374c5.css
+¦   ¦   book.min.785b04f045a3a18a859e0e16f0eb26c52b4cf17d6786a000c3ca63606aee0f22.css
+¦   ¦   book.min.7a3abbc11f2449fa0f45609c4d416ad0f4f3b441721db42c027681d57d929526.css
+¦   ¦   book.min.7dc8c100071decf2d08ad65877bc8522ea1208edc408b248a5668c53e1093e8d.css
+¦   ¦   book.min.7ec10f6225c14943b8cbe7a01befb6335437462019071751e7a34e06fb7a8b8a.css
+¦   ¦   book.min.7f8b435746e2131f771ec188c90510bc18ab84dc7192bec39f8b3e989f6def7e.css
+¦   ¦   book.min.80aafdafcad64eaa332753fb569c39e5a36c5bdf824fc8085079f3db72c04a14.css
+¦   ¦   book.min.8280b157fc1158f6c874d155ebf7ebbf6a1ec2e781400ea12e9c295e00ce087e.css
+¦   ¦   book.min.8297dd83de22e9985e8789f5b39a0bde0fb0eed6480c4e4855b4596c4c063c63.css
+¦   ¦   book.min.835ae3efe2e45735a3c76e2dcb343648c8dd0b36b243463e5425d07623630562.css
+¦   ¦   book.min.88e31f52b4ceaaa8a04cb3e0a74d1fe45c892050aba5328b560de293302a2750.css
+¦   ¦   book.min.8aaad5e8d3d40e15ff0dd67cbf08aff60053c2e6472d96e1b6ae3f1de90bfb60.css
+¦   ¦   book.min.93c83164e6f6084804ee52c29c7a1800bbaa5ab768cbf2e4c9dd6f5fb3ba40c8.css
+¦   ¦   book.min.955d40e61dd13a8d693d41c68b3721ffedc8c846bac37f112fea07d7deff1503.css
+¦   ¦   book.min.98d50caad693bb07c4531ceddd23d2b0af98e53fa33aa3be97ff065d5c5a13c1.css
+¦   ¦   book.min.9dbf18d209fd39f8d399a3331ec5ecad717dda9b25f4e7cce63ad3a21f7f898b.css
+¦   ¦   book.min.9e448a5f455a8f4ea147821bc2475deb097e76f0943c846fc74f58fae256f40b.css
+¦   ¦   book.min.a727cbbb447d5e2ef15e2a9a2fe981a4c119e627a3dc17a5d95ceffeaa80be52.css
+¦   ¦   book.min.a818e28bac890020af8496e770de80f41eefdfe9dea3508ef184ee2539cc2f70.css
+¦   ¦   book.min.b53f6315a0e99f30cd2244db7ca9d8874297faace38d15e1a338d30ff214d022.css
+¦   ¦   book.min.b8215d6cc89b64ddd17ff77f2461aac8cf0fde303f11ff0745c772eb224879fc.css
+¦   ¦   book.min.b85ede10de12dac4e422da984b0cd307e05d96cec261c310dbc6f9da626769d1.css
+¦   ¦   book.min.c11e33997422b2cfd14cecb4ec382eae5d696bf511a74ddd800950dc6985ab98.css
+¦   ¦   book.min.c37a273b466977eef23a2dc1cbaf33ee8fe638919ea6756734adee1c15556af5.css
+¦   ¦   book.min.c3c573cc509e2ee0e9f50402fbc1cf83593f198aefb7298f4296e50dfeb1ceaa.css
+¦   ¦   book.min.c3f552f189193a257d9f5b378e6bd9549e5271d9b267e02d1b1589f427150f9f.css
+¦   ¦   book.min.c64afd485adc383a55b13ae510aad7d4a0aecabe1833157dc1005b8af19b701c.css
+¦   ¦   book.min.c72473c393ff2b911a97227e67bbf6ada84d83248aeab98ea9d5196572439f4d.css
+¦   ¦   book.min.c99f2e122bee19e2724a69f0d17b88de301cf83e1c244808f623843e61e5db98.css
+¦   ¦   book.min.dbae09564ab80823c0e708e0f4f20e024d5837c093c33ca9dfc6af2b0a3d3a5d.css
+¦   ¦   book.min.dd4b7db31e0530d1448f680ed3c5d182b1fcfe0da1b3c58c5e71862f3360a347.css
+¦   ¦   book.min.e2b35f8ded20f4e8a37110adc8f6b91294671ffc34f52fcaa61d172d70dc8147.css
+¦   ¦   book.min.e58a471ad2ed51da56871d7702d516466b340c06fdcbf23145ea31ba18fb13f5.css
+¦   ¦   book.min.e90b283cfb54f2bddffcc3e2fe9cf324de65b8fd10dc58d103f0c38715b3a4f1.css
+¦   ¦   book.min.ea53725e4d31bea7495f4bd7728dbd7e4179c77cef5f4ba197fa21d5c460de9b.css
+¦   ¦   book.min.f17fa15630b38771d06ec183ce7b9654827017dd9d9967076edaed785d764bec.css
+¦   ¦   de.search-data.min.0250f1e94050a4efc3d4ed2418a77ca17cd6543beb99ecd47a8ccc38df9493c8.json
+¦   ¦   de.search-data.min.0300cfec153827abf9467bfd13932e14376aff50dadf67dd9cf3d980f3470c34.json
+¦   ¦   de.search-data.min.033352affdfd85a0db111c98b62d6441acf65178008d56c209a91a7729b1f67e.json
+¦   ¦   de.search-data.min.08424ef679f0f3fb57d0a0ae22819ad50723986f8fcb565da7e203a9fa24842b.json
+¦   ¦   de.search-data.min.10a6aa3967bd58f25ad2e551f59fa7ffbc909c00696be965e960eee7c944320a.json
+¦   ¦   de.search-data.min.151f40dbf08239a1beba8619190e9fa66d1732fe0c6580433c5283f648b607a4.json
+¦   ¦   de.search-data.min.45080001c907eea99b5374927f07254aab2dbad17ba54bb6beb1c1bb5cb7d24a.json
+¦   ¦   de.search-data.min.5d19a3e7585ec022968d753c0188fcb52bfa1d749b744cbddb4fe7a7f894583b.json
+¦   ¦   de.search-data.min.6a8ef7cc6338bf5a3def60c80d5c0d4eeb5f519bc31bc7e8f98ab4d8592bbd4c.json
+¦   ¦   de.search-data.min.71f6d9efc22c32ddfb3681a372308712626c6d31a9e72646bd5aa0edf2f56e52.json
+¦   ¦   de.search-data.min.7d453197ffb623d3cea57f1b17625cb7a8e43b21e9424a6f9449698e327be265.json
+¦   ¦   de.search-data.min.822c0923732e01f1b3a1b5bfc23428b806b8b313cb7286e9c07ca67e3cf60661.json
+¦   ¦   de.search-data.min.840705bd37e9b2603d8f392c39c908356d52244ee71ccfc22f8230b89a930bfa.json
+¦   ¦   de.search-data.min.957e84696d3b15234fc1761d7019ba669d02551bb485bf37de77ed69748d92f8.json
+¦   ¦   de.search-data.min.983e4a2832a721c51637cbdf5c51d879095ae25d1d7e2fd522be1c5fdb386a16.json
+¦   ¦   de.search-data.min.9b283e31014645f3b57aec97d58d734607ac52a56333fd70a88d0d8f0b71f069.json
+¦   ¦   de.search-data.min.9d7a145ec3e79013d1d769d16f106db7a8b6d113da6728ac7727373e73f2eda2.json
+¦   ¦   de.search-data.min.a2ebc16021e60ae6e194a88c5541a888fc82a1e15ad387a1fb528f28fec32cb2.json
+¦   ¦   de.search-data.min.a9c7a3812a5cb77b59ef956b8f5d875b16228aafe2f4af45fe14a1d54fe6651c.json
+¦   ¦   de.search-data.min.b02a4ade0f03d56872f41e68f5f74b5695d5837f773d313f4c10211fb16f384b.json
+¦   ¦   de.search-data.min.b9544ba869f71da8500ebf537ceb31012e7c09b812989c85ea68c797d53916a9.json
+¦   ¦   de.search-data.min.c2ae71c6c2ece305a836fcd54b51f47f2e4abd132e9df89842eb446d91e96bbf.json
+¦   ¦   de.search-data.min.e054d5781f731ed92301cf4cfafabf5b149fc8cf179e40e61077573a1f9b62c7.json
+¦   ¦   de.search-data.min.f2ff4ee7f8aa832b923ef9a3c9966179735c8f0549e8bd2c1ea490c9bac17e60.json
+¦   ¦   de.search-data.min.ff3487f0bedf6ab6354357636bb4325cdb71eca0417b7c7c5109e0b00aa2b12d.json
+¦   ¦   de.search.min.0b0f5328ba08e088fc2826fbec1debe937de4ef08cb0aabf9b3231a6821e8984.js
+¦   ¦   de.search.min.11588af9d6db58fa0a524398f6d95996f199100994b2e9e8a6be77539a63e3d6.js
+¦   ¦   de.search.min.1427d2b0ea13dcfda0d379e3887e54c3ea0c4f6fe19db70a00228fe075fb91cf.js
+¦   ¦   de.search.min.1555bfba96a2e30c4563620f2dc15a9f0223e584053d961d739efd5379f49007.js
+¦   ¦   de.search.min.26a0977005c62a1abd74bc6878cda87679bdaa9e3e4a390f90cd3bcdd116660b.js
+¦   ¦   de.search.min.2c5abf4e957fee27da780adf968e09ebe728e5a04d619bd292caa9e33ec64bd2.js
+¦   ¦   de.search.min.36a6d7dc392a8f9fc979e23ddf908ae11aa9f1066b5986a6a12e44fa4d8eddfb.js
+¦   ¦   de.search.min.3dc1196c6f639413c7aceaf7805947942eb04203050e82e5337fe1a653354567.js
+¦   ¦   de.search.min.3e6e0adf9beb57b672449414301d8e77b8657c9ba68b5c7c15c9ba375df320d1.js
+¦   ¦   de.search.min.4a3a4bdbe59a07d97cb91d07fdae2e1e0d66d5024d66e89f23b56ed9d13520b8.js
+¦   ¦   de.search.min.4cd88c5764c0cdf1c92d6bc4339e393a6daa481e586a7d479e5f6eaad96bfbbf.js
+¦   ¦   de.search.min.5c8b82c44c2e9ce98079f54672b77b83a6f07a16da276cc827a1eb8487c2ca55.js
+¦   ¦   de.search.min.623f1cd31f5a5edd2a03f3c89b857b8a247bfa1da9b3b067537824f8abb16c65.js
+¦   ¦   de.search.min.7807ce900e8711030a0a4f70392069a9e443294059c4091d6314f7721af7fe3c.js
+¦   ¦   de.search.min.86cec6e688a299bf2e97eac64c0059a1b7ee54b37d7738e5bad2c7c84bdd9768.js
+¦   ¦   de.search.min.89062f8cc1908a1612a0f28bfd37d40851c8319de3208f961116d069441f4b56.js
+¦   ¦   de.search.min.9dd6decc14f582b789b5b657aec7a1f726f60186019f8ad528eba90ea0e849df.js
+¦   ¦   de.search.min.9e5a7ec3ddcbf288236793674f082d39c157c533836c1274378e106a52679ce5.js
+¦   ¦   de.search.min.b0ad3c2edd952819a3ec9c58362861d2c062fa4221ab806c6fc2c34f6c07775e.js
+¦   ¦   de.search.min.bb7583317fe2084b8016cc12f77c5ed49da781d08a5175e4b5fb53fcc59d7ee8.js
+¦   ¦   de.search.min.c1c0cc897ca48a98d2405184f01bf94bfdee48fa47c1168dcf3c3a76a31ec037.js
+¦   ¦   de.search.min.c642294062f415b59f10749c79a46876a19db81f080c7afc38bcdfedc5e25139.js
+¦   ¦   de.search.min.ced8679e5b01f02ae935194ab4024d845a0a4052225ce2a91e6068d94e3866eb.js
+¦   ¦   de.search.min.e0deac47a7551893a82837d914e29f178b7a235bb5f68ba1946ff3c2c19a86f4.js
+¦   ¦   de.search.min.f1419ad9bd70f72e23329be5240c7dda07ec60318cd47a9845c56590005a524b.js
+¦   ¦   favicon.png
+¦   ¦   favicon.svg
+¦   ¦   iconset.min.90a7fd302dc1b9bc3c291688faee66a3e60a9209f59b89fa00669e35d6907b3f.svg
+¦   ¦   index.html
+¦   ¦   index.xml
+¦   ¦   manifest.json
+¦   ¦   mermaid.min.js
+¦   ¦   minisearch.min.js
+¦   ¦   sitemap.xml
+¦   ¦   
+¦   +---asciinema
+¦   ¦       asciinema-auto.js
+¦   ¦       asciinema-player.css
+¦   ¦       asciinema-player.min.js
+¦   ¦       
+¦   +---ausrüstung
+¦   ¦       index.html
+¦   ¦       index.xml
+¦   ¦       
+¦   +---Bilder
+¦   ¦   +---05 - Objekte
+¦   ¦       +---01   Messier
+¦   ¦           +---M1 - Krebsnebel
+¦   ¦           ¦   +---C11
+¦   ¦           ¦   ¦       M1_C11_StackingWizard_AstroWizard_20240109.jpg
+¦   ¦           ¦   ¦       
+¦   ¦           ¦   +---DWARF
+¦   ¦           ¦           M1_DWARF_StackingWizard_AstroWizard_20240311.jpg
+¦   ¦           ¦           
+¦   ¦           +---M13 - Herkuleshaufen
+¦   ¦           ¦   +---C11
+¦   ¦           ¦           M13_StackingWizard_AstroWizard_Darktable_20230826.jpg
+¦   ¦           ¦           
+¦   ¦           +---M15 - Kugelsternhaufen
+¦   ¦           ¦   +---C11
+¦   ¦           ¦   ¦       M15_C11_Siril_AstroWizard_20211008.jpg
+¦   ¦           ¦   ¦       M15_C11_StackingWizard_AstroWizard_20230823.jpg
+¦   ¦           ¦   ¦       
+¦   ¦           ¦   +---DWARF
+¦   ¦           ¦           M15_Dwarf_StackinWizard_AstroWizard_20250919.jpg
+¦   ¦           ¦           
+¦   ¦           +---M16 - Adlernebel
+¦   ¦           ¦   +---C11
+¦   ¦           ¦           M16_C11_StackingWizard_AstroWizard_Darktable_1.jpg
+¦   ¦           ¦           
+¦   ¦           +---M2 - Kugelsternhaufen
+¦   ¦           ¦   +---C11
+¦   ¦           ¦           M2_C11_AstroWizard_20230913.jpg
+¦   ¦           ¦           
+¦   ¦           +---M27 - Hantelnebel
+¦   ¦           ¦   +---C11
+¦   ¦           ¦           M27_C11_SackingWizard_AstroWizard_Darktable_1.jpg
+¦   ¦           ¦           
+¦   ¦           +---M3 - Kugelsternhaufen
+¦   ¦           ¦   +---C11
+¦   ¦           ¦           M3_C11_AstroWizard_Darktable.jpg
+¦   ¦           ¦           
+¦   ¦           +---M31 - Andormeda-Galaxie
+¦   ¦           ¦   +---DWARF
+¦   ¦           ¦           M31_Dwarf_StackingWizard_AstroWizard_Darktable_1.jpg
+¦   ¦           ¦           
+¦   ¦           +---M33 - Dreiecksnebel
+¦   ¦           ¦   +---DWARF
+¦   ¦           ¦           M33_Dwarf_StackinWizard_AstroWizard_Darktable_1.jpg
+¦   ¦           ¦           
+¦   ¦           +---M42 - Orionnebel
+¦   ¦           ¦   +---C11
+¦   ¦           ¦   ¦       M42_C11_StackingWizard_AstroWizard_Darktable_1.jpg
+¦   ¦           ¦   ¦       
+¦   ¦           ¦   +---DWARF
+¦   ¦           ¦           M42_DWARF_StackingWizard_AstroWizard_Darktable_1.jpg
+¦   ¦           ¦           
+¦   ¦           +---M45 - Plejaden
+¦   ¦           ¦   +---DWARF
+¦   ¦           ¦           M45_Dwarf_StackingWizard_AstroWizard_Darktable_1.jpg
+¦   ¦           ¦           
+¦   ¦           +---M51 - Whirlpool-Galaxie
+¦   ¦           ¦   +---C11
+¦   ¦           ¦           M51_C11_Siril_fertig_Darktable_1.jpg
+¦   ¦           ¦           
+¦   ¦           +---M57 - Ringnebel
+¦   ¦           ¦   +---C11
+¦   ¦           ¦           M57_StackingWizard_AstroWizard_Darktable_1.jpg
+¦   ¦           ¦           
+¦   ¦           +---M58 - Galaxie
+¦   ¦               +---C11
+¦   ¦                       M58_C11_StackingWizard_AstroWizard_Darktable_1.jpg
+¦   ¦                       
+¦   +---categories
+¦   ¦       index.html
+¦   ¦       index.xml
+¦   ¦       
+¦   +---css
+¦   ¦       custom.css
+¦   ¦       
+¦   +---images
+¦   ¦       stars.jpg
+¦   ¦       
+¦   +---katex
+¦   ¦   ¦   katex.min.css
+¦   ¦   ¦   
+¦   ¦   +---fonts
+¦   ¦           KaTeX_AMS-Regular.ttf
+¦   ¦           KaTeX_AMS-Regular.woff
+¦   ¦           KaTeX_AMS-Regular.woff2
+¦   ¦           KaTeX_Caligraphic-Bold.ttf
+¦   ¦           KaTeX_Caligraphic-Bold.woff
+¦   ¦           KaTeX_Caligraphic-Bold.woff2
+¦   ¦           KaTeX_Caligraphic-Regular.ttf
+¦   ¦           KaTeX_Caligraphic-Regular.woff
+¦   ¦           KaTeX_Caligraphic-Regular.woff2
+¦   ¦           KaTeX_Fraktur-Bold.ttf
+¦   ¦           KaTeX_Fraktur-Bold.woff
+¦   ¦           KaTeX_Fraktur-Bold.woff2
+¦   ¦           KaTeX_Fraktur-Regular.ttf
+¦   ¦           KaTeX_Fraktur-Regular.woff
+¦   ¦           KaTeX_Fraktur-Regular.woff2
+¦   ¦           KaTeX_Main-Bold.ttf
+¦   ¦           KaTeX_Main-Bold.woff
+¦   ¦           KaTeX_Main-Bold.woff2
+¦   ¦           KaTeX_Main-BoldItalic.ttf
+¦   ¦           KaTeX_Main-BoldItalic.woff
+¦   ¦           KaTeX_Main-BoldItalic.woff2
+¦   ¦           KaTeX_Main-Italic.ttf
+¦   ¦           KaTeX_Main-Italic.woff
+¦   ¦           KaTeX_Main-Italic.woff2
+¦   ¦           KaTeX_Main-Regular.ttf
+¦   ¦           KaTeX_Main-Regular.woff
+¦   ¦           KaTeX_Main-Regular.woff2
+¦   ¦           KaTeX_Math-BoldItalic.ttf
+¦   ¦           KaTeX_Math-BoldItalic.woff
+¦   ¦           KaTeX_Math-BoldItalic.woff2
+¦   ¦           KaTeX_Math-Italic.ttf
+¦   ¦           KaTeX_Math-Italic.woff
+¦   ¦           KaTeX_Math-Italic.woff2
+¦   ¦           KaTeX_SansSerif-Bold.ttf
+¦   ¦           KaTeX_SansSerif-Bold.woff
+¦   ¦           KaTeX_SansSerif-Bold.woff2
+¦   ¦           KaTeX_SansSerif-Italic.ttf
+¦   ¦           KaTeX_SansSerif-Italic.woff
+¦   ¦           KaTeX_SansSerif-Italic.woff2
+¦   ¦           KaTeX_SansSerif-Regular.ttf
+¦   ¦           KaTeX_SansSerif-Regular.woff
+¦   ¦           KaTeX_SansSerif-Regular.woff2
+¦   ¦           KaTeX_Script-Regular.ttf
+¦   ¦           KaTeX_Script-Regular.woff
+¦   ¦           KaTeX_Script-Regular.woff2
+¦   ¦           KaTeX_Size1-Regular.ttf
+¦   ¦           KaTeX_Size1-Regular.woff
+¦   ¦           KaTeX_Size1-Regular.woff2
+¦   ¦           KaTeX_Size2-Regular.ttf
+¦   ¦           KaTeX_Size2-Regular.woff
+¦   ¦           KaTeX_Size2-Regular.woff2
+¦   ¦           KaTeX_Size3-Regular.ttf
+¦   ¦           KaTeX_Size3-Regular.woff
+¦   ¦           KaTeX_Size3-Regular.woff2
+¦   ¦           KaTeX_Size4-Regular.ttf
+¦   ¦           KaTeX_Size4-Regular.woff
+¦   ¦           KaTeX_Size4-Regular.woff2
+¦   ¦           KaTeX_Typewriter-Regular.ttf
+¦   ¦           KaTeX_Typewriter-Regular.woff
+¦   ¦           KaTeX_Typewriter-Regular.woff2
+¦   ¦           
+¦   +---objekte
+¦   ¦   ¦   index.html
+¦   ¦   ¦   index.xml
+¦   ¦   ¦   
+¦   ¦   +---deepsky
+¦   ¦   ¦   ¦   index.html
+¦   ¦   ¦   ¦   index.xml
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---arp
+¦   ¦   ¦   ¦       index.html
+¦   ¦   ¦   ¦       index.xml
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---ic
+¦   ¦   ¦   ¦       index.html
+¦   ¦   ¦   ¦       index.xml
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---messier
+¦   ¦   ¦   ¦   ¦   index.html
+¦   ¦   ¦   ¦   ¦   index.xml
+¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   +---m1---krebsnebel
+¦   ¦   ¦   ¦   ¦   ¦   index.html
+¦   ¦   ¦   ¦   ¦   ¦   index.xml
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   +---aufnahmen
+¦   ¦   ¦   ¦   ¦       +---c11
+¦   ¦   ¦   ¦   ¦       ¦   ¦   index.html
+¦   ¦   ¦   ¦   ¦       ¦   ¦   index.xml
+¦   ¦   ¦   ¦   ¦       ¦   ¦   
+¦   ¦   ¦   ¦   ¦       ¦   +---20240109
+¦   ¦   ¦   ¦   ¦       ¦           index.html
+¦   ¦   ¦   ¦   ¦       ¦           
+¦   ¦   ¦   ¦   ¦       +---dwarf-2
+¦   ¦   ¦   ¦   ¦           ¦   index.html
+¦   ¦   ¦   ¦   ¦           ¦   index.xml
+¦   ¦   ¦   ¦   ¦           ¦   
+¦   ¦   ¦   ¦   ¦           +---20240311
+¦   ¦   ¦   ¦   ¦                   index.html
+¦   ¦   ¦   ¦   ¦                   
+¦   ¦   ¦   ¦   +---m13---herkuleshaufen
+¦   ¦   ¦   ¦   ¦   ¦   index.html
+¦   ¦   ¦   ¦   ¦   ¦   index.xml
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   +---aufnahmen
+¦   ¦   ¦   ¦   ¦       +---c11
+¦   ¦   ¦   ¦   ¦           ¦   index.html
+¦   ¦   ¦   ¦   ¦           ¦   index.xml
+¦   ¦   ¦   ¦   ¦           ¦   
+¦   ¦   ¦   ¦   ¦           +---20230826
+¦   ¦   ¦   ¦   ¦                   index.html
+¦   ¦   ¦   ¦   ¦                   
+¦   ¦   ¦   ¦   +---m15---kugelsternhaufen
+¦   ¦   ¦   ¦   ¦   ¦   index.html
+¦   ¦   ¦   ¦   ¦   ¦   index.xml
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   +---aufnahmen
+¦   ¦   ¦   ¦   ¦       +---c11
+¦   ¦   ¦   ¦   ¦       ¦   ¦   index.html
+¦   ¦   ¦   ¦   ¦       ¦   ¦   index.xml
+¦   ¦   ¦   ¦   ¦       ¦   ¦   
+¦   ¦   ¦   ¦   ¦       ¦   +---20211008
+¦   ¦   ¦   ¦   ¦       ¦   ¦       index.html
+¦   ¦   ¦   ¦   ¦       ¦   ¦       
+¦   ¦   ¦   ¦   ¦       ¦   +---20230823
+¦   ¦   ¦   ¦   ¦       ¦           index.html
+¦   ¦   ¦   ¦   ¦       ¦           
+¦   ¦   ¦   ¦   ¦       +---dwarf-2
+¦   ¦   ¦   ¦   ¦           ¦   index.html
+¦   ¦   ¦   ¦   ¦           ¦   index.xml
+¦   ¦   ¦   ¦   ¦           ¦   
+¦   ¦   ¦   ¦   ¦           +---20250919
+¦   ¦   ¦   ¦   ¦                   index.html
+¦   ¦   ¦   ¦   ¦                   
+¦   ¦   ¦   ¦   +---m16---adlernebel
+¦   ¦   ¦   ¦   ¦   ¦   index.html
+¦   ¦   ¦   ¦   ¦   ¦   index.xml
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   +---aufnahmen
+¦   ¦   ¦   ¦   ¦       +---c11
+¦   ¦   ¦   ¦   ¦           ¦   index.html
+¦   ¦   ¦   ¦   ¦           ¦   index.xml
+¦   ¦   ¦   ¦   ¦           ¦   
+¦   ¦   ¦   ¦   ¦           +---20230908
+¦   ¦   ¦   ¦   ¦                   index.html
+¦   ¦   ¦   ¦   ¦                   
+¦   ¦   ¦   ¦   +---m2---kugelsternhaufen
+¦   ¦   ¦   ¦   ¦   ¦   index.html
+¦   ¦   ¦   ¦   ¦   ¦   index.xml
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   +---aufnahmen
+¦   ¦   ¦   ¦   ¦       +---c11
+¦   ¦   ¦   ¦   ¦           ¦   index.html
+¦   ¦   ¦   ¦   ¦           ¦   index.xml
+¦   ¦   ¦   ¦   ¦           ¦   
+¦   ¦   ¦   ¦   ¦           +---20240109
+¦   ¦   ¦   ¦   ¦                   index.html
+¦   ¦   ¦   ¦   ¦                   
+¦   ¦   ¦   ¦   +---m27---hantelnebel
+¦   ¦   ¦   ¦   ¦   ¦   index.html
+¦   ¦   ¦   ¦   ¦   ¦   index.xml
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   +---aufnahmen
+¦   ¦   ¦   ¦   ¦       +---c11
+¦   ¦   ¦   ¦   ¦           ¦   index.html
+¦   ¦   ¦   ¦   ¦           ¦   index.xml
+¦   ¦   ¦   ¦   ¦           ¦   
+¦   ¦   ¦   ¦   ¦           +---20230908
+¦   ¦   ¦   ¦   ¦                   index.html
+¦   ¦   ¦   ¦   ¦                   
+¦   ¦   ¦   ¦   +---m3---kugelsternhaufen
+¦   ¦   ¦   ¦   ¦   ¦   index.html
+¦   ¦   ¦   ¦   ¦   ¦   index.xml
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   +---aufnahmen
+¦   ¦   ¦   ¦   ¦       +---c11
+¦   ¦   ¦   ¦   ¦           ¦   index.html
+¦   ¦   ¦   ¦   ¦           ¦   index.xml
+¦   ¦   ¦   ¦   ¦           ¦   
+¦   ¦   ¦   ¦   ¦           +---20260424
+¦   ¦   ¦   ¦   ¦                   index.html
+¦   ¦   ¦   ¦   ¦                   
+¦   ¦   ¦   ¦   +---m31---andromeda-galaxie
+¦   ¦   ¦   ¦   ¦   ¦   index.html
+¦   ¦   ¦   ¦   ¦   ¦   index.xml
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   +---aufnahmen-1
+¦   ¦   ¦   ¦   ¦       +---dwarf-2
+¦   ¦   ¦   ¦   ¦           ¦   index.html
+¦   ¦   ¦   ¦   ¦           ¦   index.xml
+¦   ¦   ¦   ¦   ¦           ¦   
+¦   ¦   ¦   ¦   ¦           +---20250819
+¦   ¦   ¦   ¦   ¦                   index.html
+¦   ¦   ¦   ¦   ¦                   
+¦   ¦   ¦   ¦   +---m33---dreiecksnebel
+¦   ¦   ¦   ¦   ¦   ¦   index.html
+¦   ¦   ¦   ¦   ¦   ¦   index.xml
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   +---aufnahmen
+¦   ¦   ¦   ¦   ¦       +---dwarf-2
+¦   ¦   ¦   ¦   ¦           ¦   index.html
+¦   ¦   ¦   ¦   ¦           ¦   index.xml
+¦   ¦   ¦   ¦   ¦           ¦   
+¦   ¦   ¦   ¦   ¦           +---20250819
+¦   ¦   ¦   ¦   ¦                   index.html
+¦   ¦   ¦   ¦   ¦                   
+¦   ¦   ¦   ¦   +---m42---orionnebel
+¦   ¦   ¦   ¦   ¦   ¦   index.html
+¦   ¦   ¦   ¦   ¦   ¦   index.xml
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   +---aufnahmen
+¦   ¦   ¦   ¦   ¦       +---c11
+¦   ¦   ¦   ¦   ¦       ¦   ¦   index.html
+¦   ¦   ¦   ¦   ¦       ¦   ¦   index.xml
+¦   ¦   ¦   ¦   ¦       ¦   ¦   
+¦   ¦   ¦   ¦   ¦       ¦   +---20240108
+¦   ¦   ¦   ¦   ¦       ¦           index.html
+¦   ¦   ¦   ¦   ¦       ¦           
+¦   ¦   ¦   ¦   ¦       +---dwarf-2
+¦   ¦   ¦   ¦   ¦           ¦   index.html
+¦   ¦   ¦   ¦   ¦           ¦   index.xml
+¦   ¦   ¦   ¦   ¦           ¦   
+¦   ¦   ¦   ¦   ¦           +---20250919
+¦   ¦   ¦   ¦   ¦                   index.html
+¦   ¦   ¦   ¦   ¦                   
+¦   ¦   ¦   ¦   +---m45---plejaden
+¦   ¦   ¦   ¦   ¦   ¦   index.html
+¦   ¦   ¦   ¦   ¦   ¦   index.xml
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   +---aufnahmen
+¦   ¦   ¦   ¦   ¦       +---dwarf-2
+¦   ¦   ¦   ¦   ¦           ¦   index.html
+¦   ¦   ¦   ¦   ¦           ¦   index.xml
+¦   ¦   ¦   ¦   ¦           ¦   
+¦   ¦   ¦   ¦   ¦           +---20241103
+¦   ¦   ¦   ¦   ¦           ¦       index.html
+¦   ¦   ¦   ¦   ¦           ¦       
+¦   ¦   ¦   ¦   ¦           +---20250919
+¦   ¦   ¦   ¦   ¦                   index.html
+¦   ¦   ¦   ¦   ¦                   
+¦   ¦   ¦   ¦   +---m51---whirlpool-galaxie
+¦   ¦   ¦   ¦   ¦   ¦   index.html
+¦   ¦   ¦   ¦   ¦   ¦   index.xml
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   +---aufnahmen
+¦   ¦   ¦   ¦   ¦       +---c11
+¦   ¦   ¦   ¦   ¦           ¦   index.html
+¦   ¦   ¦   ¦   ¦           ¦   index.xml
+¦   ¦   ¦   ¦   ¦           ¦   
+¦   ¦   ¦   ¦   ¦           +---20240108
+¦   ¦   ¦   ¦   ¦                   index.html
+¦   ¦   ¦   ¦   ¦                   
+¦   ¦   ¦   ¦   +---m57---ringnebel
+¦   ¦   ¦   ¦   ¦   ¦   index.html
+¦   ¦   ¦   ¦   ¦   ¦   index.xml
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   +---aufnahmen
+¦   ¦   ¦   ¦   ¦       +---c11
+¦   ¦   ¦   ¦   ¦           ¦   index.html
+¦   ¦   ¦   ¦   ¦           ¦   index.xml
+¦   ¦   ¦   ¦   ¦           ¦   
+¦   ¦   ¦   ¦   ¦           +---20240108
+¦   ¦   ¦   ¦   ¦                   index.html
+¦   ¦   ¦   ¦   ¦                   
+¦   ¦   ¦   ¦   +---m58---galaxie
+¦   ¦   ¦   ¦       ¦   index.html
+¦   ¦   ¦   ¦       ¦   index.xml
+¦   ¦   ¦   ¦       ¦   
+¦   ¦   ¦   ¦       +---aufnahmen
+¦   ¦   ¦   ¦           +---c11
+¦   ¦   ¦   ¦               ¦   index.html
+¦   ¦   ¦   ¦               ¦   index.xml
+¦   ¦   ¦   ¦               ¦   
+¦   ¦   ¦   ¦               +---20260425
+¦   ¦   ¦   ¦                       index.html
+¦   ¦   ¦   ¦                       
+¦   ¦   ¦   +---ngc
+¦   ¦   ¦       ¦   index.html
+¦   ¦   ¦       ¦   index.xml
+¦   ¦   ¦       ¦   
+¦   ¦   ¦       +---ngc1004---galaxie-elliptisch
+¦   ¦   ¦       ¦       index.html
+¦   ¦   ¦       ¦       index.xml
+¦   ¦   ¦       ¦       
+¦   ¦   ¦       +---ngc891---spiralgalaxie-kante
+¦   ¦   ¦           ¦   index.html
+¦   ¦   ¦           ¦   index.xml
+¦   ¦   ¦           ¦   
+¦   ¦   ¦           +---aufnahmen
+¦   ¦   ¦               +---c11
+¦   ¦   ¦                   ¦   index.html
+¦   ¦   ¦                   ¦   index.xml
+¦   ¦   ¦                   ¦   
+¦   ¦   ¦                   +---20240109-1
+¦   ¦   ¦                           index.html
+¦   ¦   ¦                           
+¦   ¦   +---mond
+¦   ¦   ¦       index.html
+¦   ¦   ¦       index.xml
+¦   ¦   ¦       
+¦   ¦   +---planeten
+¦   ¦   ¦       index.html
+¦   ¦   ¦       index.xml
+¦   ¦   ¦       
+¦   ¦   +---sonne
+¦   ¦           index.html
+¦   ¦           index.xml
+¦   ¦           
+¦   +---projekte
+¦   ¦   ¦   index.html
+¦   ¦   ¦   index.xml
+¦   ¦   ¦   
+¦   ¦   +---_index.md
+¦   ¦           index.html
+¦   ¦           
+¦   +---public
+¦   ¦   ¦   index.xml
+¦   ¦   ¦   sitemap.xml
+¦   ¦   ¦   
+¦   ¦   +---categories
+¦   ¦   ¦       index.xml
+¦   ¦   ¦       
+¦   ¦   +---tags
+¦   ¦           index.xml
+¦   ¦           
+¦   +---tags
+¦   ¦       index.html
+¦   ¦       index.xml
+¦   ¦       
+¦   +---workflows
+¦       ¦   index.html
+¦       ¦   index.xml
+¦       ¦   
+¦       +---_index.md
+¦               index.html
+¦               
++---static
+¦   +---css
+¦   ¦       custom.css
+¦   ¦       
+¦   +---images
+¦           stars.jpg
+¦           
++---themes
+    +---hugo-book
+        ¦   .gitignore
+        ¦   go.mod
+        ¦   hugo.toml
+        ¦   LICENSE
+        ¦   README.md
+        ¦   theme.toml
+        ¦   
+        +---.github
+        ¦   +---workflows
+        ¦           deploy.yml
+        ¦           main.yml
+        ¦           
+        +---archetypes
+        ¦       book.md
+        ¦       docs.md
+        ¦       landing.md
+        ¦       posts.md
+        ¦       
+        +---assets
+        ¦   ¦   clipboard.js
+        ¦   ¦   iconset.svg
+        ¦   ¦   manifest.json
+        ¦   ¦   menu-reset.js
+        ¦   ¦   mermaid.js
+        ¦   ¦   mermaid.json
+        ¦   ¦   search-data.json
+        ¦   ¦   search.js
+        ¦   ¦   sw-register.js
+        ¦   ¦   sw.js
+        ¦   ¦   
+        ¦   +---icons
+        ¦   ¦       backward.svg
+        ¦   ¦       calendar.svg
+        ¦   ¦       chevron-right.svg
+        ¦   ¦       edit.svg
+        ¦   ¦       forward.svg
+        ¦   ¦       incoming.svg
+        ¦   ¦       markdown.svg
+        ¦   ¦       menu.svg
+        ¦   ¦       outgoing.svg
+        ¦   ¦       toc.svg
+        ¦   ¦       translate.svg
+        ¦   ¦       
+        ¦   +---plugins
+        ¦   +---styles
+        ¦           book.css
+        ¦           custom.css
+        ¦           index.yaml
+        ¦           markdown.css
+        ¦           normalize.css
+        ¦           print.css
+        ¦           shortcodes.css
+        ¦           themes.css
+        ¦           utils.css
+        ¦           variables.css
+        ¦           
+        +---exampleSite
+        ¦   ¦   hugo.toml
+        ¦   ¦   hugo.yaml
+        ¦   ¦   
+        ¦   +---assets
+        ¦   ¦   ¦   asciinema-627097.cast
+        ¦   ¦   ¦   book-starter.cast
+        ¦   ¦   ¦   placeholder.svg
+        ¦   ¦   ¦   thumbnail.svg
+        ¦   ¦   ¦   tictactoe.json
+        ¦   ¦   ¦   
+        ¦   ¦   +---icons
+        ¦   ¦   ¦       apparel.svg
+        ¦   ¦   ¦       rocket.svg
+        ¦   ¦   ¦       
+        ¦   ¦   +---styles
+        ¦   ¦           custom.css
+        ¦   ¦           
+        ¦   +---content.en
+        ¦   ¦   ¦   _index.md
+        ¦   ¦   ¦   
+        ¦   ¦   +---docs
+        ¦   ¦   ¦   ¦   _index.md
+        ¦   ¦   ¦   ¦   
+        ¦   ¦   ¦   +---content
+        ¦   ¦   ¦   ¦   ¦   blog.md
+        ¦   ¦   ¦   ¦   ¦   menus.md
+        ¦   ¦   ¦   ¦   ¦   multilingual.md
+        ¦   ¦   ¦   ¦   ¦   organisation.md
+        ¦   ¦   ¦   ¦   ¦   pages.md
+        ¦   ¦   ¦   ¦   ¦   _index.md
+        ¦   ¦   ¦   ¦   ¦   
+        ¦   ¦   ¦   ¦   +---shortcodes
+        ¦   ¦   ¦   ¦       ¦   asciinema.md
+        ¦   ¦   ¦   ¦       ¦   buttons.md
+        ¦   ¦   ¦   ¦       ¦   columns.md
+        ¦   ¦   ¦   ¦       ¦   details.md
+        ¦   ¦   ¦   ¦       ¦   hints.md
+        ¦   ¦   ¦   ¦       ¦   katex.md
+        ¦   ¦   ¦   ¦       ¦   mermaid.md
+        ¦   ¦   ¦   ¦       ¦   section.md
+        ¦   ¦   ¦   ¦       ¦   steps.md
+        ¦   ¦   ¦   ¦       ¦   tabs.md
+        ¦   ¦   ¦   ¦       ¦   _index.md
+        ¦   ¦   ¦   ¦       ¦   
+        ¦   ¦   ¦   ¦       +---experimental
+        ¦   ¦   ¦   ¦               images.md
+        ¦   ¦   ¦   ¦               openapi.md
+        ¦   ¦   ¦   ¦               _index.md
+        ¦   ¦   ¦   ¦               
+        ¦   ¦   ¦   +---customization
+        ¦   ¦   ¦   ¦       inject-partials.md
+        ¦   ¦   ¦   ¦       styles.md
+        ¦   ¦   ¦   ¦       _index.md
+        ¦   ¦   ¦   ¦       
+        ¦   ¦   ¦   +---getting-started
+        ¦   ¦   ¦           configuration.md
+        ¦   ¦   ¦           create-a-site.md
+        ¦   ¦   ¦           introduction.md
+        ¦   ¦   ¦           _index.md
+        ¦   ¦   ¦           
+        ¦   ¦   +---posts
+        ¦   ¦   ¦       example-post.md
+        ¦   ¦   ¦       _index.md
+        ¦   ¦   ¦       
+        ¦   ¦   +---showcases
+        ¦   ¦           ayu-dark.png
+        ¦   ¦           ayu-light.png
+        ¦   ¦           catppuccin-dark.png
+        ¦   ¦           catppuccin-light.png
+        ¦   ¦           contrast-dark.png
+        ¦   ¦           contrast-light.png
+        ¦   ¦           dark.png
+        ¦   ¦           light.png
+        ¦   ¦           _index.md
+        ¦   ¦           
+        ¦   +---content.he
+        ¦   ¦   ¦   _index.md
+        ¦   ¦   ¦   
+        ¦   ¦   +---docs
+        ¦   ¦           _index.md
+        ¦   ¦           
+        ¦   +---content.zh
+        ¦       ¦   _index.md
+        ¦       ¦   
+        ¦       +---docs
+        ¦               _index.md
+        ¦               
+        +---i18n
+        ¦       am.yaml
+        ¦       bg.yaml
+        ¦       bn.yaml
+        ¦       cn.yaml
+        ¦       cs.yaml
+        ¦       de.yaml
+        ¦       en.yaml
+        ¦       es.yaml
+        ¦       fa.yaml
+        ¦       fr.yaml
+        ¦       he.yaml
+        ¦       it.yaml
+        ¦       ja.yaml
+        ¦       jp.yaml
+        ¦       ko.yaml
+        ¦       nb.yaml
+        ¦       nl.yaml
+        ¦       oc.yaml
+        ¦       pl.yaml
+        ¦       pt-BR.yaml
+        ¦       pt.yaml
+        ¦       ru.yaml
+        ¦       sv.yaml
+        ¦       sw.yaml
+        ¦       tr.yaml
+        ¦       uk.yaml
+        ¦       zh-TW.yaml
+        ¦       zh.yaml
+        ¦       
+        +---images
+        ¦       screenshot.png
+        ¦       tn.png
+        ¦       
+        +---layouts
+        ¦   ¦   404.html
+        ¦   ¦   all.txt
+        ¦   ¦   baseof.html
+        ¦   ¦   book.html
+        ¦   ¦   book.txt
+        ¦   ¦   landing.html
+        ¦   ¦   list.html
+        ¦   ¦   single.html
+        ¦   ¦   term.html
+        ¦   ¦   
+        ¦   +---posts
+        ¦   ¦       list.html
+        ¦   ¦       single.html
+        ¦   ¦       
+        ¦   +---_markup
+        ¦   ¦       render-blockquote.html
+        ¦   ¦       render-codeblock-katex.html
+        ¦   ¦       render-codeblock-mermaid.html
+        ¦   ¦       render-codeblock.html
+        ¦   ¦       render-heading.html
+        ¦   ¦       render-image.html
+        ¦   ¦       render-link.html
+        ¦   ¦       
+        ¦   +---_partials
+        ¦   ¦   +---docs
+        ¦   ¦       ¦   brand.html
+        ¦   ¦       ¦   breadcrumbs.html
+        ¦   ¦       ¦   comments.html
+        ¦   ¦       ¦   copyright.html
+        ¦   ¦       ¦   date.html
+        ¦   ¦       ¦   footer.html
+        ¦   ¦       ¦   header.html
+        ¦   ¦       ¦   html-attrs.html
+        ¦   ¦       ¦   html-head-favicon.html
+        ¦   ¦       ¦   html-head-generator.html
+        ¦   ¦       ¦   html-head-styles.html
+        ¦   ¦       ¦   html-head-title.html
+        ¦   ¦       ¦   html-head.html
+        ¦   ¦       ¦   icon.html
+        ¦   ¦       ¦   languages.html
+        ¦   ¦       ¦   menu-filetree.html
+        ¦   ¦       ¦   menu-hugo.html
+        ¦   ¦       ¦   menu-icon.html
+        ¦   ¦       ¦   menu-section-pages.html
+        ¦   ¦       ¦   menu-section.html
+        ¦   ¦       ¦   menu.html
+        ¦   ¦       ¦   pagination.html
+        ¦   ¦       ¦   post-meta.html
+        ¦   ¦       ¦   post-prev-next.html
+        ¦   ¦       ¦   prev-next.html
+        ¦   ¦       ¦   search.html
+        ¦   ¦       ¦   taxonomy.html
+        ¦   ¦       ¦   title.html
+        ¦   ¦       ¦   toc.html
+        ¦   ¦       ¦   
+        ¦   ¦       +---inject
+        ¦   ¦       ¦       body.html
+        ¦   ¦       ¦       content-after.html
+        ¦   ¦       ¦       content-before.html
+        ¦   ¦       ¦       footer.html
+        ¦   ¦       ¦       head.html
+        ¦   ¦       ¦       menu-after.html
+        ¦   ¦       ¦       menu-before.html
+        ¦   ¦       ¦       toc-after.html
+        ¦   ¦       ¦       toc-before.html
+        ¦   ¦       ¦       
+        ¦   ¦       +---links
+        ¦   ¦       ¦       commit.html
+        ¦   ¦       ¦       edit.html
+        ¦   ¦       ¦       home.html
+        ¦   ¦       ¦       iconset.html
+        ¦   ¦       ¦       portable-image.html
+        ¦   ¦       ¦       portable-link.html
+        ¦   ¦       ¦       resource-precache.html
+        ¦   ¦       ¦       
+        ¦   ¦       +---shortcodes
+        ¦   ¦       ¦       katex.html
+        ¦   ¦       ¦       mermaid.html
+        ¦   ¦       ¦       
+        ¦   ¦       +---text
+        ¦   ¦               i18n.html
+        ¦   ¦               mapper.html
+        ¦   ¦               shortcode-id.html
+        ¦   ¦               template.html
+        ¦   ¦               
+        ¦   +---_shortcodes
+        ¦           asciinema.html
+        ¦           button.html
+        ¦           columns.html
+        ¦           details.html
+        ¦           hint.html
+        ¦           html.html
+        ¦           i18n.html
+        ¦           image.html
+        ¦           katex.html
+        ¦           mermaid.html
+        ¦           openapi.html
+        ¦           section.html
+        ¦           steps.html
+        ¦           tab.html
+        ¦           tabs.html
+        ¦           
+        +---static
+            ¦   apple-touch-icon.png
+            ¦   favicon.png
+            ¦   favicon.svg
+            ¦   mermaid.min.js
+            ¦   minisearch.min.js
+            ¦   
+            +---asciinema
+            ¦       asciinema-auto.js
+            ¦       asciinema-player.css
+            ¦       asciinema-player.min.js
+            ¦       
+            +---katex
+                ¦   katex.min.css
+                ¦   
+                +---fonts
+                        KaTeX_AMS-Regular.ttf
+                        KaTeX_AMS-Regular.woff
+                        KaTeX_AMS-Regular.woff2
+                        KaTeX_Caligraphic-Bold.ttf
+                        KaTeX_Caligraphic-Bold.woff
+                        KaTeX_Caligraphic-Bold.woff2
+                        KaTeX_Caligraphic-Regular.ttf
+                        KaTeX_Caligraphic-Regular.woff
+                        KaTeX_Caligraphic-Regular.woff2
+                        KaTeX_Fraktur-Bold.ttf
+                        KaTeX_Fraktur-Bold.woff
+                        KaTeX_Fraktur-Bold.woff2
+                        KaTeX_Fraktur-Regular.ttf
+                        KaTeX_Fraktur-Regular.woff
+                        KaTeX_Fraktur-Regular.woff2
+                        KaTeX_Main-Bold.ttf
+                        KaTeX_Main-Bold.woff
+                        KaTeX_Main-Bold.woff2
+                        KaTeX_Main-BoldItalic.ttf
+                        KaTeX_Main-BoldItalic.woff
+                        KaTeX_Main-BoldItalic.woff2
+                        KaTeX_Main-Italic.ttf
+                        KaTeX_Main-Italic.woff
+                        KaTeX_Main-Italic.woff2
+                        KaTeX_Main-Regular.ttf
+                        KaTeX_Main-Regular.woff
+                        KaTeX_Main-Regular.woff2
+                        KaTeX_Math-BoldItalic.ttf
+                        KaTeX_Math-BoldItalic.woff
+                        KaTeX_Math-BoldItalic.woff2
+                        KaTeX_Math-Italic.ttf
+                        KaTeX_Math-Italic.woff
+                        KaTeX_Math-Italic.woff2
+                        KaTeX_SansSerif-Bold.ttf
+                        KaTeX_SansSerif-Bold.woff
+                        KaTeX_SansSerif-Bold.woff2
+                        KaTeX_SansSerif-Italic.ttf
+                        KaTeX_SansSerif-Italic.woff
+                        KaTeX_SansSerif-Italic.woff2
+                        KaTeX_SansSerif-Regular.ttf
+                        KaTeX_SansSerif-Regular.woff
+                        KaTeX_SansSerif-Regular.woff2
+                        KaTeX_Script-Regular.ttf
+                        KaTeX_Script-Regular.woff
+                        KaTeX_Script-Regular.woff2
+                        KaTeX_Size1-Regular.ttf
+                        KaTeX_Size1-Regular.woff
+                        KaTeX_Size1-Regular.woff2
+                        KaTeX_Size2-Regular.ttf
+                        KaTeX_Size2-Regular.woff
+                        KaTeX_Size2-Regular.woff2
+                        KaTeX_Size3-Regular.ttf
+                        KaTeX_Size3-Regular.woff
+                        KaTeX_Size3-Regular.woff2
+                        KaTeX_Size4-Regular.ttf
+                        KaTeX_Size4-Regular.woff
+                        KaTeX_Size4-Regular.woff2
+                        KaTeX_Typewriter-Regular.ttf
+                        KaTeX_Typewriter-Regular.woff
+                        KaTeX_Typewriter-Regular.woff2
+                        
