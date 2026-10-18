@@ -55,9 +55,5 @@ defaultContentLanguage = 'de'
   source = 'content'
   target = 'content'
 
-[[module.mounts]]
-  source = 'D:/Astronomie/Astro_Obstidian/Astro_Base/Bilder'  
-  target = 'static/Bilder'
-
 
 
