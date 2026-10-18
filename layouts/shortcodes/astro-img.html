@@ -1,0 +1,18 @@
+<!-- Wir prüfen erst den Index 0, und falls leer, den Namen "src" -->
+{{- $src := .Get 0 | default (.Get "src") -}}
+
+<div class="astro-lightbox-wrapper" style="text-align: center; margin: 1.5rem 0;">
+  <!-- Das native HTML-Akkordeon fungiert als unblockierbare Lightbox -->
+  <details class="astro-lightbox-details">
+    <summary style="list-style: none; cursor: zoom-in;">
+      <!-- 1. Das normale Bild im Fließtext -->
+      <img src="{{ $src }}" alt="Astrofoto" style="max-width: 100%; height: auto; border-radius: 24px;">
+    </summary>
+    
+    <!-- 2. Das Vollbild-Overlay, das sich beim Klick öffnet -->
+    <div class="astro-lightbox-overlay">
+      <img src="{{ $src }}" alt="Astrofoto Vollbild">
+    </div>
+  </details>
+</div>
+

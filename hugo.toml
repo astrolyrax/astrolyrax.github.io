@@ -41,6 +41,13 @@ defaultContentLanguage = 'de'
   layout = ["_index", "page"]
 
 # ---------------------------------------------------------------------
+# SICHERHEITS-FREIGABE (Erlaubt Hugo den Zugriff auf deine Festplatte)
+# ---------------------------------------------------------------------
+[security]
+  [security.exec]
+    allowDirs = ['D:/Astronomie', 'D:/AstroLyrax']
+
+# ---------------------------------------------------------------------
 # ORDNER-MOUNTS (Direkter Zugriff auf dein Obsidian-Vault)
 # ---------------------------------------------------------------------
 [[module.mounts]]
@@ -55,5 +62,9 @@ defaultContentLanguage = 'de'
   source = 'content'
   target = 'content'
 
+# Die absolut sichere und freigegebene Verbindung zu deinen Astrofotos
+[[module.mounts]]
+  source = 'D:/Astronomie/Astro_Obstidian/Astro_Base/Bilder'  
+  target = 'static/Bilder'
 
 

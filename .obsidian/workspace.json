@@ -187,6 +187,14 @@
   },
   "active": "0c66758761ac8fad",
   "lastOpenFiles": [
+    "public/book.min.e418aa78d04977d7029f5f0e57051bbfce3acb423bc128c69dd282689e54b35e.css",
+    "layouts/shortcodes/astro-img.html",
+    "resources/_gen/images",
+    "resources/_gen/assets",
+    "resources/_gen",
+    "resources",
+    "public/book.min.4f6e2aab7235243a75866cb537ba054c2316fbe412b88bf8ec8236a38a4cfad3.css",
+    "public/Bilder/M1_C11_StackingWizard_AstroWizard_20240109.jpg",
     "content/Objekte/Deepsky/Messier/M1 - Krebsnebel/Aufnahmen/C11/20240109.md",
     "static/Bilder/05 - Objekte/03 - IC/IC5070 - Pelikannebel/Dwarf/IC_5070_Dwarf_StackedWizard_AstroWitard_Darktable_1.jpg",
     "static/Bilder/05 - Objekte/03 - IC/IC443 - Quallennebel/Dwarf/IC443_Dwarf_StackingWizard_AstroWizard_Darktable_1.jpg",
@@ -197,17 +205,10 @@
     "static/Bilder/05 - Objekte/03 - IC/IC1396 - Elefantenrüssel/Dwarf/IC1396_Dwarf_StackingWizard_AstroWizard_Darktable_1.jpg",
     "static/Bilder/05 - Objekte/02 - NGC/NGC891 - Spiralgalaxie Kante/C11/NGC891_C11_StackingWizard_AstroWizard_Darktable_20230907.jpg",
     "static/Bilder/05 - Objekte/02 - NGC/NGC7635 - Blasennebel/C11/NGC7635_C11_AstroWizard_Darktable.jpg",
-    "static/Bilder/05 - Objekte/02 - NGC/NGC7331 - Spiralgalaxie/C11/NGC7331_C11_StackingWizard_AstroWizard_Darktable_1.jpg",
     "static/Bilder/05 - Objekte/03 - IC/IC5070 - Pelikannebel/Dwarf",
     "static/Bilder/05 - Objekte/03 - IC/IC443 - Quallennebel/Dwarf",
     "static/Bilder/05 - Objekte/03 - IC/IC434 - Pferdekopfnebel/Dwarf",
     "static/Bilder/05 - Objekte/03 - IC/IC342 - Balkenspiralgalaxie/Dwarf",
-    "static/Bilder/05 - Objekte/03 - IC/IC2177 - Seemövennebel/Dwarf",
-    "static/Bilder/05 - Objekte/03 - IC/IC1805 - Herznebel/Dwarf",
-    "static/Bilder/05 - Objekte/03 - IC/IC1396 - Elefantenrüssel/Dwarf",
-    "static/Bilder/05 - Objekte/02 - NGC/NGC891 - Spiralgalaxie Kante/C11",
-    "static/Bilder/05 - Objekte/02 - NGC/NGC7635 - Blasennebel/DWARF",
-    "static/Bilder/05 - Objekte/02 - NGC/NGC7635 - Blasennebel/C11",
     "content/Objekte/Deepsky/Messier/M58 - Galaxie/Aufnahmen/C11/_index.md",
     "content/Objekte/Deepsky/Messier/M58 - Galaxie/Aufnahmen/C11/20260425.md",
     "content/Objekte/Deepsky/Messier/M57 - Ringnebel/Aufnahmen/C11/_index.md",
@@ -231,7 +232,6 @@
     "content/Objekte/Deepsky/Messier/M31 - Andromeda-Galaxie/Aufnahmen 1/Dwarf 2/_index.md",
     "content/Objekte/Deepsky/Messier/M31 - Andromeda-Galaxie/Aufnahmen 1/Dwarf 2/20250819.md",
     "content/Objekte/Deepsky/Messier/M31 - Andromeda-Galaxie/_index.md",
-    "content/Objekte/Deepsky/Messier/M27 - Hantelnebel/_index.md",
-    "content/Objekte/Deepsky/Messier/M27 - Hantelnebel/Aufnahmen/C11/_index.md"
+    "content/Objekte/Deepsky/Messier/M27 - Hantelnebel/_index.md"
   ]
 }
