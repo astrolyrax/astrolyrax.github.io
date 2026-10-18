@@ -1,23 +1,20 @@
 {{- $src := .Get 0 -}}
 {{- $id := $src | urlize -}}
 
-<!-- Wir holen uns die echte Haupt-Internetadresse deines Projekts -->
-{{- $baseURL := site.BaseURL -}}
-
-<!-- Wir säubern den Bildpfad von führenden Slashes, falls Obsidian welche mitsendet -->
+<!-- 1. Wir säubern den Pfad von doppelten Präfixen -->
 {{- $cleanSrc := strings.TrimPrefix "/" $src -}}
+{{- $cleanSrc := strings.TrimPrefix "Bilder/" $cleanSrc -}}
+{{- $permalink := printf "/Bilder/%s" $cleanSrc -}}
 
-<!-- Wir schmieden den absoluten und unfehlbaren Web-Pfad direkt zur Grafik -->
-{{- $permalink := printf "%s%s" $baseURL $cleanSrc -}}
-
-<!-- 1. Das normale Bild im Fließtext (mit deinen runden Ecken und blauem Rand) -->
+<!-- 1. Das normale Bild im Fließtext (triggert jetzt das Overlay-Div für den Fullscreen) -->
 <figure class="astro-photo" style="text-align: center; margin: 1.5rem 0;">
   <img src="{{ $permalink }}" alt="Astrofoto" style="max-width: 100%; height: auto; border-radius: 24px; cursor: zoom-in;" 
        onclick="let container = document.getElementById('lb-container-{{ $id }}'); container.style.display = 'flex'; if (container.requestFullscreen) { container.requestFullscreen(); } else if (container.webkitRequestFullscreen) { container.webkitRequestFullscreen(); }">
 </figure>
 
-<!-- 2. Das unfehlbare Vollbild-Overlay (wird erst bei Klick sichtbar) -->
-<div id="lb-container-{{ $id }}" class="astro-custom-lightbox" style="display: none;" onclick="if (document.exitFullscreen) { document.exitFullscreen(); } else if (document.webkitExitFullscreen) { document.webkitExitFullscreen(); } this.style.display = 'none';">
+<!-- 2. Das unfehlbare Vollbild-Overlay (wird in den echten F11-Modus gezwungen) -->
+<div id="lb-container-{{ $id }}" class="astro-custom-lightbox" style="display: none;" 
+     onclick="if (document.exitFullscreen) { document.exitFullscreen(); } else if (document.webkitExitFullscreen) { document.webkitExitFullscreen(); } this.style.display = 'none';">
   <img src="{{ $permalink }}" alt="Astrofoto Vollbild">
 </div>
 
