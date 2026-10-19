@@ -131,8 +131,6 @@ td:first-child {
   border-bottom: none !important;
 }
 
-
-
 /* --- DEINE UNFEHLBAREN BREITEN-KORREKTUREN --- */
 .book-page, .markdown, main, .container {
   max-width: 100% !important;
@@ -173,7 +171,6 @@ a:hover .astro-text {
     0 0 45px #38bdf8 !important;
 }
 
-
 /* --- LOGO OPTIK-FINETUNING --- */
 .astro-logo {
   margin-right: 12px;                /* Schiebt den Text "AstroLyrax" dezent nach rechts */
@@ -186,6 +183,7 @@ a:hover .astro-text {
   filter: drop-shadow(0 0 8px #ffffff) drop-shadow(0 0 15px #38bdf8);
   transform: scale(1.05);            /* Lässt das Logo beim Drüberfahren minimal pulsieren */
 }
+
 /* --- HIERARCHISCHE VERBINDUNGSLINIEN FÜR DIE NAVIGATION --- */
 
 /* Der Hauptcontainer der Navigation braucht eine relative Basis */
@@ -196,7 +194,7 @@ a:hover .astro-text {
 /* Jede neue Unterebene rückt nur minimal ein, um Platz zu sparen */
 .book-menu-content ul {
   list-style: none !important;
-  padding-left: 0.85rem !important; /* Deutlich kompakter, verhindert Umbrüche */
+  padding-left: 0.65rem !important; /* Deutlich kompakter, verhindert Umbrüche */
   margin: 0 !important;
   position: relative;
 }
@@ -227,7 +225,7 @@ a:hover .astro-text {
 .book-menu-content li::before {
   content: "";
   position: absolute;
-  top: 0.95rem; /* Perfekt mittig zur ersten Textzeile */
+  top: 1.1rem; /* Perfekt mittig zur ersten Textzeile */
   left: 0rem;   /* Startet exakt auf der senkrechten Linie des ULs */
   width: 0.45rem; /* Kurze, knackige Linie */
   border-top: 1px solid #374151 !important;
@@ -340,7 +338,7 @@ figure img {
   filter: drop-shadow(0px 0px 15px rgba(11, 15, 25, 0.9)) !important;
   
   /* Ein hauchdünner, dunkler Rand, der den Übergang ins All erleichtert */
-  border: 1px solid rgba(55, 65, 81, 0.4) !important; 
+  border: 1px solid rgba(55, 65, 81, 0.6) !important; 
 }
 
 /* Bildunterschriften dezent und elegant formatieren */
@@ -399,7 +397,7 @@ figure img {
   opacity: 0 !important;
 }
 
-/* --- RECHTES INHALTSVERZEICHNIS: DIMM-EFFEKT --- */
+/* --- RECHTES MENÜ INHALTSVERZEICHNIS: DIMM-EFFEKT --- */
 
 /* Der Hauptcontainer des rechten Verzeichnisses */
 .book-toc {
@@ -408,7 +406,7 @@ figure img {
 
 /* Die innere Navigation formbündig machen */
 .book-toc-content nav {
-  border-left: 1px solid rgba(56, 189, 248, 0.1) !important; /* Hauchzarter Anker */
+  border-left: 1px solid rgba(56, 189, 248, 0.4) !important; /* Hauchzarter Anker */
   padding-left: 1rem !important;
 }
 
@@ -424,7 +422,7 @@ figure img {
 
 /* Normalzustand rechts: Exakt das gleiche, harmonische Astro-Blau wie links */
 .book-toc-content a {
-  color: #3b526d !important;       
+  color: #24789E !important;       
   opacity: 0.90 !important;
   font-size: 0.9rem !important;
   font-family: 'Inter', sans-serif !important;
@@ -447,7 +445,7 @@ figure img {
 
 /* Normalzustand: Minimal aufgehelltes Astro-Blau für optimale Balance aus Ruhe und Lesbarkeit */
 .book-menu-content a {
-  color: #3b526d !important;    /* Nuance heller als vorher – perfekter Kompromiss */
+  color: #24789E !important;    /* Nuance heller als vorher – perfekter Kompromiss */
   opacity: 0.90 !important;      /* Deckkraft minimal angehoben, damit die Farbe sauber durchbricht */
   transition: all 0.25s ease !important;
   text-shadow: none !important; 
@@ -475,7 +473,7 @@ figure img {
 }
 
 .astro-photo-frame:hover {
-  border-color: #38bdf8 !important;
+  border-color: #000000 !important;
 }
 
 /* DER MAGISCHE CLOU: Wenn das Bild im echten Browser-Fullscreen aktiv ist, 
