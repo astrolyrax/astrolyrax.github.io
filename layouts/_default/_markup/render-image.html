@@ -1,20 +1,31 @@
 {{- $src := .Destination -}}
 
-<!-- Wir entfernen eventuelle Altlasten aus dem Pfad -->
-{{- $src = strings.TrimPrefix "content/" $src -}}
-{{- $src = strings.TrimPrefix "/" $src -}}
+<!-- Wir säubern den Pfad für die static-Brücke -->
+{{- $cleanSrc := strings.TrimPrefix "/" $src -}}
+{{- $cleanSrc := strings.TrimPrefix "Bilder/" $cleanSrc -}}
+{{- $permalink := printf "/Bilder/%s" $cleanSrc -}}
+{{- $id := $cleanSrc | urlize -}}
 
-<!-- Hugo sucht das Bild jetzt direkt im frisch definierten Assets-Bilderordner -->
-{{- $img := resources.Get (printf "Bilder/%s" (strings.TrimPrefix "Bilder/" $src)) -}}
-
-{{- if $img -}}
-  <figure class="astro-photo">
-    <img src="{{ $img.RelPermalink }}" alt="{{ .Text | default "Astrofoto" }}" style="max-width: 100%; height: auto; border-radius: 4px;">
-    {{ with .Text }}<figcaption style="font-style: italic; color: #666; margin-top: 5px;">{{ . }}</figcaption>{{ end }}
-  </figure>
-{{- else -}}
-  <!-- Falls das Bild auf der Festplatte fehlt, zeigt Hugo diese Warnung an -->
-  <div style="background: #fee; border: 1px solid #f99; padding: 10px; color: #c00; font-family: monospace;">
-    ⚠️ Astrofoto nicht im Bilderordner gefunden: {{ $src }}
+<figure class="astro-photo" style="text-align: center; margin: 1.5rem 0;">
+  <!-- Wir verpacken das Bild in einen unblockierbaren Klick-Container mit einer eindeutigen ID -->
+  <div id="wrapper-{{ $id }}" class="astro-fullscreen-wrapper" style="display: inline-block; cursor: zoom-in;">
+    <img src="{{ $permalink }}" alt="{{ .Text | default "Astrofoto" }}" class="astro-photo-frame">
   </div>
-{{- end -}}
+  
+  {{ with .Text }}
+    <figcaption style="font-style: italic; color: #888; margin-top: 8px;">{{ . }}</figcaption>
+  {{ end }}
+</figure>
+
+<!-- Dieser Skript-Block ist für den Hugo-Filter unsichtbar und bindet den Klick-Befehl bombenfest an das Bild -->
+<script>
+  document.getElementById('wrapper-{{ $id }}').addEventListener('click', function() {
+    let img = this.querySelector('img');
+    if (img.requestFullscreen) {
+      img.requestFullscreen();
+    } else if (img.webkitRequestFullscreen) {
+      img.webkitRequestFullscreen();
+    }
+  });
+</script>
+

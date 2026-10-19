@@ -1,0 +1,31 @@
+{{- $src := .Get "src" | default (.Get 0) -}}
+{{- $alt := .Get "alt" | default (.Get 1) | default "Astrofoto" -}}
+
+<!-- Wir säubern den Pfad für deine funktionierende static-Brücke -->
+{{- $cleanSrc := strings.TrimPrefix "/" $src -}}
+{{- $cleanSrc := strings.TrimPrefix "Bilder/" $cleanSrc -}}
+{{- $permalink := printf "/Bilder/%s" $cleanSrc -}}
+{{- $id := $cleanSrc | urlize -}}
+
+<figure class="astro-photo" style="text-align: center; margin: 1.5rem 0;">
+  <!-- Der Klick-Container für den unblockierbaren Fullscreen -->
+  <div id="wrapper-{{ $id }}" class="astro-fullscreen-wrapper" style="display: inline-block; cursor: zoom-in;">
+    <img src="{{ $permalink }}" alt="{{ $alt }}" class="astro-photo-frame">
+  </div>
+  
+  {{ with $alt }}
+    <figcaption style="font-style: italic; color: #888; margin-top: 8px;">{{ . }}</figcaption>
+  {{ end }}
+</figure>
+
+<!-- Dieser Skript-Block registriert den echten F11-Vollbildmodus beim Klicken -->
+<script>
+  document.getElementById('wrapper-{{ $id }}').addEventListener('click', function() {
+    let img = this.querySelector('img');
+    if (img.requestFullscreen) {
+      img.requestFullscreen();
+    } else if (img.webkitRequestFullscreen) {
+      img.webkitRequestFullscreen();
+    }
+  });
+</script>
