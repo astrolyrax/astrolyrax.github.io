@@ -1,0 +1,659 @@
+/* --- ASTROLYRAX CUSTOM DESIGN & SEITEN-BREITEN --- */
+
+:root {
+  /* 1. Deine bewährten Seitenbreiten */
+  --menu-width: 22rem !important; 
+  --page-width: 85rem !important; 
+
+  /* 2. Unsere neuen Astronomie-Farben */
+  --background-main: #0b0f19;       /* Tiefes Weltraum-Dunkelblau */
+  --background-menu: #111827;       /* Etwas helleres Dunkelgrau fürs Menü */
+  --text-main: #e5e7eb;             /* Angenehmes Astro-Weiß für Text */
+  --text-muted: #9ca3af;            /* Gedimmtes Grau für Nebensächliches */
+  --astro-blue: #38bdf8;            /* Leuchtendes Kosmos-Cyan für Links & Akzente */
+  --border-color: #1f2937;          /* Dezente Trennlinien */
+}
+
+/* --- HINTERGRÜNDE & SCHRIFTEN ANPASSEN --- */
+
+/* 1. Das Sternenfeld wird NUR EINMAL auf das Haupt-HTML gelegt */
+html, body {
+  background-color: var(--background-main) !important;
+  color: var(--text-main) !important;
+  
+  /* Dein Milchstraßen-Hintergrund perfekt am Stück */
+  background-image: 
+    linear-gradient(rgba(11, 15, 25, 0.65), rgba(11, 15, 25, 0.65)),
+    url('/images/stars.jpg');
+  
+  background-size: cover !important;        
+  background-position: top center !important; 
+  background-attachment: fixed !important;    
+}
+
+/* 2. Alle Spalten werden glasklar transparent gemacht, damit das Bild durchscheint */
+main, .book-page, .markdown,
+.book-menu, .book-menu-content, aside,
+.book-toc, .book-toc-content {
+  background: transparent !important;
+  background-color: transparent !important;
+  color: var(--text-main) !important;
+}
+
+/* Das rechte Inhaltsverzeichnis farblich für die Text-Muted anpassen */
+.book-toc, .book-toc-content {
+  color: var(--text-muted) !important;
+}
+
+/* Trennlinie links hauchdünn und extrem dezent abdunkeln */
+.book-menu, aside {
+  border-right: 1px solid rgba(31, 41, 55, 0.3) !important;
+}
+
+/* Suchfeld optisch an den neuen, fließenden Hintergrund anpassen */
+.book-search input {
+  background-color: rgba(31, 41, 55, 0.5) !important;
+  color: var(--text-main) !important;
+  border: 1px solid rgba(56, 189, 248, 0.2) !important; 
+  backdrop-filter: blur(4px); 
+}
+
+
+
+/* --- AKZENTE & LINKS (UNSER ASTRO-BLAU) --- */
+
+a, a:visited, .markdown a {
+  color: var(--astro-blue) !important;
+}
+
+/* --- ASTRO-TABELLEN MODERNISIERUNG (TABELLEN-SPRENGUNG) --- */
+
+/* Wir zwingen JEDES übergeordnete Element, in dem eine Tabelle stecken könnte, auf volle Breite */
+.book-page table,
+.markdown table,
+table {
+  display: table !important;                /* Erzwingt echtes Tabellenverhalten */
+  width: 100% !important;                   /* Breite absolut auf 100% zwingen */
+  max-width: 100% !important;               /* Überschreibt die versteckte Bremse des Themes */
+  min-width: 100% !important;               /* Erlaubt kein Zusammenziehen */
+  border-collapse: collapse !important;      
+  margin: 1.5rem 0 2.5rem 0 !important;
+  background-color: var(--background-menu) !important; 
+  border-radius: 12px !important;            
+  overflow: hidden !important;               
+  border: 1px solid var(--border-color) !important; 
+  table-layout: auto !important;            /* Der Browser berechnet die Spalten anhand des Inhalts, dehnt sie aber auf 100% */
+}
+
+/* Kopfzeilen (Th) und Datenzellen (Td) direkt ansprechen */
+.markdown th, .markdown td, th, td {
+  padding: 0.75rem 1.2rem !important;        
+  color: var(--text-main) !important;
+  text-align: left !important;               /* Beide Spalten konsequent linksbündig */
+}
+
+/* Der erste Spaltenkopf und die ersten Zellen (Parameter) bekommen eine feste, kompakte Breite */
+.markdown th:first-child, 
+.markdown td:first-child,
+th:first-child, 
+td:first-child {
+  width: 250px !important;                   /* Gibt den Parametern wie "Belichtungszeit" festen, sicheren Platz */
+  min-width: 250px !important;
+}
+
+/* Die Kopfzeile (Th) Optik */
+.markdown th, th {
+  color: var(--astro-blue) !important;       
+  background-color: #1f2937 !important;      
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;      
+  font-size: 0.85rem !important;
+  letter-spacing: 1px !important;
+  border-bottom: 2px solid var(--border-color) !important;
+}
+
+/* Die Datenzellen (Td) Optik */
+.markdown td, td {
+  font-size: 0.95rem !important;
+  border-bottom: 1px solid rgba(31, 41, 55, 0.5) !important; 
+  border-right: none !important;             
+  border-left: none !important;              
+}
+
+/* Zebra-Look für die Zeilen */
+.markdown tr:nth-child(even), tr:nth-child(even) {
+  background-color: rgba(31, 41, 55, 0.3) !important; 
+}
+
+/* Letzte Zeile säubern */
+.markdown tr:last-child td, tr:last-child td {
+  border-bottom: none !important;
+}
+
+/* --- DEINE UNFEHLBAREN BREITEN-KORREKTUREN --- */
+.book-page, .markdown, main, .container {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+.book-page {
+  padding: 2rem 3rem !important;
+}
+
+/* --- ASTROLYRAX LOGO-TEXT TUNING --- */
+
+/* Spricht exakt unsere neue, unblockierte Text-Klasse an */
+.astro-text {
+  font-size: 1.9rem !important;      /* Schön groß wie gewünscht */
+  font-weight: 800 !important;       /* Extra fett für den Halo */
+  color: #bae6fd !important;         /* Dein harmonisches Eisblau */
+  letter-spacing: 1.5px !important;  
+  display: inline-block !important;
+  margin-left: 4px !important;       /* Kleiner Abstand zum Logo-Symbol */
+  
+  /* Der magische, intensive Astro-Halo */
+  text-shadow: 
+    0 0 6px #38bdf8, 
+    0 0 15px #38bdf8, 
+    0 0 30px #0284c7, 
+    0 0 45px #0369a1 !important;
+  
+  transition: all 0.3s ease !important;
+}
+
+/* Wenn man mit der Maus über das Logo oder den Text fährt */
+.book-brand:hover .astro-text,
+a:hover .astro-text {
+  color: #ffffff !important;         /* Blitzt beim Drüberfahren sternenweiß auf */
+  text-shadow: 
+    0 0 10px #ffffff, 
+    0 0 25px #38bdf8, 
+    0 0 45px #38bdf8 !important;
+}
+
+/* --- LOGO OPTIK-FINETUNING --- */
+.astro-logo {
+  margin-right: 12px;                /* Schiebt den Text "AstroLyrax" dezent nach rechts */
+  filter: drop-shadow(0 0 5px #38bdf8); /* Verpasst auch dem Logo das blaue Nebelglühen! */
+  transition: all 0.3s ease;
+}
+
+/* Synchrones Aufleuchten bei Mauskontakt */
+.book-menu .book-brand a:hover .astro-logo {
+  filter: drop-shadow(0 0 8px #ffffff) drop-shadow(0 0 15px #38bdf8);
+  transform: scale(1.05);            /* Lässt das Logo beim Drüberfahren minimal pulsieren */
+}
+
+/* --- HIERARCHISCHE VERBINDUNGSLINIEN FÜR DIE NAVIGATION --- */
+
+/* Der Hauptcontainer der Navigation braucht eine relative Basis */
+.book-menu-content nav {
+  position: relative;
+}
+
+/* Jede neue Unterebene rückt nur minimal ein, um Platz zu sparen */
+.book-menu-content ul {
+  list-style: none !important;
+  padding-left: 0.65rem !important; /* Deutlich kompakter, verhindert Umbrüche */
+  margin: 0 !important;
+  position: relative;
+}
+
+/* Die senkrechte Linie wird absolut zum UL-Container gesetzt */
+.book-menu-content ul::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0rem; /* Sitzt exakt am linken Rand des aktuellen Listen-Einzugs */
+  border-left: 1px solid #374151 !important;
+}
+
+/* Das erste/oberste UL-Element (Hauptmenü) braucht keine senkrechte Linie links */
+.book-menu-content > nav > ul::before {
+  display: none !important;
+}
+
+/* Die Listenelemente selbst brauchen links kaum noch Abstand */
+.book-menu-content li {
+  margin: 0 !important;
+  padding: 0.2rem 0 0.2rem 0.6rem !important; /* Sehr kompakt gehalten */
+  position: relative;
+}
+
+/* Der waagerechte Abzweig-Strich */
+.book-menu-content li::before {
+  content: "";
+  position: absolute;
+  top: 1.1rem; /* Perfekt mittig zur ersten Textzeile */
+  left: 0rem;   /* Startet exakt auf der senkrechten Linie des ULs */
+  width: 0.45rem; /* Kurze, knackige Linie */
+  border-top: 1px solid #374151 !important;
+}
+
+/* Die senkrechte Linie darf nicht unter das letzte Element hinausragen */
+.book-menu-content li:last-child::before {
+  background-color: var(--background-menu) !important;
+  height: auto;
+  bottom: 0;
+  top: 0.95rem;
+  left: 0rem;
+  width: 1px;
+}
+
+/* Verhindert Gewirr bei verschachtelten letzten Elementen */
+.book-menu-content ul > li:last-child::after {
+  content: "";
+  position: absolute;
+  top: 0.95rem;
+  bottom: 0;
+  left: 0rem;
+  border-left: 1px solid transparent !important;
+}
+
+/* --- CUSTOM SCROLLBARS FOR SPACE THEME (SCROLLBARS VERSTECKT) --- */
+
+/* 1. Für Chrome, Edge, Opera und Safari (Webkit-Browser) */
+::-webkit-scrollbar {
+  display: none !important; /* Blendet den Scrollbalken komplett aus */
+  width: 0 !important;
+  height: 0 !important;
+}
+
+/* 2. Für Firefox und den Internet Explorer */
+* {
+  scrollbar-width: none !important; /* Versteckt den Balken in Firefox */
+  -ms-overflow-style: none !important;  /* Versteckt den Balken im IE/alten Edge */
+}
+
+
+/* --- OPTIK-TUNING FÜR ÜBERSCHRIFT, TRENNLINIE & BILDUNTERSCHRIFT --- */
+
+/* Hauptüberschrift (H1) zentrieren und exakt auf Unterkanten-Höhe des Logos ziehen */
+.book-page h1, 
+.markdown h1 {
+  text-align: center !important;
+  color: var(--astro-blue) !important;      /* Dein kosmisches Cyan */
+  font-family: 'Inter', 'Roboto', 'Segoe UI', sans-serif !important;
+  font-weight: 600 !important;
+  letter-spacing: 1px !important;
+  
+  /* Negativer Abstand zieht die Unterkante perfekt auf die gelbe Linie */
+  margin-top: -0.65rem !important;          
+  margin-bottom: 0 !important;               
+}
+
+/* Elegante, dünne Trennlinie mit perfekt symmetrischen Abständen */
+.book-page h1::after,
+.markdown h1::after {
+  content: "";
+  display: block;
+  width: 60%;                                /* Schicke 60%-Breite */
+  max-width: 600px;
+  height: 1px !important;
+  background-color: #374151 !important;      /* Scrollbalken-Farbe */
+  
+  /* Symmetrie-Zauber: 1.5rem nach oben zur Schrift, 1.5rem nach unten zum Bild */
+  margin: 1.5rem auto 1.5rem auto !important; 
+}
+
+/* --- ASTRO-BILDER: ERZWUNGENE RUNDUNG & WEICHER ÜBERGANG --- */
+
+/* Dieser Selektor trifft JEDES Bild im Inhaltsbereich, egal in welchem Tag es steckt */
+.book-page img,
+.markdown img,
+aside + main img,
+figure img {
+  display: block !important;
+  margin: 0 auto 0.5rem auto !important;     
+  max-width: 100% !important;
+  height: auto !important;
+
+  /* 1. Die Rundung wird jetzt für das Bild eiskalt erzwungen */
+  border-radius: 24px !important; 
+  clip-path: inset(0% 0% 0% 0% round 24px) !important; /* Zusätzlicher Schutz: Schneidet die harten Ecken des Bildes radikal ab */
+
+  /* 2. Der sanfte Kanten-Übergang */
+  filter: drop-shadow(0px 0px 15px rgba(11, 15, 25, 0.9)) !important;
+  
+  /* Ein hauchdünner, dunkler Rand, der den Übergang ins All erleichtert */
+  border: 2px solid transparent !important; 
+  
+  /* Fügt auch hier den weichen Übergang hinzu */
+  transition: border-color 0.25s ease !important;
+}
+
+/* Bildunterschriften dezent und elegant formatieren */
+.markdown figure caption,
+.markdown p img + em,
+.markdown p em {
+  display: block !important;
+  text-align: center !important;
+  color: var(--text-muted) !important;
+  font-style: italic !important;
+  font-size: 0.9rem !important;
+  margin-top: 0.75rem !important;
+  margin-bottom: 2rem !important;
+}
+
+/* --- ASTRO-ZWISCHENÜBERSCHRIFTEN (ZENTRIERT) --- */
+.book-page h2,
+.markdown h2 {
+  text-align: center !important;
+  color: #bae6fd !important;                 /* Dein harmonisches Eisblau */
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;      /* Macht "AUFNAHMEDATEN" aus dem Text */
+  font-size: 1.3rem !important;              /* Angenehme Größe, nicht zu erschlagend */
+  letter-spacing: 2px !important;            /* Schön weit gedehnt fürs Weltraum-Gefühl */
+  margin-top: 3rem !important;               /* Genug Abstand zum vorherigen Block */
+  margin-bottom: 1.5rem !important;          /* Abstand zur Tabelle / zum Text */
+  position: relative;
+}
+
+/* Ein ganz kleiner, dezenter blauer Punkt oder Strich unter dem Text zur Zierde */
+.book-page h2::after,
+.markdown h2::after {
+  content: "";
+  display: block;
+  width: 40px;                               /* Ganz kurz und edel */
+  height: 2px !important;
+  background-color: var(--astro-blue) !important; /* Dein leuchtendes Cyan */
+  margin: 0.5rem auto 0 auto !important;     /* Zentriert unter dem Wort */
+}
+
+/* --- ANKER-LINKS (RAUTEN) BEI ÜBERSCHRIFTEN AUSBLENDEN --- */
+
+/* Blendet das #-Zeichen bei allen Überschriften (H1, H2, H3 etc.) komplett aus */
+.book-page h1 .anchor,
+.book-page h2 .anchor,
+.book-page h3 .anchor,
+.book-page h4 .anchor,
+.markdown h1 .anchor,
+.markdown h2 .anchor,
+.markdown h3 .anchor,
+.anchor-link,
+.anchor {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+}
+
+/* --- RECHTES MENÜ INHALTSVERZEICHNIS: DIMM-EFFEKT --- */
+
+/* Der Hauptcontainer des rechten Verzeichnisses */
+.book-toc {
+  padding: 2rem 1.5rem !important;
+}
+
+/* Die innere Navigation formbündig machen */
+.book-toc-content nav {
+  border-left: 1px solid rgba(56, 189, 248, 0.4) !important; /* Hauchzarter Anker */
+  padding-left: 1rem !important;
+}
+
+.book-toc-content ul {
+  list-style: none !important;
+  padding-left: 0 !important;
+  margin: 0 !important;
+}
+
+.book-toc-content li {
+  margin: 0.6rem 0 !important;
+}
+
+/* Normalzustand rechts: Exakt das gleiche, harmonische Astro-Blau wie links */
+.book-toc-content a {
+  color: #24789E !important;       
+  opacity: 0.90 !important;
+  font-size: 0.9rem !important;
+  font-family: 'Inter', sans-serif !important;
+  text-decoration: none !important;
+  transition: all 0.25s ease !important;     
+  display: inline-block !important;
+  text-shadow: none !important;
+}
+
+/* Hover-Zustand rechts: Zieht sanft nach links und leuchtet im edlen Eisblau auf */
+.book-toc-content a:hover,
+.book-toc-content a.active {
+  color: #bae6fd !important;                 /* Dein harmonisches Eisblau */
+  opacity: 1 !important;
+  transform: translateX(-4px) !important;     /* Rückt dezent nach LINKS (Richtung Inhalt) ein */
+  text-shadow: 0 0 10px rgba(186, 230, 253, 0.5) !important;
+}
+
+/* --- LINKES MENÜ: DIMM-EFFEKT (RUHE FÜR DEN INHALT) --- */
+
+/* Normalzustand: Minimal aufgehelltes Astro-Blau für optimale Balance aus Ruhe und Lesbarkeit */
+.book-menu-content a {
+  color: #24789E !important;    /* Nuance heller als vorher – perfekter Kompromiss */
+  opacity: 0.90 !important;      /* Deckkraft minimal angehoben, damit die Farbe sauber durchbricht */
+  transition: all 0.25s ease !important;
+  text-shadow: none !important; 
+}
+
+/* Hover-Zustand: Bleibt unverändert leuchtend im kosmischen Cyan */
+.book-menu-content a:hover,
+.book-menu-content .active > a {
+  color: var(--astro-blue) !important;
+  opacity: 1 !important;
+  text-shadow: 0 0 8px rgba(56, 189, 248, 0.4) !important; 
+}
+
+/* --- ECHTER F11-FULLSCREEN-LOOK (THEME-CONTAINER AUSBLENDEN) --- */
+
+/* Der normale Bild-Zustand im Artikel (Sicherheits-Klasse) */
+.astro-photo-frame {
+  max-width: 100% !important;
+  height: auto !important;
+  border-radius: 24px !important;
+  border: 2px solid transparent !important; 
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6) !important;
+  cursor: zoom-in !important;
+  transition: border-color 0.25s ease, transform 0.2s ease !important;
+}
+
+/* JETZT FÜR ALLE BILDER: Der astro-blaue Rahmen leuchtet beim Hovern auf! */
+.astro-photo-frame:hover,
+.book-page img:hover,
+.markdown img:hover {
+  border-color: rgba(56, 189, 248, 0.5) !important;
+}
+
+/* DER MAGISCHE CLOU: Wenn das Bild im echten Browser-Fullscreen aktiv ist... */
+
+
+/* DER MAGISCHE CLOU: Wenn das Bild im echten Browser-Fullscreen aktiv ist, 
+   maskieren wir das gesamte Theme im Hintergrund absolut pechschwarz! */
+.astro-photo-frame:fullscreen {
+  width: 100vw !important;
+  height: 100vh !important;
+  max-width: 100vw !important;
+  max-height: 100vh !important;
+  object-fit: contain !important;      /* Bild skaliert perfekt ohne Verzerrung */
+  background-color: #000000 !important; /* Erzwingt pechschwarzen Hintergrund direkt auf dem Element */
+  
+  /* Beseitigt Rahmen und Rundungen des Bildes selbst im Vollbild */
+  border: none !important;
+  border-radius: 0px !important;
+  clip-path: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  cursor: zoom-out !important;
+}
+
+/* Speziell für Webkit-Browser (Chrome, Edge, Safari) */
+.astro-photo-frame:-webkit-full-screen {
+  width: 100vw !important;
+  height: 100vh !important;
+  object-fit: contain !important;
+  background-color: #000000 !important;
+  border: none !important;
+  border-radius: 0px !important;
+  clip-path: none !important;
+}
+
+/* HIER WERDEN DIE HANDSCHELLEN DES THEMES ZERSCHLAGEN:
+   Sobald ein Element im Fullscreen-Modus ist, färben wir die gesamte 
+   Vollbild-Ebene des Betriebssystems tiefschwarz. Das blendet den weißen Rahmen aus! */
+::backdrop {
+  background-color: #000000 !important;
+}
+
+/* ---  ---  ---  ---  ---  ---  ---  ---  --- --- */
+
+/* --- CONFIGURATION NACH BENUTZER-SKIZZE (GRÜN = FIX / ROT = SCROLLBAR) --- */
+
+/* ==========================================================================
+   F12-REVOLUTION: HARDCORE-ZÄHMUNG DER THEME-FLEXBOX
+   ========================================================================== */
+
+/* 1. Das Fundament: Wir frieren den Hauptbildschirm ein */
+html, body, main.container.flex {
+  height: 100vh !important;
+  max-height: 100vh !important;
+  overflow: hidden !important; /* Es darf NIEMALS die ganze Seite scrollen */
+}
+
+/* ==========================================================================
+   LINKE SPALTE: COSMIC FUSION DESIGN (FARBLICH FLIESSEND INTEGRIERT)
+   ========================================================================= */
+
+/* 1. DIE STARRE SÄULE: Wir nageln das komplette linke Menü am Bildschirm fest */
+aside.book-menu {
+  position: fixed !important; 
+  top: 0 !important;
+  left: 0 !important;
+  width: var(--menu-width) !important;
+  min-width: var(--menu-width) !important;
+  max-width: var(--menu-width) !important;
+  height: 100vh !important;
+  overflow: hidden !important; 
+  z-index: 1000 !important;
+}
+
+/* 2. DER INNERE INHALT */
+.book-menu .book-menu-content {
+  position: absolute !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  width: 100% !important;
+  height: 100vh !important;
+  display: block !important;
+  overflow-y: hidden !important; 
+  overflow-x: hidden !important;
+}
+
+/* GRÜNER BEREICH LINKS (SUCHE): Das Suchfeld wird starr platziert - JETZT OHNE LINIE */
+.book-menu-content .book-search {
+  position: fixed !important;
+  top: 6rem !important; 
+  left: 0 !important;
+  width: var(--menu-width) !important;
+  height: 4.5rem !important;
+  background-color: var(--background-main) !important; 
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
+  box-sizing: border-box !important;
+  
+  /* DIE RETTUNG: Keine störende Trennlinie mehr unten drunter! */
+  border-bottom: none !important; 
+  z-index: 2000 !important;
+}
+
+/* DIE RADIKALE LOGO-RETTUNG */
+.book-menu-content .book-brand,
+.book-menu-content nav .book-brand,
+.book-menu-content nav > :first-child {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: var(--menu-width) !important;
+  height: 6rem !important; 
+  background-color: var(--background-main) !important; 
+  
+  display: flex !important;
+  align-items: center !important; 
+  justify-content: flex-start !important; 
+  
+  padding-left: 1.5rem !important; 
+  padding-right: 1.5rem !important;
+  box-sizing: border-box !important;
+  z-index: 2500 !important; 
+}
+
+
+/* Wir zwingen auch den Link im geretteten Logo in das saubere Nebeneinander-Layout */
+.book-menu-content nav .book-brand a,
+.book-menu-content nav > :first-child a {
+  display: flex !important;
+  align-items: center !important;
+  text-decoration: none !important;
+}
+
+/* 5. ROTER BEREICH LINKS: Der tiefer gelegte Scroll-Tunnel für deine Ordner */
+.book-menu-content nav {
+  position: absolute !important;
+  top: 10.5rem !important; 
+  bottom: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  overflow-y: auto !important; 
+  overflow-x: hidden !important;
+  padding: 1.5rem 1rem 5rem 1.5rem !important;
+  z-index: 900 !important;
+}
+
+/* ==========================================================================
+   DIE ABSOLUTE RETTUNG FÜR DIE MITTLERE SPALTE
+   ========================================================================== */
+.book-page {
+  margin-left: var(--menu-width) !important; 
+}
+
+/* ==========================================
+   MITTLERE SPALTE: ÜBERSCHRIFT FIX (GRÜN) / INHALT SCROLLBAR (ROT)
+   ========================================== */
+
+.book-page {
+  flex-grow: 1 !important; 
+  height: 100vh !important;
+  
+  /* DER ZWEITE, VÖLLIG ISOLIERTE SCROLL-TUNNEL */
+  overflow-y: auto !important; 
+  overflow-x: hidden !important;
+  
+  /* WICHTIG: Oben das Padding entfernen, damit die fixierte H1 direkt am Rand andockt */
+  padding: 0 3rem 6rem 3rem !important;
+  box-sizing: border-box !important;
+}
+
+/* GRÜNER BEREICH MITTE: Die Hauptüberschrift (H1) klebt fest am oberen Rand */
+.book-page h1, 
+.markdown h1 {
+  position: sticky !important; /* Drückt sich an der scrollenden Box fest */
+  top: 0 !important; /* Bleibt exakt ganz oben kleben */
+  background-color: var(--background-main) !important; /* Verdeckt den darunter herlaufenden Text */
+  padding-top: 2rem !important;
+  padding-bottom: 0.5rem !important;
+  z-index: 500 !important;
+  margin-top: 0 !important; /* Beseitigt unschöne Theme-Lücken */
+}
+
+/* ==========================================
+   RECHTE SPALTE: INHALTSVERZEICHNIS FIX (GRÜN)
+   ========================================== */
+
+aside.book-toc {
+  width: 20rem !important;
+  min-width: 20rem !important;
+  height: 100vh !important;
+  overflow: hidden !important; 
+  padding: 2rem 1.5rem !important;
+}
+
