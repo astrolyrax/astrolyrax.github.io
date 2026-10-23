@@ -297,9 +297,7 @@ a:hover .astro-text {
   margin: 1.5rem auto 1.5rem auto !important; 
 }
 
-/* --- ASTRO-BILDER: ERZWUNGENE RUNDUNG & WEICHER ÜBERGANG --- */
-
-/* Dieser Selektor trifft JEDES Bild im Inhaltsbereich, egal in welchem Tag es steckt */
+/* --- ASTRO-BILDER: PERFEKTER LOOK --- */
 .book-page img,
 .markdown img,
 aside + main img,
@@ -308,20 +306,15 @@ figure img {
   margin: 0 auto 0.5rem auto !important;     
   max-width: 100% !important;
   height: auto !important;
-
-  /* 1. Die Rundung wird jetzt für das Bild eiskalt erzwungen */
   border-radius: 24px !important; 
-  clip-path: inset(0% 0% 0% 0% round 24px) !important; /* Zusätzlicher Schutz: Schneidet die harten Ecken des Bildes radikal ab */
-
-  /* 2. Der sanfte Kanten-Übergang */
-  filter: drop-shadow(0px 0px 15px rgba(11, 15, 25, 0.9)) !important;
+  filter: none !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7) !important;
   
-  /* Ein hauchdünner, dunkler Rand, der den Übergang ins All erleichtert */
-  border: 2px solid transparent !important; 
-  
-  /* Fügt auch hier den weichen Übergang hinzu */
-  transition: border-color 0.25s ease !important;
+  /* WICHTIG: Hier darf KEIN linear-gradient oder mask-image mehr drin stehen! */
+  -webkit-mask-image: none !important;
+  mask-image: none !important;
 }
+
 
 /* Bildunterschriften dezent und elegant formatieren */
 .markdown figure caption,
@@ -556,25 +549,34 @@ aside.book-menu {
   overflow-x: hidden !important;
 }
 
-/* GRÜNER BEREICH LINKS (SUCHE): Das Suchfeld wird starr platziert - JETZT OHNE LINIE */
+/* GRÜNER BEREICH LINKS (SUCHE): Perfekt gespiegeltes All */
 .book-menu-content .book-search {
   position: fixed !important;
   top: 6rem !important; 
   left: 0 !important;
   width: var(--menu-width) !important;
   height: 4.5rem !important;
-  background-color: var(--background-main) !important; 
   padding-left: 1.5rem !important;
   padding-right: 1.5rem !important;
   padding-bottom: 1.5rem !important;
   box-sizing: border-box !important;
-  
-  /* DIE RETTUNG: Keine störende Trennlinie mehr unten drunter! */
   border-bottom: none !important; 
   z-index: 2000 !important;
+
+  /* 1. Hintergrundbild pixelgenau spiegeln */
+  background-image: 
+    linear-gradient(rgba(11, 15, 25, 0.85), rgba(11, 15, 25, 0.6) 100%), 
+    url('/images/stars.jpg') !important;
+  background-size: cover !important;        
+  background-position: top center !important; 
+  background-attachment: fixed !important;
+
+  /* 2. Kanten-Weichzeichner nach UNTEN hin auslaufen lassen */
+  -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%) !important;
+  mask-image: linear-gradient(to bottom, black 50%, transparent 100%) !important;
 }
 
-/* DIE RADIKALE LOGO-RETTUNG */
+/* DIE RADIKALE LOGO-RETTUNG: Nahtloser Übergang im All */
 .book-menu-content .book-brand,
 .book-menu-content nav .book-brand,
 .book-menu-content nav > :first-child {
@@ -583,18 +585,26 @@ aside.book-menu {
   left: 0 !important;
   width: var(--menu-width) !important;
   height: 6rem !important; 
-  background-color: var(--background-main) !important; 
-  
   display: flex !important;
   align-items: center !important; 
   justify-content: flex-start !important; 
-  
   padding-left: 1.5rem !important; 
   padding-right: 1.5rem !important;
   box-sizing: border-box !important;
   z-index: 2500 !important; 
-}
 
+  /* 1. Hintergrundbild pixelgenau spiegeln */
+  background-image: 
+    linear-gradient(rgba(11, 15, 25, 0.95), rgba(11, 15, 25, 0.85) 100%), 
+    url('/images/stars.jpg') !important;
+  background-size: cover !important;        
+  background-position: top center !important; 
+  background-attachment: fixed !important;
+  
+  /* Hier keine Maske nach unten, da direkt darunter die Suche andockt! */
+  -webkit-mask-image: none !important;
+  mask-image: none !important;
+}
 
 /* Wir zwingen auch den Link im geretteten Logo in das saubere Nebeneinander-Layout */
 .book-menu-content nav .book-brand a,
@@ -618,48 +628,115 @@ aside.book-menu {
 }
 
 /* ==========================================================================
-   DIE ABSOLUTE RETTUNG FÜR DIE MITTLERE SPALTE
+   MITTLERE SPALTE: ÜBERSCHRIFT FIX (GRÜN) / INHALT SCROLLBAR (ROT)
    ========================================================================== */
+
+/* 1. DER SCROLL-TUNNEL */
 .book-page {
   margin-left: var(--menu-width) !important; 
-}
-
-/* ==========================================
-   MITTLERE SPALTE: ÜBERSCHRIFT FIX (GRÜN) / INHALT SCROLLBAR (ROT)
-   ========================================== */
-
-.book-page {
   flex-grow: 1 !important; 
   height: 100vh !important;
-  
-  /* DER VÖLLIG ISOLIERTE SCROLL-TUNNEL */
-  overflow-y: auto !important; 
+  max-height: 100vh !important;
+  display: block !important;
+  overflow-y: scroll !important; 
   overflow-x: hidden !important;
-  
   padding: 0 3rem 6rem 3rem !important;
   box-sizing: border-box !important;
-
-  /* DIE RETTUNG: Verhindert, dass interne Links hinter die Hauptüberschrift rutschen 
-     oder diese nach oben wegschieben! */
   scroll-padding-top: 7rem !important; 
+  position: relative !important; /* Wichtig für die Verankerung des Overlays */
 }
 
-
-/* GRÜNER BEREICH MITTE: Die Hauptüberschrift (H1) klebt fest am oberen Rand */
+/* 2. DIE NACKTE, STABILE ÜBERSCHRIFT */
 .book-page h1, 
 .markdown h1 {
-  position: sticky !important; /* Drückt sich an der scrollenden Box fest */
-  top: 0 !important; /* Bleibt exakt ganz oben kleben */
-  background-color: var(--background-main) !important; /* Verdeckt den darunter herlaufenden Text */
+  position: sticky !important; 
+  top: 0 !important; 
+  z-index: 2600 !important; /* Höher als das Overlay, damit der Text immer scharf bleibt! */
+  margin-top: 0 !important;
   padding-top: 2rem !important;
-  padding-bottom: 0.5rem !important;
-  z-index: 500 !important;
-  margin-top: 0 !important; /* Beseitigt unschöne Theme-Lücken */
+  padding-bottom: 1.5rem !important; 
+  background: transparent !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15) !important;
 }
+
+/* 3. DAS UNFEHLBARE KOSMOS-OVERLAY (DIE ABSOLUTE HELLIGKEITS-PERFEKTION) */
+.book-page::after {
+  content: "" !important;
+  position: fixed !important; 
+  top: 0 !important;
+  left: var(--menu-width) !important; 
+  right: 20rem !important; 
+  height: 12rem !important; 
+  z-index: 2400 !important; 
+  pointer-events: none !important; 
+
+  /* Wir laden das originale Sternenbild rein */
+  background-image: url('/images/stars.jpg') !important;
+  background-size: cover !important;        
+  background-position: top center !important; 
+  background-attachment: fixed !important; 
+
+  /* DIE INTEGRATION: Der physikalische Helligkeitsregler! */
+  /* Wir dimmen die Leuchtkraft der Sterne exakt auf das Niveau deines Haupt-Hintergrunds herunter. */
+  /* Falls es noch einen Tick zu hell/dunkel ist, kannst du den Wert (0.65) einfach feinjustieren! */
+  filter: brightness(0.65) !important;
+
+  /* DEINE PERFEKTE SCROLL-MASKE */
+  -webkit-mask-image: linear-gradient(
+    to bottom, 
+    black 0%,       
+    black 50%,      
+    rgba(0, 0, 0, 0.65) 65%,      
+    rgba(0, 0, 0, 0.20) 85%,      
+    transparent 100%              
+  ) !important;
+  
+  mask-image: linear-gradient(
+    to bottom, 
+    black 0%, 
+    black 50%, 
+    rgba(0, 0, 0, 0.65) 65%, 
+    rgba(0, 0, 0, 0.20) 85%, 
+    transparent 100%
+  ) !important;
+
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
+
+
+
+
+
+
+
+/* 4. GLOBALER REINIGUNGS-KEIL: Wir fegen alle alten, blockierenden Experimente weg */
+.book-page h1::before,
+.markdown h1::before,
+.book-page h1::after,
+.markdown h1::after,
+.book-page::before,
+.markdown::before,
+.book-page article.markdown,
+article.markdown,
+.book-page > article,
+.markdown > *:not(h1) {
+  content: none !important;
+  -webkit-mask-image: none !important;
+  mask-image: none !important;
+  contain: none !important;
+  will-change: auto !important;
+  isolation: auto !important;
+}
+
+
 
 /* ==========================================
    RECHTE SPALTE: INHALTSVERZEICHNIS FIX (GRÜN)
    ========================================== */
+
 
 aside.book-toc {
   width: 20rem !important;
