@@ -25,6 +25,7 @@ bookCollapseSection: true
 | Katalogbezeichnungen | M 57, NGC6720        |
 | Rektazension         | 18h 53m 35s          |
 | Deklination          | +33° 01′ 45″         |
+| beste Sichtbarkeit   | Juli - September     |
 
 
 <br>

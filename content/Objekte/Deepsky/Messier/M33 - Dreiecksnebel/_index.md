@@ -27,6 +27,7 @@ bookCollapseSection: true
 | Rektazension         | 00h 42m 44,3s                                                                                                                |
 | Deklination          | +41° 16′ 09″                                                                                                                 |
 | Besonderheit         | - zweithellste Spiralgalaxie nach Andromeda<br>- auch als Dreiecksgalaxie, Triangulumnebel oder Triangulumgalaxie bezeichnet |
+| beste Sichtbarkeit   | Oktober - Dezember                                                                                                           |
 
 
 

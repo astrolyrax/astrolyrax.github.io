@@ -26,6 +26,7 @@ bookCollapseSection: true
 | Katalogbezeichnungen | M 42, NGC1976               |
 | Rektazension         | 05h 35m 16,5s               |
 | Deklination          | -05° 23′ 23″                |
+| beste Sichtbarkeit   | Januar - März               |
 
 
 <br>

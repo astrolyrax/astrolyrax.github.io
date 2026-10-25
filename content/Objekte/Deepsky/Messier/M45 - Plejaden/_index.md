@@ -26,6 +26,7 @@ bookCollapseSection: true
 | Katalogbezeichnungen | M 45                 |
 | Rektazension         | 03h 47m 30s          |
 | Deklination          | +24° 07′ 00″         |
+| beste Sichtbarkeit   | November - Januar    |
 
 
 <br>

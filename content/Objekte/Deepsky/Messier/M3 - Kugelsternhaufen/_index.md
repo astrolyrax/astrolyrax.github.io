@@ -26,6 +26,7 @@ bookCollapseSection: true
 | Katalogbezeichnungen | M 3, NGC5272     |     |
 | Rektazension         | 13h 42m 11,2s    |     |
 | Deklination          | +28° 22′ 32″     |     |
+| beste Sichtbarkeit   | April - Juli     |     |
 
 
 <br>

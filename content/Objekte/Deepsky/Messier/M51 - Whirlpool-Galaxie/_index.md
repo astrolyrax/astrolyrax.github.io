@@ -25,6 +25,7 @@ bookCollapseSection: true
 | Katalogbezeichnungen | M 51, NGC5194, Arp 85 |
 | Rektazension         | 13h 29m 53s           |
 | Deklination          | +47° 11′ 43″          |
+| beste Sichtbarkeit   | April - Juni          |
 
 
 <br>

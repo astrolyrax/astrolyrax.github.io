@@ -12,20 +12,21 @@ bookCollapseSection: true
 ## Allgemeine Informationen
 
 
-| Bezeichnung          | M15                      |     |
-| -------------------- | ------------------------ | --- |
-| Name                 | Kugelsternhaufen         |     |
-| Stermbild            | Pegasus                  |     |
-| Typ                  | Spiralgalaxie            |     |
-| Entfernung zur Erde  | 33.600 Lj                |     |
-| Ort                  | westliche von Stern Enif |     |
-| Anzahl Sterne        |                          |     |
-| Helligkeit           | 6,2 mag                  |     |
-| Winkelausdehnung     | 18'                      |     |
-| Durchmesser          | 175 LJ                   |     |
-| Katalogbezeichnungen | M 15, NGC7078            |     |
-| Rektazension         | 21h 29m 58,3s            |     |
-| Deklination          | +12° 10′ 01″             |     |
+| Bezeichnung          | M15                      |
+| -------------------- | ------------------------ |
+| Name                 | Kugelsternhaufen         |
+| Stermbild            | Pegasus                  |
+| Typ                  | Spiralgalaxie            |
+| Entfernung zur Erde  | 33.600 Lj                |
+| Ort                  | westliche von Stern Enif |
+| Anzahl Sterne        |                          |
+| Helligkeit           | 6,2 mag                  |
+| Winkelausdehnung     | 18'                      |
+| Durchmesser          | 175 LJ                   |
+| Katalogbezeichnungen | M 15, NGC7078            |
+| Rektazension         | 21h 29m 58,3s            |
+| Deklination          | +12° 10′ 01″             |
+| beste Sichtbarkeit   | August - November        |
 
 
 <br>

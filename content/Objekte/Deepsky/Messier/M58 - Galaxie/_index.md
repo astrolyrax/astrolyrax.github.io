@@ -25,6 +25,7 @@ bookCollapseSection: true
 | Katalogbezeichnungen | M 58, NGC4579        |
 | Rektazension         | 12h 37m 43,5s        |
 | Deklination          | +11° 49′ 05″         |
+| beste Sichtbarkeit   | April - Juni         |
 
 
 <br>
