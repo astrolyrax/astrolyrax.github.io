@@ -36,7 +36,7 @@ Der **Arp-Katalog** ist das ultimative Verzeichnis für die Exoten des Universum
 >- **Arp 244 (Antennen-Galaxien):** Ein weltbekanntes, kollidierendes Galaxienpaar, dessen Verschmelzung kosmische Funken schlägt.
 >- **Arp 319 (Stephans Quintett):** Eine weltberühmte, extrem dichte Gruppe von fünf visuell eng beieinanderstehenden Galaxien.
 
----
+
 
 
 
