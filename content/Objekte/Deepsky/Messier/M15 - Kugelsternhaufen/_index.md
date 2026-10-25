@@ -8,8 +8,13 @@ bookCollapseSection: true
 
 <br>
 
+## Beste Sichtbarkeit
 
-## Allgemeine Informationen
+##### <center> <big> **August - November** </big> </center>
+
+<br>
+
+## Steckbrief
 
 
 | Bezeichnung          | M15                      |
@@ -26,7 +31,6 @@ bookCollapseSection: true
 | Katalogbezeichnungen | M 15, NGC7078            |
 | Rektazension         | 21h 29m 58,3s            |
 | Deklination          | +12° 10′ 01″             |
-| beste Sichtbarkeit   | August - November        |
 
 
 <br>

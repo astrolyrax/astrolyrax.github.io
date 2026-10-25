@@ -7,7 +7,13 @@ bookCollapseSection: true
 
 <br>
 
-## Allgemeine Informationen
+## Beste Sichtbarkeit
+
+##### <center> <big> **August - November** </big> </center>
+
+<br>
+
+## Steckbrief
 
 
 | Bezeichnung          | M 2                        |
@@ -24,7 +30,7 @@ bookCollapseSection: true
 | Katalogbezeichnungen | M 2, NGC 7089              |
 | Rektazension         | 21h 33m 27s                |
 | Deklination          | −00° 49′ 24″               |
-| beste Sichtbarkeit   | August - November          |
+
 
 
 <br>

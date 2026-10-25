@@ -8,8 +8,13 @@ bookCollapseSection: true
 
 <br>
 
+## Beste Sichtbarkeit
 
-## Allgemeine Informationen
+##### <center> <big> **Juni - August** </big> </center>
+
+<br>
+
+## Steckbrief
 
 
 | Bezeichnung          | M13              |
@@ -26,7 +31,7 @@ bookCollapseSection: true
 | Katalogbezeichnungen | NGC1004, UGC2112 |
 | Rektazension         | 02h 37m 41,8s    |
 | Deklination          | +01° 58′ 31″     |
-| beste Sichtbarkeit   | Juni - August    |
+
 
 
 <br>

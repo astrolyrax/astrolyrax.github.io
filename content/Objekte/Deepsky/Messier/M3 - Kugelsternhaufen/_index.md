@@ -8,25 +8,30 @@ bookCollapseSection: true
 
 <br>
 
+## Beste Sichtbarkeit
 
-## Allgemeine Informationen
+##### <center> <big> **April - Juli** </big> </center>
+
+<br>
+
+## Steckbrief
 
 
-| Bezeichnung          | M 3              |     |
-| -------------------- | ---------------- | --- |
-| Name                 | Kugelsternhaufen |     |
-| Stermbild            | Jagdhund         |     |
-| Typ                  |                  |     |
-| Entfernung zur Erde  | 34.000 Lj        |     |
-| Ort                  |                  |     |
-| Anzahl Sterne        |                  |     |
-| Helligkeit           | 6,3 mag          |     |
-| Winkelausdehnung     | 18'              |     |
-| Durchmesser          | 125 LJ           |     |
-| Katalogbezeichnungen | M 3, NGC5272     |     |
-| Rektazension         | 13h 42m 11,2s    |     |
-| Deklination          | +28° 22′ 32″     |     |
-| beste Sichtbarkeit   | April - Juli     |     |
+| Bezeichnung          | M 3              |
+| -------------------- | ---------------- |
+| Name                 | Kugelsternhaufen |
+| Stermbild            | Jagdhund         |
+| Typ                  |                  |
+| Entfernung zur Erde  | 34.000 Lj        |
+| Ort                  |                  |
+| Anzahl Sterne        |                  |
+| Helligkeit           | 6,3 mag          |
+| Winkelausdehnung     | 18'              |
+| Durchmesser          | 125 LJ           |
+| Katalogbezeichnungen | M 3, NGC5272     |
+| Rektazension         | 13h 42m 11,2s    |
+| Deklination          | +28° 22′ 32″     |
+
 
 
 <br>

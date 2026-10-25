@@ -1,5 +1,5 @@
 ---
-title: M33 - DreiecksnebelGalaxie
+title: M33 - Dreiecksgalaxie
 bookCollapseSection: true
 ---
 
@@ -8,8 +8,13 @@ bookCollapseSection: true
 
 <br>
 
+## Beste Sichtbarkeit
 
-## Allgemeine Informationen
+##### <center> <big> **Oktober - Dezember** </big> </center>
+
+<br>
+
+## Steckbrief
 
 
 | Bezeichnung          | M33                                                                                                                          |
@@ -26,9 +31,7 @@ bookCollapseSection: true
 | Katalogbezeichnungen | M 31, NGC224                                                                                                                 |
 | Rektazension         | 00h 42m 44,3s                                                                                                                |
 | Deklination          | +41° 16′ 09″                                                                                                                 |
-| Besonderheit         | - zweithellste Spiralgalaxie nach Andromeda<br>- auch als Dreiecksgalaxie, Triangulumnebel oder Triangulumgalaxie bezeichnet |
-| beste Sichtbarkeit   | Oktober - Dezember                                                                                                           |
-
+| Besonderheit         | - zweithellste Spiralgalaxie nach Andromeda<br>- wird auch als Dreiecksgalaxie, Triangulumnebel oder Triangulumgalaxie bezeichnet |
 
 
 <br>

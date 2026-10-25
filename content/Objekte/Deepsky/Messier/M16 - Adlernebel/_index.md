@@ -8,8 +8,13 @@ bookCollapseSection: true
 
 <br>
 
+## Beste Sichtbarkeit
 
-## Allgemeine Informationen
+##### <center> <big> **Juli - September** </big> </center>
+
+<br>
+
+## Steckbrief
 
 
 | Bezeichnung          | M16              |
@@ -26,7 +31,6 @@ bookCollapseSection: true
 | Katalogbezeichnungen | M 16, NGC6611    |
 | Rektazension         | 18h 18m 54s      |
 | Deklination          | -13° 50′ 24″     |
-| beste Sichtbarkeit   | Juli - September |
 
 
 <br>

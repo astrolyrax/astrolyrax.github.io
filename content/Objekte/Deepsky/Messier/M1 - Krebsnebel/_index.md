@@ -7,7 +7,13 @@ bookCollapseSection: true
 
 <br>
 
-## Allgemeine Informationen
+## Beste Sichtbarkeit
+
+##### <center> <big> **Dezember - April** </big> </center>
+
+<br>
+
+## Steckbrief
 
 
 | Bezeichnung               | M 1                        |
@@ -24,7 +30,7 @@ bookCollapseSection: true
 | Katalogbezeichnungen      | M 1, NGC 1952, Sh 2-244    |
 | Rektazension              | 05h 34m 32,0s              |
 | Deklination               | +22° 00′ 52″               |
-| beste Sichtbarkeit        | Dezember - April           |
+
 
 
 <br>

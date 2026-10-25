@@ -8,8 +8,13 @@ bookCollapseSection: true
 
 <br>
 
+## Beste Sichtbarkeit
 
-## Allgemeine Informationen
+##### <center> <big> **Oktober - Dezember** </big> </center>
+
+<br>
+
+## Steckbrief
 
 
 | Bezeichnung          | M31                |
@@ -26,7 +31,6 @@ bookCollapseSection: true
 | Katalogbezeichnungen | M 31, NGC224       |
 | Rektazension         | 00h 42m 44,3s      |
 | Deklination          | +41° 16′ 09″       |
-| beste Sichtbarkeit   | Oktober - Dezember |
 
 
 <br>

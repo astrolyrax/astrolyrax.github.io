@@ -8,8 +8,13 @@ bookCollapseSection: true
 
 <br>
 
+## Beste Sichtbarkeit
 
-## Allgemeine Informationen
+##### <center> <big> **August - Oktober** </big> </center>
+
+<br>
+
+## Steckbrief
 
 
 | Bezeichnung          | M27              |
@@ -26,7 +31,6 @@ bookCollapseSection: true
 | Katalogbezeichnungen | M 27, NGC6853    |
 | Rektazension         | 19h 59m 36s      |
 | Deklination          | +22° 43′ 16″     |
-| beste Sichtbarkeit   | August - Oktober |
 
 
 <br>
