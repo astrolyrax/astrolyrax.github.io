@@ -5,4 +5,4 @@ bookCollapseSection: true
 # Arp
 
 
-💡 Ideen noch keine Inhalte
+<big>💡Aktuell habe ich noch keine Aufnahmen zu Arp-Objekten angefertigt. </big>
