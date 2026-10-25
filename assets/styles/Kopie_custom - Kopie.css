@@ -297,9 +297,7 @@ a:hover .astro-text {
   margin: 1.5rem auto 1.5rem auto !important; 
 }
 
-/* --- ASTRO-BILDER: ERZWUNGENE RUNDUNG & WEICHER ÜBERGANG --- */
-
-/* Dieser Selektor trifft JEDES Bild im Inhaltsbereich, egal in welchem Tag es steckt */
+/* --- ASTRO-BILDER: PERFEKTER LOOK --- */
 .book-page img,
 .markdown img,
 aside + main img,
@@ -308,20 +306,15 @@ figure img {
   margin: 0 auto 0.5rem auto !important;     
   max-width: 100% !important;
   height: auto !important;
-
-  /* 1. Die Rundung wird jetzt für das Bild eiskalt erzwungen */
   border-radius: 24px !important; 
-  clip-path: inset(0% 0% 0% 0% round 24px) !important; /* Zusätzlicher Schutz: Schneidet die harten Ecken des Bildes radikal ab */
-
-  /* 2. Der sanfte Kanten-Übergang */
-  filter: drop-shadow(0px 0px 15px rgba(11, 15, 25, 0.9)) !important;
+  filter: none !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7) !important;
   
-  /* Ein hauchdünner, dunkler Rand, der den Übergang ins All erleichtert */
-  border: 2px solid transparent !important; 
-  
-  /* Fügt auch hier den weichen Übergang hinzu */
-  transition: border-color 0.25s ease !important;
+  /* WICHTIG: Hier darf KEIN linear-gradient oder mask-image mehr drin stehen! */
+  -webkit-mask-image: none !important;
+  mask-image: none !important;
 }
+
 
 /* Bildunterschriften dezent und elegant formatieren */
 .markdown figure caption,
@@ -338,29 +331,37 @@ figure img {
 
 /* --- ASTRO-ZWISCHENÜBERSCHRIFTEN (ZENTRIERT) --- */
 .book-page h2,
-.markdown h2 {
+.markdown h2,
+.book-page h3,
+.markdown h3 {
   text-align: center !important;
   color: #bae6fd !important;                 /* Dein harmonisches Eisblau */
   font-family: 'Inter', sans-serif !important;
   font-weight: 600 !important;
-  text-transform: uppercase !important;      /* Macht "AUFNAHMEDATEN" aus dem Text */
-  font-size: 1.3rem !important;              /* Angenehme Größe, nicht zu erschlagend */
-  letter-spacing: 2px !important;            /* Schön weit gedehnt fürs Weltraum-Gefühl */
-  margin-top: 3rem !important;               /* Genug Abstand zum vorherigen Block */
-  margin-bottom: 1.5rem !important;          /* Abstand zur Tabelle / zum Text */
+  text-transform: uppercase !important;      
+  font-size: 1.3rem !important;              
+  letter-spacing: 2px !important;            
+  margin-top: 3rem !important;               
+  margin-bottom: 1.5rem !important;          
   position: relative;
+
+  /* DIE INTEGRATIVE RETTUNG: Der unsichtbare Sprung-Schild! */
+  scroll-margin-top: 8rem !important; /* Zwingt den Browser beim Anklicken, 8rem Platz zur Decke zu lassen */
 }
 
 /* Ein ganz kleiner, dezenter blauer Punkt oder Strich unter dem Text zur Zierde */
 .book-page h2::after,
-.markdown h2::after {
+.markdown h2::after,
+.book-page h3::after,
+.markdown h3::after {
   content: "";
   display: block;
-  width: 40px;                               /* Ganz kurz und edel */
+  width: 40px;                               
   height: 2px !important;
-  background-color: var(--astro-blue) !important; /* Dein leuchtendes Cyan */
-  margin: 0.5rem auto 0 auto !important;     /* Zentriert unter dem Wort */
+  background-color: var(--astro-blue) !important; 
+  margin: 0.5rem auto 0 auto !important;     
 }
+
 
 /* --- ANKER-LINKS (RAUTEN) BEI ÜBERSCHRIFTEN AUSBLENDEN --- */
 
@@ -518,7 +519,7 @@ html, body, main.container.flex {
 }
 
 /* ==========================================================================
-   LINKE SPALTE: COSMIC FUSION DESIGN (FARBLICH FLIESSEND INTEGRIERT)
+   LINKE SPALTE: COSMIC FUSION DESIGN (FLEX-ISOLATION FÜR PIXEL-PERFEKTION)
    ========================================================================= */
 
 /* 1. DIE STARRE SÄULE: Wir nageln das komplette linke Menü am Bildschirm fest */
@@ -534,61 +535,42 @@ aside.book-menu {
   z-index: 1000 !important;
 }
 
-/* 2. DER INNERE INHALT */
+/* 2. DER INNERE INHALT: Wir entfernen absolute Positionen und nutzen reines Layout */
 .book-menu .book-menu-content {
-  position: absolute !important;
-  top: 0 !important;
-  bottom: 0 !important;
-  left: 0 !important;
-  right: 0 !important;
   width: 100% !important;
   height: 100vh !important;
   display: block !important;
-  overflow-y: hidden !important; 
-  overflow-x: hidden !important;
+  overflow: hidden !important;
 }
 
-/* GRÜNER BEREICH LINKS (SUCHE): Das Suchfeld wird starr platziert - JETZT OHNE LINIE */
-.book-menu-content .book-search {
-  position: fixed !important;
-  top: 6rem !important; 
-  left: 0 !important;
-  width: var(--menu-width) !important;
-  height: 4.5rem !important;
-  background-color: var(--background-main) !important; 
-  padding-left: 1.5rem !important;
-  padding-right: 1.5rem !important;
-  padding-bottom: 1.5rem !important;
-  box-sizing: border-box !important;
-  
-  /* DIE RETTUNG: Keine störende Trennlinie mehr unten drunter! */
-  border-bottom: none !important; 
-  z-index: 2000 !important;
+/* 3. DER NAV-CONTAINER: Wir verwandeln ihn in eine vertikale Flexbox */
+.book-menu-content nav {
+  display: flex !important;
+  flex-direction: column !important;
+  height: 100vh !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important; /* Der Hauptcontainer darf NIEMALS scrollen! */
 }
 
-/* DIE RADIKALE LOGO-RETTUNG */
-.book-menu-content .book-brand,
+/* ==========================================================================
+   KOPFBEREICH: LOGO & SUCHE WERDEN STARR UND REAKTIONSSCHNELL
+   ========================================================================= */
+
+/* LOGO: Fest verankert im Kopfbereich */
 .book-menu-content nav .book-brand,
 .book-menu-content nav > :first-child {
-  position: fixed !important;
-  top: 0 !important;
-  left: 0 !important;
-  width: var(--menu-width) !important;
-  height: 6rem !important; 
-  background-color: var(--background-main) !important; 
-  
+  flex: 0 0 6rem !important; /* Verhindert das Mitscrollen oder Schrumpfen */
   display: flex !important;
   align-items: center !important; 
   justify-content: flex-start !important; 
-  
   padding-left: 1.5rem !important; 
   padding-right: 1.5rem !important;
   box-sizing: border-box !important;
-  z-index: 2500 !important; 
+  background: transparent !important;
 }
 
-
-/* Wir zwingen auch den Link im geretteten Logo in das saubere Nebeneinander-Layout */
 .book-menu-content nav .book-brand a,
 .book-menu-content nav > :first-child a {
   display: flex !important;
@@ -596,53 +578,151 @@ aside.book-menu {
   text-decoration: none !important;
 }
 
-/* 5. ROTER BEREICH LINKS: Der tiefer gelegte Scroll-Tunnel für deine Ordner */
-.book-menu-content nav {
-  position: absolute !important;
-  top: 10.5rem !important; 
-  bottom: 0 !important;
-  left: 0 !important;
-  width: 100% !important;
-  overflow-y: auto !important; 
-  overflow-x: hidden !important;
-  padding: 1.5rem 1rem 5rem 1.5rem !important;
-  z-index: 900 !important;
+/* SUCHE: Fest verankert unter dem Logo */
+.book-menu-content nav .book-search {
+  flex: 0 0 4.5rem !important; /* Verhindert das Mitscrollen oder Schrumpfen */
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
+  box-sizing: border-box !important;
+  border-bottom: none !important; 
+
+  /* Schützt die Suchergebnisse vor durchscheinendem Inhalt */
+  background-color: var(--background-menu) !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
 }
 
 /* ==========================================================================
-   DIE ABSOLUTE RETTUNG FÜR DIE MITTLERE SPALTE
+   DER MAGISCHE SCROLL-TUNNEL: NUR DIE LISTE SCROLLT UND FADET AUS
+   ========================================================================= */
+.book-menu-content nav > ul {
+  flex: 1 1 auto !important; /* Nimmt sich den restlichen Platz des Bildschirms */
+  overflow-y: auto !important; /* Nur dieser Bereich darf scrollen! */
+  overflow-x: hidden !important;
+  margin: 0 !important;
+  padding-top: 1rem !important;
+  padding-left: 1.5rem !important;
+  padding-right: 1rem !important;
+  padding-bottom: 5rem !important;
+
+  /* DIE UNFEHLBARE MASKE: Fadet den Text auf den ersten 2.5rem unter der Suche aus */
+  -webkit-mask-image: linear-gradient(
+    to bottom, 
+    transparent 0rem, 
+    black 2.5rem
+  ) !important;
+  
+  mask-image: linear-gradient(
+    to bottom, 
+    transparent 0rem, 
+    black 2.5rem
+  ) !important;
+}
+
+/* Bereinigung alter Pseudo-Element-Experimente */
+.book-menu-content::before,
+aside.book-menu::before {
+  content: none !important;
+  display: none !important;
+}
+
+/* ==========================================================================
+   MITTLERE SPALTE: ÜBERSCHRIFT FIX (GRÜN) / INHALT SCROLLBAR (ROT)
    ========================================================================== */
+
+/* 1. DER SCROLL-TUNNEL */
 .book-page {
   margin-left: var(--menu-width) !important; 
-}
-
-/* ==========================================
-   MITTLERE SPALTE: ÜBERSCHRIFT FIX (GRÜN) / INHALT SCROLLBAR (ROT)
-   ========================================== */
-
-.book-page {
   flex-grow: 1 !important; 
   height: 100vh !important;
-  
-  /* DER ZWEITE, VÖLLIG ISOLIERTE SCROLL-TUNNEL */
-  overflow-y: auto !important; 
+  max-height: 100vh !important;
+  display: block !important;
+  overflow-y: scroll !important; 
   overflow-x: hidden !important;
-  
-  /* WICHTIG: Oben das Padding entfernen, damit die fixierte H1 direkt am Rand andockt */
   padding: 0 3rem 6rem 3rem !important;
   box-sizing: border-box !important;
+  scroll-padding-top: 7rem !important; 
+  position: relative !important; /* Wichtig für die Verankerung des Overlays */
 }
 
-/* GRÜNER BEREICH MITTE: Die Hauptüberschrift (H1) klebt fest am oberen Rand */
+/* 2. DIE NACKTE, STABILE ÜBERSCHRIFT */
 .book-page h1, 
 .markdown h1 {
-  position: sticky !important; /* Drückt sich an der scrollenden Box fest */
-  top: 0 !important; /* Bleibt exakt ganz oben kleben */
-  background-color: var(--background-main) !important; /* Verdeckt den darunter herlaufenden Text */
+  position: sticky !important; 
+  top: 0 !important; 
+  z-index: 2600 !important; /* Höher als das Overlay, damit der Text immer scharf bleibt! */
+  margin-top: 0 !important;
   padding-top: 2rem !important;
-  padding-bottom: 0.5rem !important;
-  z-index: 500 !important;
-  margin-top: 0 !important; /* Beseitigt unschöne Theme-Lücken */
+  padding-bottom: 1.5rem !important; 
+  background: transparent !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15) !important;
+}
+
+/* 3. DAS UNFEHLBARE KOSMOS-OVERLAY (DIE ABSOLUTE HELLIGKEITS-PERFEKTION) */
+.book-page::after {
+  content: "" !important;
+  position: fixed !important; 
+  top: 0 !important;
+  left: var(--menu-width) !important; 
+  right: 20rem !important; 
+  height: 12rem !important; 
+  z-index: 2400 !important; 
+  pointer-events: none !important; 
+
+  /* Wir laden das originale Sternenbild rein */
+  background-image: url('/images/stars.jpg') !important;
+  background-size: cover !important;        
+  background-position: top center !important; 
+  background-attachment: fixed !important; 
+
+  /* DIE INTEGRATION: Der physikalische Helligkeitsregler! */
+  /* Wir dimmen die Leuchtkraft der Sterne exakt auf das Niveau deines Haupt-Hintergrunds herunter. */
+  /* Falls es noch einen Tick zu hell/dunkel ist, kannst du den Wert (0.65) einfach feinjustieren! */
+  filter: brightness(0.65) !important;
+
+  /* DEINE PERFEKTE SCROLL-MASKE */
+  -webkit-mask-image: linear-gradient(
+    to bottom, 
+    black 0%,       
+    black 50%,      
+    rgba(0, 0, 0, 0.65) 65%,      
+    rgba(0, 0, 0, 0.20) 85%,      
+    transparent 100%              
+  ) !important;
+  
+  mask-image: linear-gradient(
+    to bottom, 
+    black 0%, 
+    black 50%, 
+    rgba(0, 0, 0, 0.65) 65%, 
+    rgba(0, 0, 0, 0.20) 85%, 
+    transparent 100%
+  ) !important;
+
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
+
+/* 4. GLOBALER REINIGUNGS-KEIL: Wir fegen alle alten, blockierenden Experimente weg */
+.book-page h1::before,
+.markdown h1::before,
+.book-page h1::after,
+.markdown h1::after,
+.book-page::before,
+.markdown::before,
+.book-page article.markdown,
+article.markdown,
+.book-page > article,
+.markdown > *:not(h1) {
+  content: none !important;
+  -webkit-mask-image: none !important;
+  mask-image: none !important;
+  contain: none !important;
+  will-change: auto !important;
+  isolation: auto !important;
 }
 
 /* ==========================================
@@ -656,4 +736,187 @@ aside.book-toc {
   overflow: hidden !important; 
   padding: 2rem 1.5rem !important;
 }
+
+/* ==========================================================================
+   KRIMI TEIL 2: DIE 64-ZEICHEN-BOX PHYSIKALISCH ZÄHMEN
+   ========================================================================= */
+
+/* 3. DAS TATSÄCHLICHE EINGABEFELD: Rigoros in die Spalte gepresst */
+.book-search input {
+  display: block !important;
+  width: 100% !important;
+  
+  /* HIER IST DER TEXT-KÄFIG: 
+     Wir berechnen die Breite exakt: Die Menübreite minus das linke/rechte Padding (1.5rem + 1.5rem = 3rem) */
+  max-width: calc(var(--menu-width) - 3rem) !important; 
+  min-width: calc(var(--menu-width) - 3rem) !important;
+  box-sizing: border-box !important;
+  
+  /* Verhindert, dass der Browser die native 64-Zeichen-Breite erzwingt */
+  size: 10 !important; 
+
+  background-color: rgba(255, 255, 255, 0.05) !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+  border-radius: 6px !important;
+  color: #fff !important;
+  padding: 0.6rem 1rem !important;
+  outline: none !important;
+  box-shadow: none !important;
+  transition: all 0.25s ease-in-out !important;
+}
+
+/* 4. DER KOSMISCHE FOKUS: Bleibt garantiert links */
+.book-search input:focus {
+  outline: none !important;
+  border-color: #38bdf8 !important; 
+  box-shadow: 0 0 12px rgba(56, 189, 248, 0.4) !important;
+  background-color: rgba(11, 15, 25, 0.85) !important;
+}
+
+/* ==========================================================================
+   KRIMI TEIL 3: PRÄZISE ERGEBNIS-BOX (MITTE & RECHTE SEITE KOMPLETT BEFREIT)
+   ========================================================================= */
+
+/* 1. DER HAUPT-CONTAINER: Wir sprechen NUR noch die echten Ergebnis-Klassen an.
+   Keine allgemeinen 'div' oder 'wrapper' mehr, um das globale Layout zu schonen! */
+.book-search-results,
+#book-search-results,
+ul.book-search-results {
+  position: absolute !important; /* Bleibt fest an die linke Spalte gekoppelt */
+  top: 3.5rem !important;        /* Nahtlos unter dem Suchschlitz */
+  left: 1.5rem !important;       /* Links bündig ausgerichtet */
+  
+  /* Harte Breitenbegrenzung: Keine Chance, nach rechts auszubrechen */
+  width: calc(var(--menu-width) - 3rem) !important; 
+  max-width: calc(var(--menu-width) - 3rem) !important;
+  min-width: calc(var(--menu-width) - 3rem) !important;
+  box-sizing: border-box !important;
+  
+  /* Höhe und interner Scrollbalken */
+  max-height: 60vh !important;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+  
+  /* Kosmos-Design & Astro-Zyan-Rand */
+  padding: 1rem !important;
+  border-radius: 6px !important;
+  border: 1px solid rgba(56, 189, 248, 0.35) !important;
+  
+  /* Absolut blickdichtes Kosmos-Nachtblau gegen die Navigation */
+  background: #0b1324 !important;
+  background-color: #0b1324 !important;
+  background-image: none !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  
+  /* Keine verzerrenden Filter */
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  
+  /* Schatten sorgt für Tiefenwirkung über dem Menü */
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.95) !important;
+  
+  /* Liegt sicher über der linken Navigation, berührt aber nicht die Mitte/Rechts */
+  z-index: 99999 !important; 
+}
+
+/* 2. DIE GEISTERBOX-VERNICHTUNG: Wenn leer, komplett unsichtbar machen */
+.book-search-results:empty,
+#book-search-results:empty {
+  display: none !important;
+  visibility: hidden !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+
+/* 3. VERREISSER-SCHUTZ: Wir entziehen allen anderen Theme-Schatten-Klassen die Macht */
+.book-search-overlay,
+.book-search-bg,
+.book-search-wrapper::before,
+.book-search-wrapper::after {
+  content: none !important;
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  visibility: hidden !important;
+}
+
+/* 4. INTERNE STRUKTUR DER TREFFERLISTE */
+.book-search-results ul {
+  display: block !important;
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+}
+
+.book-search-results li {
+  display: block !important;
+  margin-bottom: 0.75rem !important;
+  padding: 0 !important;
+  width: 100% !important;
+}
+
+/* 5. DIE EINZELNEN LINKS IM TEXT-KÄFIG */
+.book-search-results a {
+  display: block !important;
+  width: 100% !important;
+  white-space: normal !important; 
+  word-wrap: break-word !important;
+  padding: 0.6rem 0.8rem !important;
+  color: #38bdf8 !important; 
+  text-decoration: none !important;
+  border-radius: 4px !important;
+  background-color: rgba(255, 255, 255, 0.02) !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+/* Hover-Effekt */
+.book-search-results a:hover {
+  background-color: rgba(56, 189, 248, 0.2) !important;
+  color: #fff !important;
+  padding-left: 1rem !important; 
+}
+
+
+/* ==========================================================================
+   DER KRIMI-SHOWDOWN: UNFEHLBARES AUSBLENDEN ÜBER DEN GLOBALEN FOKUS
+   ========================================================================= */
+
+/* Sobald IRGENDETWAS im Suchbereich fokussiert ist (du tippst oder klickst),
+   radieren wir die darunterliegende Navigation im Hintergrund komplett aus! */
+.book-menu-content:focus-within nav > ul,
+.book-search:focus-within ~ ul,
+nav:focus-within > ul:not(.book-search-results ul) {
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+  display: none !important; /* Nimmt den Text physisch aus dem Raum, damit er nicht durchscheinen KANN */
+}
+
+/* WICHTIGE GARANTIE: Die Suchergebnisse selbst MÜSSEN natürlich absolut sichtbar bleiben */
+.book-search-results,
+.book-search-results * {
+  opacity: 1 !important;
+  visibility: visible !important;
+  display: block !important;
+}
+
+/* Wenn die ungeordnete Liste der Suchergebnisse aktiv ist, zwingen wir sie auf display: block */
+.book-search-results ul {
+  display: block !important;
+}
+.book-search-results li {
+  display: block !important;
+}
+
+
+
+
+
+
+
+
+
 
