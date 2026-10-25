@@ -3,7 +3,6 @@ title: "M 1 - Krebsnebel"
 bookCollapseSection: true
 ---
 
-
 # M 1 - Krebsnebel
 
 <br>
