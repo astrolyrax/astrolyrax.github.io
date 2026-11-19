@@ -10,7 +10,7 @@ bookCollapseSection: true
 
 ## Beste Sichtbarkeit
 
-##### <center> <big> **Mai - Juli** </big> </center>
+##### <center> <big> **April - Juni** </big> </center>
 
 <br>
 
