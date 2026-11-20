@@ -6,6 +6,12 @@
   </url><url>
     <loc>http://localhost:1313/objekte/deepsky/messier/m1---krebsnebel/aufnahmen/dwarf-2/20240311/</loc>
   </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/messier/m101---feuerrad-galaxie/aufnahmen/dwarf-2/20250304/</loc>
+  </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/messier/m102---galaxie-linsenf%C3%B6rmig/aufnahmen/c11/20260501/</loc>
+  </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/messier/m106---galaxie/aufnahmen/dwarf-2/20240311/</loc>
+  </url><url>
     <loc>http://localhost:1313/objekte/deepsky/messier/m13---herkuleshaufen/aufnahmen/c11/20230826/</loc>
   </url><url>
     <loc>http://localhost:1313/objekte/deepsky/messier/m15---kugelsternhaufen/aufnahmen/c11/20211008/</loc>
@@ -46,6 +52,14 @@
   </url><url>
     <loc>http://localhost:1313/objekte/deepsky/messier/m66---galaxie/aufnahmen/dwarf-2/20260501/</loc>
   </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/messier/m78---flammennebel/aufnahmen/c11/20210305/</loc>
+  </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/messier/m81---galaxie/aufnahmen/c11/20250319/</loc>
+  </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/messier/m81---galaxie/aufnahmen/dwarf-2/20241103/</loc>
+  </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/messier/m99---galaxie/aufnahmen/dwarf-2/20240311/</loc>
+  </url><url>
     <loc>http://localhost:1313/objekte/deepsky/ngc/ngc891---spiralgalaxie-kante/aufnahmen/c11/20240109-1/</loc>
   </url><url>
     <loc>http://localhost:1313/objekte/deepsky/arp/</loc>
@@ -82,11 +96,21 @@
   </url><url>
     <loc>http://localhost:1313/objekte/deepsky/messier/m66---galaxie/aufnahmen/c11/</loc>
   </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/messier/m78---flammennebel/aufnahmen/c11/</loc>
+  </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/messier/m81---galaxie/aufnahmen/c11/</loc>
+  </url><url>
     <loc>http://localhost:1313/objekte/deepsky/ngc/ngc891---spiralgalaxie-kante/aufnahmen/c11/</loc>
   </url><url>
     <loc>http://localhost:1313/objekte/deepsky/</loc>
   </url><url>
     <loc>http://localhost:1313/objekte/deepsky/messier/m1---krebsnebel/aufnahmen/dwarf-2/</loc>
+  </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/messier/m101---feuerrad-galaxie/aufnahmen/dwarf-2/</loc>
+  </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/messier/m102---galaxie-linsenf%C3%B6rmig/aufnahmen/c11/</loc>
+  </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/messier/m106---galaxie/aufnahmen/dwarf-2/</loc>
   </url><url>
     <loc>http://localhost:1313/objekte/deepsky/messier/m15---kugelsternhaufen/aufnahmen/dwarf-2/</loc>
   </url><url>
@@ -102,6 +126,10 @@
   </url><url>
     <loc>http://localhost:1313/objekte/deepsky/messier/m66---galaxie/aufnahmen/dwarf-2/</loc>
   </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/messier/m81---galaxie/aufnahmen/dwarf-2/</loc>
+  </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/messier/m99---galaxie/aufnahmen/dwarf-2/</loc>
+  </url><url>
     <loc>http://localhost:1313/objekte/deepsky/ic/</loc>
   </url><url>
     <loc>http://localhost:1313/objekte/deepsky/messier/m1---krebsnebel/</loc>
@@ -109,6 +137,12 @@
     <loc>http://localhost:1313/objekte/deepsky/messier/m2---kugelsternhaufen/</loc>
   </url><url>
     <loc>http://localhost:1313/objekte/deepsky/messier/m3---kugelsternhaufen/</loc>
+  </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/messier/m101---feuerrad-galaxie/</loc>
+  </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/messier/m102---galaxie-linsenf%C3%B6rmig/</loc>
+  </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/messier/m106---galaxie/</loc>
   </url><url>
     <loc>http://localhost:1313/objekte/deepsky/messier/m13---herkuleshaufen/</loc>
   </url><url>
@@ -137,6 +171,12 @@
     <loc>http://localhost:1313/objekte/deepsky/messier/m65---galaxie/</loc>
   </url><url>
     <loc>http://localhost:1313/objekte/deepsky/messier/m66---galaxie/</loc>
+  </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/messier/m78---flammennebel/</loc>
+  </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/messier/m81---galaxie/</loc>
+  </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/messier/m99---galaxie/</loc>
   </url><url>
     <loc>http://localhost:1313/objekte/deepsky/messier/</loc>
   </url><url>

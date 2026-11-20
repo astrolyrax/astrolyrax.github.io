@@ -86,7 +86,10 @@
         title = li.querySelector('a > span'),
         content = li.querySelector('small');
 
-      anchor.href = `${page.href}#:~:text=${page.terms[0]}`;
+      anchor.href = page.href;
+      anchor.addEventListener('click', function () {
+        sessionStorage.setItem('book-search-selection', 'true');
+      });
       title.append(...highlight(page.title, match(page, 'title')));
       content.append(...highlight(page.content, match(page, 'content'), 16, 32));
 

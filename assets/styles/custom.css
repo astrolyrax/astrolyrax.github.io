@@ -23,7 +23,7 @@ html, body {
   
   /* Dein Milchstraßen-Hintergrund perfekt am Stück */
   background-image: 
-    linear-gradient(rgba(11, 15, 25, 0.65), rgba(11, 15, 25, 0.65)),
+    linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
     url('/images/stars.jpg');
   
   background-size: cover !important;        
@@ -436,6 +436,7 @@ figure img {
 
 /* Hover-Zustand: Bleibt unverändert leuchtend im kosmischen Cyan */
 .book-menu-content a:hover,
+.book-menu-content a.active,
 .book-menu-content .active > a {
   color: var(--astro-blue) !important;
   opacity: 1 !important;
@@ -587,10 +588,9 @@ aside.book-menu {
   box-sizing: border-box !important;
   border-bottom: none !important; 
 
-  /* Schützt die Suchergebnisse vor durchscheinendem Inhalt */
-  background-color: var(--background-menu) !important;
-  backdrop-filter: blur(8px) !important;
-  -webkit-backdrop-filter: blur(8px) !important;
+  background: transparent !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
 }
 
 /* ==========================================================================
@@ -664,6 +664,12 @@ aside.book-menu {
   backdrop-filter: none !important;
   -webkit-backdrop-filter: none !important;
   border-bottom: 1px solid rgba(255, 255, 255, 0.15) !important;
+}
+
+.book-page > .book-footer {
+  margin-top: 2.5rem !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.15) !important;
+  padding-top: 0.25rem !important;
 }
 
 /* 3. DAS UNFEHLBARE KOSMOS-OVERLAY (DIE ABSOLUTE HELLIGKEITS-PERFEKTION) */
