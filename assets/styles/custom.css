@@ -519,6 +519,11 @@ html, body, main.container.flex {
   overflow: hidden !important; /* Es darf NIEMALS die ganze Seite scrollen */
 }
 
+main.container.flex {
+  /* Sprungmarken sollen nicht zusätzlich den äußeren Layout-Container scrollen. */
+  overflow: clip !important;
+}
+
 /* ==========================================================================
    LINKE SPALTE: COSMIC FUSION DESIGN (FLEX-ISOLATION FÜR PIXEL-PERFEKTION)
    ========================================================================= */
@@ -1018,4 +1023,64 @@ nav {
 aside.book-toc {
   position: relative !important;
   z-index: 20 !important; /* Schiebt das rechte Inhaltsverzeichnis nach ganz vorne */
+}
+
+.book-kind-home .book-page h1 {
+  text-shadow: 0 0 16px rgba(56, 189, 248, 0.22) !important;
+}
+
+.book-kind-home .home-intro {
+  max-width: 48rem;
+  margin: 1.4rem auto 1rem;
+  color: var(--text-muted);
+  text-align: center;
+  line-height: 1.7;
+}
+
+.book-kind-home .astro-photo {
+  max-width: 56rem !important;
+  margin: 0.75rem auto 0.5rem !important;
+}
+
+.book-kind-home .astro-photo img {
+  max-height: 28rem !important;
+  object-fit: contain !important;
+}
+
+.book-kind-home .home-feature-link,
+.book-kind-home .home-section-links {
+  text-align: center;
+  font-size: 0.95rem;
+}
+
+.book-kind-home .home-feature-link {
+  margin: 0.5rem 0 0;
+}
+
+.book-kind-home .home-section-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.65rem;
+  margin: 0;
+}
+
+.book-kind-home .book-page > .book-footer {
+  margin-top: 5.5rem !important;
+}
+
+.book-kind-home .home-section-links a,
+.book-kind-home .home-feature-link a {
+  color: #24789e !important;
+  transition: color 0.25s ease, text-shadow 0.25s ease;
+}
+
+.book-kind-home .home-section-links a:hover,
+.book-kind-home .home-feature-link a:hover {
+  color: var(--astro-blue) !important;
+  text-shadow: 0 0 8px rgba(56, 189, 248, 0.4);
+}
+
+.book-kind-home .home-section-links span {
+  color: rgba(255, 255, 255, 0.28);
 }

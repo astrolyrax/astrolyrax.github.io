@@ -59,7 +59,16 @@
 {{ end }}
 
 {{ define "footer" }}
-  {{ partial "docs/footer" . }}
+  {{ if .IsHome }}
+  <p class="home-section-links" aria-label="Bereiche">
+    <a href="/ausrüstung/">Ausrüstung</a><span aria-hidden="true">·</span>
+    <a href="/objekte/">Objekte</a><span aria-hidden="true">·</span>
+    <a href="/projekte/_index.md/">Projekte</a><span aria-hidden="true">·</span>
+    <a href="/workflows/_index.md/">Workflows</a>
+  </p>
+  {{ else }}
+    {{ partial "docs/footer" . }}
+  {{ end }}
 {{ end }}
 
 {{ define "clipboard" }}
