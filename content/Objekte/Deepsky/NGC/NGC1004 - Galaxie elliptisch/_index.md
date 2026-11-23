@@ -7,6 +7,7 @@ bookCollapseSection: true
 # NGC1004 - Spiralgalaxie Kante
 
 <br>
+
 ## Beste Sichtbarkeit
 
 ##### <center> <big> **Oktober - November** </big> </center>
@@ -30,6 +31,7 @@ bookCollapseSection: true
 | Katalogbezeichnungen | NGC1004, UGC2112   |
 | Rektazension         | 02h 37m 41,8s      |
 | Deklination          | +01° 58′ 31″       |
+
 
 
 <br>

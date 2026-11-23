@@ -7,6 +7,7 @@ bookCollapseSection: true
 # NGC1004 - Spiralgalaxie Kante
 
 <br>
+
 ## Beste Sichtbarkeit
 
 ##### <center> <big> **Oktober - November** </big> </center>
@@ -16,20 +17,20 @@ bookCollapseSection: true
 ## Steckbrief
 
 
-| Bezeichnung          | NGC891          |     |
-| -------------------- | --------------- | --- |
-| Name                 | Spiralgalaxie   |     |
-| Stermbild            | Andromeda       |     |
-| Typ                  | Spiralgalaxie   |     |
-| Entfernung zur Erde  | 30 Mio.Lj       |     |
-| Ort                  |                 |     |
-| Anzahl Sterne        |                 |     |
-| Helligkeit           | 10,1 mag        |     |
-| Winkelausdehnung     | 13,5' x 2,5'    |     |
-| Durchmesser          | 125.000 Lj      |     |
-| Katalogbezeichnungen | NGC891, UGC1831 |     |
-| Rektazension         | 21h 22m 31,41s  |     |
-| Deklination          | 42° 20′ 57″     |     |
+| Bezeichnung          | NGC891          |
+| -------------------- | --------------- |
+| Name                 | Spiralgalaxie   |
+| Stermbild            | Andromeda       |
+| Typ                  | Spiralgalaxie   |
+| Entfernung zur Erde  | 30 Mio.Lj       |
+| Ort                  |                 |
+| Anzahl Sterne        |                 |
+| Helligkeit           | 10,1 mag        |
+| Winkelausdehnung     | 13,5' x 2,5'    |
+| Durchmesser          | 125.000 Lj      |
+| Katalogbezeichnungen | NGC891, UGC1831 |
+| Rektazension         | 21h 22m 31,41s  |
+| Deklination          | 42° 20′ 57″     |
 
 
 <br>

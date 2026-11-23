@@ -1,4 +1,4 @@
 ---
-title: Dwarf II
+title: Celestron C11"
 bookCollapseSection: true
 ---
