@@ -1,5 +1,5 @@
 ---
-title: "Workflows"
+title: Workflows
 bookCollapseSection: true
 ---
 # Workflows

@@ -4,12 +4,16 @@ bookCollapseSection: true
 ---
 
 
-# NGC891 - Spiralgalaxie Kante
+# NGC1004 - Spiralgalaxie Kante
+
+<br>
+## Beste Sichtbarkeit
+
+##### <center> <big> **Oktober - November** </big> </center>
 
 <br>
 
-
-## Allgemeine Informationen
+## Steckbrief
 
 
 | Bezeichnung          | NGC891          |     |

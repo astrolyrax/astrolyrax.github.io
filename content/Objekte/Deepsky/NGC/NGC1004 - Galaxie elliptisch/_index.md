@@ -4,12 +4,16 @@ bookCollapseSection: true
 ---
 
 
-# NGC1004 - Galaxie elliptisch
+# NGC1004 - Spiralgalaxie Kante
+
+<br>
+## Beste Sichtbarkeit
+
+##### <center> <big> **Oktober - November** </big> </center>
 
 <br>
 
-
-## Allgemeine Informationen
+## Steckbrief
 
 
 | Bezeichnung          | NGC1004            |

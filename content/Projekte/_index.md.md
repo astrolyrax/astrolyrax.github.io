@@ -1,5 +1,5 @@
 ---
-title: "Projekte"
+title: Projekte
 bookCollapseSection: true
 ---
 #  Projekte
