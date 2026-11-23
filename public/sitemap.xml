@@ -60,7 +60,9 @@
   </url><url>
     <loc>http://localhost:1313/objekte/deepsky/messier/m99---galaxie/aufnahmen/dwarf-2/20240311/</loc>
   </url><url>
-    <loc>http://localhost:1313/objekte/deepsky/ngc/ngc891---spiralgalaxie-kante/aufnahmen/c11/20240109-1/</loc>
+    <loc>http://localhost:1313/objekte/deepsky/ngc/ngc1004---galaxie-elliptisch/aufnahmen/c11/20241130/</loc>
+  </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/ngc/ngc891---spiralgalaxie-kante/aufnahmen/c11/20240109/</loc>
   </url><url>
     <loc>http://localhost:1313/objekte/deepsky/arp/</loc>
   </url><url>
@@ -71,6 +73,8 @@
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/objekte/deepsky/messier/m1---krebsnebel/aufnahmen/c11/</loc>
+  </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/messier/m102---galaxie-linsenf%C3%B6rmig/aufnahmen/c11/</loc>
   </url><url>
     <loc>http://localhost:1313/objekte/deepsky/messier/m13---herkuleshaufen/aufnahmen/c11/</loc>
   </url><url>
@@ -100,6 +104,8 @@
   </url><url>
     <loc>http://localhost:1313/objekte/deepsky/messier/m81---galaxie/aufnahmen/c11/</loc>
   </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/ngc/ngc1004---galaxie-elliptisch/aufnahmen/c11/</loc>
+  </url><url>
     <loc>http://localhost:1313/objekte/deepsky/ngc/ngc891---spiralgalaxie-kante/aufnahmen/c11/</loc>
   </url><url>
     <loc>http://localhost:1313/objekte/deepsky/</loc>
@@ -107,8 +113,6 @@
     <loc>http://localhost:1313/objekte/deepsky/messier/m1---krebsnebel/aufnahmen/dwarf-2/</loc>
   </url><url>
     <loc>http://localhost:1313/objekte/deepsky/messier/m101---feuerrad-galaxie/aufnahmen/dwarf-2/</loc>
-  </url><url>
-    <loc>http://localhost:1313/objekte/deepsky/messier/m102---galaxie-linsenf%C3%B6rmig/aufnahmen/c11/</loc>
   </url><url>
     <loc>http://localhost:1313/objekte/deepsky/messier/m106---galaxie/aufnahmen/dwarf-2/</loc>
   </url><url>
