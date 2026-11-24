@@ -1,5 +1,5 @@
 ---
-title: NGC2174 - Emissionsnebel
+title: NGC2174 - Affenkopfnebel
 bookCollapseSection: true
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: NGC2024 - Emissionsnebel
+title: NGC2024 - Flammennebel
 bookCollapseSection: true
 ---
 

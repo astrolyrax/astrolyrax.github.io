@@ -1,5 +1,5 @@
 ---
-title: NGC2174 - Emissionsnebel
+title: NGC2244 - Rosettennebel
 bookCollapseSection: true
 ---
 

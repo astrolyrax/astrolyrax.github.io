@@ -52,8 +52,6 @@
   </url><url>
     <loc>http://localhost:1313/objekte/deepsky/messier/m66---galaxie/aufnahmen/dwarf-2/20260501/</loc>
   </url><url>
-    <loc>http://localhost:1313/objekte/deepsky/messier/m78---flammennebel/aufnahmen/c11/20210305/</loc>
-  </url><url>
     <loc>http://localhost:1313/objekte/deepsky/messier/m81---galaxie/aufnahmen/c11/20250319/</loc>
   </url><url>
     <loc>http://localhost:1313/objekte/deepsky/messier/m81---galaxie/aufnahmen/dwarf-2/20241103/</loc>
@@ -61,6 +59,12 @@
     <loc>http://localhost:1313/objekte/deepsky/messier/m99---galaxie/aufnahmen/dwarf-2/20240311/</loc>
   </url><url>
     <loc>http://localhost:1313/objekte/deepsky/ngc/ngc1004---galaxie-elliptisch/aufnahmen/c11/20241130/</loc>
+  </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/ngc/ngc2024---flammennebel/aufnahmen/c11/20210305/</loc>
+  </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/ngc/ngc2174---affenkopfnebel/aufnahmen/dwarf-2/20260304/</loc>
+  </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/ngc/ngc2244---rosettennebel/aufnahmen/dwarf-2/20250223/</loc>
   </url><url>
     <loc>http://localhost:1313/objekte/deepsky/ngc/ngc891---spiralgalaxie-kante/aufnahmen/c11/20240109/</loc>
   </url><url>
@@ -100,11 +104,11 @@
   </url><url>
     <loc>http://localhost:1313/objekte/deepsky/messier/m66---galaxie/aufnahmen/c11/</loc>
   </url><url>
-    <loc>http://localhost:1313/objekte/deepsky/messier/m78---flammennebel/aufnahmen/c11/</loc>
-  </url><url>
     <loc>http://localhost:1313/objekte/deepsky/messier/m81---galaxie/aufnahmen/c11/</loc>
   </url><url>
     <loc>http://localhost:1313/objekte/deepsky/ngc/ngc1004---galaxie-elliptisch/aufnahmen/c11/</loc>
+  </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/ngc/ngc2024---flammennebel/aufnahmen/c11/</loc>
   </url><url>
     <loc>http://localhost:1313/objekte/deepsky/ngc/ngc891---spiralgalaxie-kante/aufnahmen/c11/</loc>
   </url><url>
@@ -133,6 +137,10 @@
     <loc>http://localhost:1313/objekte/deepsky/messier/m81---galaxie/aufnahmen/dwarf-2/</loc>
   </url><url>
     <loc>http://localhost:1313/objekte/deepsky/messier/m99---galaxie/aufnahmen/dwarf-2/</loc>
+  </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/ngc/ngc2174---affenkopfnebel/aufnahmen/dwarf-2/</loc>
+  </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/ngc/ngc2244---rosettennebel/aufnahmen/dwarf-2/</loc>
   </url><url>
     <loc>http://localhost:1313/objekte/deepsky/ic/</loc>
   </url><url>
@@ -176,8 +184,6 @@
   </url><url>
     <loc>http://localhost:1313/objekte/deepsky/messier/m66---galaxie/</loc>
   </url><url>
-    <loc>http://localhost:1313/objekte/deepsky/messier/m78---flammennebel/</loc>
-  </url><url>
     <loc>http://localhost:1313/objekte/deepsky/messier/m81---galaxie/</loc>
   </url><url>
     <loc>http://localhost:1313/objekte/deepsky/messier/m99---galaxie/</loc>
@@ -189,6 +195,12 @@
     <loc>http://localhost:1313/objekte/deepsky/ngc/</loc>
   </url><url>
     <loc>http://localhost:1313/objekte/deepsky/ngc/ngc1004---galaxie-elliptisch/</loc>
+  </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/ngc/ngc2024---flammennebel/</loc>
+  </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/ngc/ngc2174---affenkopfnebel/</loc>
+  </url><url>
+    <loc>http://localhost:1313/objekte/deepsky/ngc/ngc2244---rosettennebel/</loc>
   </url><url>
     <loc>http://localhost:1313/objekte/deepsky/ngc/ngc891---spiralgalaxie-kante/</loc>
   </url><url>
